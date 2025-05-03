@@ -1,390 +1,1484 @@
-.tippy-iOS{cursor:pointer!important}.tippy-notransition{transition:none!important}.tippy-popper{-webkit-perspective:700px;perspective:700px;z-index:9999;outline:0;transition-timing-function:cubic-bezier(.165,.84,.44,1);pointer-events:none;line-height:1.4;max-width:calc(100% - 10px)}.tippy-popper\[x-placement^=top\] .tippy-backdrop{border-radius:40% 40% 0 0}.tippy-popper\[x-placement^=top\] .tippy-roundarrow{bottom:-8px;-webkit-transform-origin:50% 0;transform-origin:50% 0}.tippy-popper\[x-placement^=top\] .tippy-roundarrow svg{position:absolute;left:0;-webkit-transform:rotate(180deg);transform:rotate(180deg)}.tippy-popper\[x-placement^=top\] .tippy-arrow{border-top:8px solid #333;border-right:8px solid transparent;border-left:8px solid transparent;bottom:-7px;margin:0 6px;-webkit-transform-origin:50% 0;transform-origin:50% 0}.tippy-popper\[x-placement^=top\] .tippy-backdrop{-webkit-transform-origin:0 25%;transform-origin:0 25%}.tippy-popper\[x-placement^=top\] .tippy-backdrop\[data-state=visible\]{-webkit-transform:scale(1) translate(-50%,-55%);transform:scale(1) translate(-50%,-55%)}.tippy-popper\[x-placement^=top\] .tippy-backdrop\[data-state=hidden\]{-webkit-transform:scale(.2) translate(-50%,-45%);transform:scale(.2) translate(-50%,-45%);opacity:0}.tippy-popper\[x-placement^=top\] \[data-animation=shift-toward\]\[data-state=visible\]{-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper\[x-placement^=top\] \[data-animation=shift-toward\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateY(-20px);transform:translateY(-20px)}.tippy-popper\[x-placement^=top\] \[data-animation=perspective\]{-webkit-transform-origin:bottom;transform-origin:bottom}.tippy-popper\[x-placement^=top\] \[data-animation=perspective\]\[data-state=visible\]{-webkit-transform:translateY(-10px) rotateX(0);transform:translateY(-10px) rotateX(0)}.tippy-popper\[x-placement^=top\] \[data-animation=perspective\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateY(0) rotateX(60deg);transform:translateY(0) rotateX(60deg)}.tippy-popper\[x-placement^=top\] \[data-animation=fade\]\[data-state=visible\]{-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper\[x-placement^=top\] \[data-animation=fade\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper\[x-placement^=top\] \[data-animation=shift-away\]\[data-state=visible\]{-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper\[x-placement^=top\] \[data-animation=shift-away\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateY(0);transform:translateY(0)}.tippy-popper\[x-placement^=top\] \[data-animation=scale\]\[data-state=visible\]{-webkit-transform:translateY(-10px) scale(1);transform:translateY(-10px) scale(1)}.tippy-popper\[x-placement^=top\] \[data-animation=scale\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateY(0) scale(.5);transform:translateY(0) scale(.5)}.tippy-popper\[x-placement^=bottom\] .tippy-backdrop{border-radius:0 0 30% 30%}.tippy-popper\[x-placement^=bottom\] .tippy-roundarrow{top:-8px;-webkit-transform-origin:50% 100%;transform-origin:50% 100%}.tippy-popper\[x-placement^=bottom\] .tippy-roundarrow svg{position:absolute;left:0;-webkit-transform:rotate(0);transform:rotate(0)}.tippy-popper\[x-placement^=bottom\] .tippy-arrow{border-bottom:8px solid #333;border-right:8px solid transparent;border-left:8px solid transparent;top:-7px;margin:0 6px;-webkit-transform-origin:50% 100%;transform-origin:50% 100%}.tippy-popper\[x-placement^=bottom\] .tippy-backdrop{-webkit-transform-origin:0 -50%;transform-origin:0 -50%}.tippy-popper\[x-placement^=bottom\] .tippy-backdrop\[data-state=visible\]{-webkit-transform:scale(1) translate(-50%,-45%);transform:scale(1) translate(-50%,-45%)}.tippy-popper\[x-placement^=bottom\] .tippy-backdrop\[data-state=hidden\]{-webkit-transform:scale(.2) translate(-50%);transform:scale(.2) translate(-50%);opacity:0}.tippy-popper\[x-placement^=bottom\] \[data-animation=shift-toward\]\[data-state=visible\]{-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper\[x-placement^=bottom\] \[data-animation=shift-toward\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateY(20px);transform:translateY(20px)}.tippy-popper\[x-placement^=bottom\] \[data-animation=perspective\]{-webkit-transform-origin:top;transform-origin:top}.tippy-popper\[x-placement^=bottom\] \[data-animation=perspective\]\[data-state=visible\]{-webkit-transform:translateY(10px) rotateX(0);transform:translateY(10px) rotateX(0)}.tippy-popper\[x-placement^=bottom\] \[data-animation=perspective\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateY(0) rotateX(-60deg);transform:translateY(0) rotateX(-60deg)}.tippy-popper\[x-placement^=bottom\] \[data-animation=fade\]\[data-state=visible\]{-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper\[x-placement^=bottom\] \[data-animation=fade\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper\[x-placement^=bottom\] \[data-animation=shift-away\]\[data-state=visible\]{-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper\[x-placement^=bottom\] \[data-animation=shift-away\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateY(0);transform:translateY(0)}.tippy-popper\[x-placement^=bottom\] \[data-animation=scale\]\[data-state=visible\]{-webkit-transform:translateY(10px) scale(1);transform:translateY(10px) scale(1)}.tippy-popper\[x-placement^=bottom\] \[data-animation=scale\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateY(0) scale(.5);transform:translateY(0) scale(.5)}.tippy-popper\[x-placement^=left\] .tippy-backdrop{border-radius:50% 0 0 50%}.tippy-popper\[x-placement^=left\] .tippy-roundarrow{right:-16px;-webkit-transform-origin:33.33333333% 50%;transform-origin:33.33333333% 50%}.tippy-popper\[x-placement^=left\] .tippy-roundarrow svg{position:absolute;left:0;-webkit-transform:rotate(90deg);transform:rotate(90deg)}.tippy-popper\[x-placement^=left\] .tippy-arrow{border-left:8px solid #333;border-top:8px solid transparent;border-bottom:8px solid transparent;right:-7px;margin:3px 0;-webkit-transform-origin:0 50%;transform-origin:0 50%}.tippy-popper\[x-placement^=left\] .tippy-backdrop{-webkit-transform-origin:50% 0;transform-origin:50% 0}.tippy-popper\[x-placement^=left\] .tippy-backdrop\[data-state=visible\]{-webkit-transform:scale(1) translate(-50%,-50%);transform:scale(1) translate(-50%,-50%)}.tippy-popper\[x-placement^=left\] .tippy-backdrop\[data-state=hidden\]{-webkit-transform:scale(.2) translate(-75%,-50%);transform:scale(.2) translate(-75%,-50%);opacity:0}.tippy-popper\[x-placement^=left\] \[data-animation=shift-toward\]\[data-state=visible\]{-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper\[x-placement^=left\] \[data-animation=shift-toward\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateX(-20px);transform:translateX(-20px)}.tippy-popper\[x-placement^=left\] \[data-animation=perspective\]{-webkit-transform-origin:right;transform-origin:right}.tippy-popper\[x-placement^=left\] \[data-animation=perspective\]\[data-state=visible\]{-webkit-transform:translateX(-10px) rotateY(0);transform:translateX(-10px) rotateY(0)}.tippy-popper\[x-placement^=left\] \[data-animation=perspective\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateX(0) rotateY(-60deg);transform:translateX(0) rotateY(-60deg)}.tippy-popper\[x-placement^=left\] \[data-animation=fade\]\[data-state=visible\]{-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper\[x-placement^=left\] \[data-animation=fade\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper\[x-placement^=left\] \[data-animation=shift-away\]\[data-state=visible\]{-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper\[x-placement^=left\] \[data-animation=shift-away\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateX(0);transform:translateX(0)}.tippy-popper\[x-placement^=left\] \[data-animation=scale\]\[data-state=visible\]{-webkit-transform:translateX(-10px) scale(1);transform:translateX(-10px) scale(1)}.tippy-popper\[x-placement^=left\] \[data-animation=scale\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateX(0) scale(.5);transform:translateX(0) scale(.5)}.tippy-popper\[x-placement^=right\] .tippy-backdrop{border-radius:0 50% 50% 0}.tippy-popper\[x-placement^=right\] .tippy-roundarrow{left:-16px;-webkit-transform-origin:66.66666666% 50%;transform-origin:66.66666666% 50%}.tippy-popper\[x-placement^=right\] .tippy-roundarrow svg{position:absolute;left:0;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}.tippy-popper\[x-placement^=right\] .tippy-arrow{border-right:8px solid #333;border-top:8px solid transparent;border-bottom:8px solid transparent;left:-7px;margin:3px 0;-webkit-transform-origin:100% 50%;transform-origin:100% 50%}.tippy-popper\[x-placement^=right\] .tippy-backdrop{-webkit-transform-origin:-50% 0;transform-origin:-50% 0}.tippy-popper\[x-placement^=right\] .tippy-backdrop\[data-state=visible\]{-webkit-transform:scale(1) translate(-50%,-50%);transform:scale(1) translate(-50%,-50%)}.tippy-popper\[x-placement^=right\] .tippy-backdrop\[data-state=hidden\]{-webkit-transform:scale(.2) translate(-25%,-50%);transform:scale(.2) translate(-25%,-50%);opacity:0}.tippy-popper\[x-placement^=right\] \[data-animation=shift-toward\]\[data-state=visible\]{-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper\[x-placement^=right\] \[data-animation=shift-toward\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateX(20px);transform:translateX(20px)}.tippy-popper\[x-placement^=right\] \[data-animation=perspective\]{-webkit-transform-origin:left;transform-origin:left}.tippy-popper\[x-placement^=right\] \[data-animation=perspective\]\[data-state=visible\]{-webkit-transform:translateX(10px) rotateY(0);transform:translateX(10px) rotateY(0)}.tippy-popper\[x-placement^=right\] \[data-animation=perspective\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateX(0) rotateY(60deg);transform:translateX(0) rotateY(60deg)}.tippy-popper\[x-placement^=right\] \[data-animation=fade\]\[data-state=visible\]{-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper\[x-placement^=right\] \[data-animation=fade\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper\[x-placement^=right\] \[data-animation=shift-away\]\[data-state=visible\]{-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper\[x-placement^=right\] \[data-animation=shift-away\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateX(0);transform:translateX(0)}.tippy-popper\[x-placement^=right\] \[data-animation=scale\]\[data-state=visible\]{-webkit-transform:translateX(10px) scale(1);transform:translateX(10px) scale(1)}.tippy-popper\[x-placement^=right\] \[data-animation=scale\]\[data-state=hidden\]{opacity:0;-webkit-transform:translateX(0) scale(.5);transform:translateX(0) scale(.5)}.tippy-tooltip{position:relative;color:#fff;border-radius:4px;font-size:.9rem;padding:.3rem .6rem;max-width:350px;text-align:center;will-change:transform;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:#333}.tippy-tooltip\[data-size=small\]{padding:.2rem .4rem;font-size:.75rem}.tippy-tooltip\[data-size=large\]{padding:.4rem .8rem;font-size:1rem}.tippy-tooltip\[data-animatefill\]{overflow:hidden;background-color:transparent}.tippy-tooltip\[data-interactive\],.tippy-tooltip\[data-interactive\] path{pointer-events:auto}.tippy-tooltip\[data-inertia\]\[data-state=visible\]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}.tippy-tooltip\[data-inertia\]\[data-state=hidden\]{transition-timing-function:ease}.tippy-arrow,.tippy-roundarrow{position:absolute;width:0;height:0}.tippy-roundarrow{width:24px;height:8px;fill:#333;pointer-events:none}.tippy-backdrop{position:absolute;will-change:transform;background-color:#333;border-radius:50%;width:calc(110% + 2rem);left:50%;top:50%;z-index:-1;transition:all cubic-bezier(.46,.1,.52,.98);-webkit-backface-visibility:hidden;backface-visibility:hidden}.tippy-backdrop:after{content:"";float:left;padding-top:100%}.tippy-backdrop+.tippy-content{transition-property:opacity;will-change:opacity}.tippy-backdrop+.tippy-content\[data-state=visible\]{opacity:1}.tippy-backdrop+.tippy-content\[data-state=hidden\]{opacity:0}       Module 14 - Assignment              if (navigator.userAgent.match(/(MSIE|Trident\\/)/)) location.replace('/ie-is-not-supported.html') INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"nv.instructuremedia.com","resource\_domain":"nv.instructuremedia.com","rtmp\_domain":"iad.rtmp.instructuremedia.com","partner\_id":"9","subpartner\_id":"0","player\_ui\_conf":"0","kcw\_ui\_conf":"0","upload\_ui\_conf":"0","max\_file\_size\_bytes":534773760,"do\_analytics":false,"hide\_rte\_button":false,"js\_uploader":true},"disableGooglePreviews":true,"logPageViews":true,"editorButtons":\[{"name":"Commons Favorites","id":29,"favorite":false,"url":"https://lor.instructure.com/api/lti/favorite-resources","icon\_url":"https://lor.instructure.com/img/icon\_commons.png","canvas\_icon\_class":null,"width":800,"height":400,"use\_tray":true,"on\_by\_default":false,"description":"\\u003cp\\u003eFind and share course content\\u003c/p\\u003e\\n"},{"name":"VoiceThread","id":140,"favorite":false,"url":"https://voicethread.com/lti/d9594503-baf6-4d72-a8e0-fcd72ba0ae20/","icon\_url":"https://voicethread.com/image/branding/circle\_logo\_50x50.png","canvas\_icon\_class":null,"width":800,"height":400,"use\_tray":false,"on\_by\_default":false,"description":"\\u003cp\\u003eTransforming media into collaborative spaces with video, voice, and text commenting.\\u003c/p\\u003e\\n"},{"name":"Interactive Content – H5P","id":350,"favorite":false,"url":"https://engineering.h5p.com/lti/launch","icon\_url":"https://engineering.h5p.com/img/h5p-icon.png","canvas\_icon\_class":"icon-lti","width":1024,"height":768,"use\_tray":false,"on\_by\_default":false,"description":"\\u003cp\\u003eCreate, share and reuse interactive HTML5 content in your browser\\u003c/p\\u003e\\n"},{"name":"Microsoft OneDrive","id":490,"favorite":false,"url":"https://onedrivelti.microsoft.com/tool","icon\_url":"https://onedrivelti.microsoft.com/favicon-1.ico","canvas\_icon\_class":null,"width":800,"height":400,"use\_tray":false,"on\_by\_default":false,"description":"\\u003cp\\u003eMicrosoft OneDrive LTI 1.3\\u003c/p\\u003e\\n"},{"name":"Add Wiley Resources","id":1273,"favorite":false,"url":"https://lti.education.wiley.com/wpng/api/v1/ltiadvantage/oidc/login","icon\_url":"https://www.wiley.com/college/wileyplus/images/resource\_discovery\_tool\_50x50.png","canvas\_icon\_class":null,"width":1160,"height":660,"use\_tray":false,"on\_by\_default":false,"description":"\\u003cp\\u003eWiley LTI 1.3\\u003c/p\\u003e\\n"},{"name":"Pearson Links","id":1884,"favorite":false,"url":"https://interop.pearson.com/launch","icon\_url":"https://www.pearson.com/us/content/dam/one-dot-com/one-dot-com/us/en/images/PearsonThumbprint-RGB-127x138.png/\_jcr\_content/renditions/cq5dam.web.1600.9600.png","canvas\_icon\_class":null,"width":800,"height":400,"use\_tray":false,"on\_by\_default":false,"description":"\\u003cp\\u003eAccess Pearson\\u003c/p\\u003e\\n"},{"name":"LinkedIn Learning","id":7153,"favorite":false,"url":"https://www.linkedin.com/checkpoint/enterprise/lti/2106537/auth/73271178/7056699856530096129","icon\_url":"https://static-exp1.licdn.com/sc/h/3dio89ba7ceqktt0kek3tla5w","canvas\_icon\_class":null,"width":1000,"height":800,"use\_tray":false,"on\_by\_default":false,"description":"\\u003cp\\u003eLinkedIn Learning for LTI 1.3\\u003c/p\\u003e\\n"},{"name":"Panopto Video","id":10298,"favorite":true,"url":"https://jh.hosted.panopto.com/Panopto/LTI/LTI.aspx","icon\_url":"https://static-contents.panopto.com/prod/panopto\_logo\_canvas\_tool\_50x50.png","canvas\_icon\_class":null,"width":800,"height":400,"use\_tray":false,"on\_by\_default":false,"description":"\\u003cp\\u003ePanopto Video\\u003c/p\\u003e\\n"}\]}; ENV = {"ASSET\_HOST":"https://du11hjcvx0uqb.cloudfront.net","active\_brand\_config\_json\_url":"https://du11hjcvx0uqb.cloudfront.net/dist/brandable\_css/14ae06f7774898c849f002d3e9406054/variables-277b1d06cc92d50aa89370d317a2881c.json","active\_brand\_config":{"md5":"14ae06f7774898c849f002d3e9406054","variables":{"ic-brand-primary":"#0072CE","ic-link-color":"#0072CE","ic-brand-button--secondary-bgd":"#002D72","ic-brand-global-nav-bgd":"#002D72","ic-brand-global-nav-logo-bgd":"#002D72","ic-brand-header-image":"https://instructure-uploads.s3.amazonaws.com/account\_130440000000000001/attachments/896/university.shield.png","ic-brand-mobile-global-nav-logo":"https://instructure-uploads.s3.amazonaws.com/account\_130440000000000001/attachments/890/university.shield.blue.svg","ic-brand-favicon":"https://instructure-uploads.s3.amazonaws.com/account\_130440000000000001/attachments/897/university.shield.blue.svg","ic-brand-apple-touch-icon":"https://instructure-uploads.s3.amazonaws.com/account\_130440000000000001/attachments/900/university.shield.white.png","ic-brand-msapplication-tile-color":"#002D72","ic-brand-msapplication-tile-square":"https://instructure-uploads.s3.amazonaws.com/account\_130440000000000001/attachments/898/university.shield.white.png","ic-brand-msapplication-tile-wide":"https://instructure-uploads.s3.amazonaws.com/account\_130440000000000001/attachments/899/university.shield.white.png","ic-brand-right-sidebar-logo":"https://instructure-uploads.s3.amazonaws.com/account\_130440000000000001/attachments/908/jhulogo.svg","ic-brand-Login-body-bgd-color":"#002D72","ic-brand-Login-logo":"https://instructure-uploads.s3.amazonaws.com/account\_130440000000000001/attachments/906/university.logo.horizontal.white-min%20space.svg"},"share":false,"name":null,"created\_at":"2025-03-19T16:11:18-04:00","js\_overrides":"https://instructure-uploads.s3.amazonaws.com/account\_130440000000000001/attachments/13743359/jhu\_theme.js","css\_overrides":"https://instructure-uploads.s3.amazonaws.com/account\_130440000000000001/attachments/9595234/jhu\_theme.css","mobile\_js\_overrides":"https://instructure-uploads.s3.amazonaws.com/account\_130440000000000001/attachments/8720302/jhu\_theme\_mobile\_app.js","mobile\_css\_overrides":"https://instructure-uploads.s3.amazonaws.com/account\_130440000000000001/attachments/8720303/jhu\_theme\_mobile\_app.css","parent\_md5":null},"confetti\_branding\_enabled":false,"url\_to\_what\_gets\_loaded\_inside\_the\_tinymce\_editor\_css":\["https://du11hjcvx0uqb.cloudfront.net/dist/brandable\_css/14ae06f7774898c849f002d3e9406054/variables-277b1d06cc92d50aa89370d317a2881c.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable\_css/new\_styles\_normal\_contrast/bundles/what\_gets\_loaded\_inside\_the\_tinymce\_editor-5c156bf491.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable\_css/no\_variables/bundles/fonts-6ee09b0b2f.css"\],"url\_for\_high\_contrast\_tinymce\_editor\_css":\["https://du11hjcvx0uqb.cloudfront.net/dist/brandable\_css/default/variables-high\_contrast-277b1d06cc92d50aa89370d317a2881c.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable\_css/new\_styles\_high\_contrast/bundles/what\_gets\_loaded\_inside\_the\_tinymce\_editor-f751acad93.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable\_css/no\_variables/bundles/fonts-6ee09b0b2f.css"\],"current\_user\_id":"93961","current\_user\_global\_id":"130440000000093961","current\_user\_usage\_metrics\_id":"b3c731ca5fabdcda23284a1256e9b1b4370922673618ec17f4e2ad9870762bc8","current\_user\_roles":\["user","student"\],"current\_user\_is\_student":true,"current\_user\_types":\[\],"current\_user\_disabled\_inbox":false,"current\_user\_visited\_tabs":null,"discussions\_reporting":false,"files\_domain":"cluster333.canvas-user-content.com","group\_information":null,"DOMAIN\_ROOT\_ACCOUNT\_ID":"130440000000000001","DOMAIN\_ROOT\_ACCOUNT\_UUID":"MpyXbXvKcIKdi0XZZGO1fjKcSEoROUnyDAYOH7Am","k12":false,"help\_link\_name":"Help","help\_link\_icon":"help","use\_high\_contrast":false,"auto\_show\_cc":false,"disable\_celebrations":false,"disable\_keyboard\_shortcuts":false,"LTI\_LAUNCH\_FRAME\_ALLOWANCES":\["geolocation \*","microphone \*","camera \*","midi \*","encrypted-media \*","autoplay \*","clipboard-write \*","display-capture \*"\],"DEEP\_LINKING\_POST\_MESSAGE\_ORIGIN":"https://jhu.instructure.com","comment\_library\_suggestions\_enabled":false,"SETTINGS":{"open\_registration":false,"collapse\_global\_nav":true,"release\_notes\_badge\_disabled":false,"can\_add\_pronouns":true,"show\_sections\_in\_course\_tray":true,"filter\_speed\_grader\_by\_student\_group":false},"RAILS\_ENVIRONMENT":"Production","IN\_PACED\_COURSE":false,"SENTRY\_FRONTEND":{"dsn":"https://355a1d96717e4038ac25aa852fa79a8f@relay-iad.sentry.insops.net/388","org\_slug":"instructure","base\_url":"https://sentry.insops.net","normalized\_route":"/courses/{course\_id}/assignments/{id}","errors\_sample\_rate":"0.005","traces\_sample\_rate":"0.005","url\_deny\_pattern":"instructure-uploads.\*amazonaws.com","revision":"canvas-lms@20250423.348"},"DATA\_COLLECTION\_ENDPOINT":"https://canvas-frontend-data-iad-prod.inscloudgate.net/submit","DOMAIN\_ROOT\_ACCOUNT\_SFID":"001A000000KNOFKIA5","DIRECT\_SHARE\_ENABLED":false,"CAN\_VIEW\_CONTENT\_SHARES":false,"FEATURES":{"account\_level\_blackout\_dates":false,"render\_both\_to\_do\_lists":false,"commons\_new\_quizzes":true,"consolidated\_media\_player":true,"explicit\_latex\_typesetting":false,"media\_links\_use\_attachment\_id":true,"permanent\_page\_links":true,"enhanced\_course\_creation\_account\_fetching":false,"instui\_for\_import\_page":true,"multiselect\_gradebook\_filters":true,"assignment\_edit\_placement\_not\_on\_announcements":false,"instui\_header":false,"rce\_find\_replace":true,"courses\_popout\_sisid":true,"dashboard\_graphql\_integration":false,"discussion\_checkpoints":false,"discussion\_default\_sort":true,"discussion\_default\_expand":true,"discussion\_permalink":false,"speedgrader\_studio\_media\_capture":true,"disallow\_threaded\_replies\_fix\_alert":true,"horizon\_course\_setting":false,"new\_quizzes\_media\_type":true,"validate\_call\_to\_action":false,"new\_quizzes\_navigation\_updates":true,"create\_wiki\_page\_mastery\_path\_overrides":false,"product\_tours":false,"create\_course\_subaccount\_picker":true,"file\_verifiers\_for\_quiz\_links":true,"lti\_deep\_linking\_module\_index\_menu\_modal":true,"lti\_registrations\_next":false,"lti\_registrations\_page":false,"lti\_registrations\_usage\_data":false,"lti\_asset\_processor":false,"buttons\_and\_icons\_root\_account":false,"extended\_submission\_state":false,"scheduled\_page\_publication":true,"send\_usage\_metrics":true,"rce\_transform\_loaded\_content":false,"disable\_iframe\_sandbox\_file\_show":false,"mobile\_offline\_mode":true,"react\_discussions\_post":true,"instui\_nav":false,"lti\_registrations\_discover\_page":false,"account\_level\_mastery\_scales":false,"non\_scoring\_rubrics":true,"top\_navigation\_placement":false,"rubric\_criterion\_range":true,"rce\_lite\_enabled\_speedgrader\_comments":true,"lti\_toggle\_placements":true,"login\_registration\_ui\_identity":false,"lti\_apps\_page\_instructors":false,"course\_paces\_skip\_selected\_days":false,"course\_pace\_download\_document":false,"course\_pace\_draft\_state":false,"course\_pace\_time\_selection":false,"course\_pace\_pacing\_status\_labels":false,"course\_pace\_pacing\_with\_mastery\_paths":false,"course\_pace\_weighted\_assignments":false,"modules\_requirements\_allow\_percentage":false,"course\_pace\_allow\_bulk\_pace\_assign":false,"account\_survey\_notifications":false,"embedded\_release\_notes":true,"discussions\_speedgrader\_revisit":true,"differentiation\_tags":false,"canvas\_k6\_theme":false,"new\_math\_equation\_handling":true},"PENDO\_APP\_ID":"1ca366f1-739e-4565-52d2-9e6f6a8d438f","current\_user":{"id":"93961","anonymous\_id":"20i1","display\_name":"Maria Jose Hito Ramos","avatar\_image\_url":"https://jhu.instructure.com/images/thumbnails/8140531/j9Rj8O61PXpGEOOGLZZQVwFVOflOgoWpbCANxS3P","html\_url":"https://jhu.instructure.com/about/93961","pronouns":null,"avatar\_is\_fallback":false,"email":"mhitora1@jh.edu"},"current\_user\_is\_admin":false,"page\_view\_update\_url":"/page\_views/f35565d9-7b79-4747-9aab-f0f7aa2107d5?page\_view\_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiZjM1NTY1ZDktN2I3OS00NzQ3LTlhYWItZjBmN2FhMjEwN2Q1IiwidSI6MTMwNDQwMDAwMDAwMDkzOTYxLCJjIjoiMjAyNS0wNS0wM1QyMDo1OTo0OS42NFoifQ.DkZOpiWQG3Zxk2TdOeuM-h1i56MWwTE4uRgcIsrUuQk","context\_asset\_string":"course\_94755","ping\_url":"https://jhu.instructure.com/api/v1/courses/94755/ping","TIMEZONE":"America/New\_York","CONTEXT\_TIMEZONE":"America/New\_York","LOCALES":\["en"\],"BIGEASY\_LOCALE":"en\_US","FULLCALENDAR\_LOCALE":"en","MOMENT\_LOCALE":"en","rce\_auto\_save\_max\_age\_ms":86400000,"K5\_USER":false,"USE\_CLASSIC\_FONT":false,"K5\_HOMEROOM\_COURSE":false,"K5\_SUBJECT\_COURSE":false,"LOCALE\_TRANSLATION\_FILE":"/dist/javascripts/translations/en-d4dfe69052.json","ACCOUNT\_ID":"464","user\_cache\_key":"MFZIOGVPV3p1V1ZHRGxXR3h5a2taTmVlZFQ2aUFYYjUxczI0eENzUnZ5Zlc9\\nO1twLTA/OntQXz1IVXBncmFxZTtuamFsa2hwdm9pdWxraW1tYXFld2c=\\n","horizon\_course":false,"current\_context":{"id":"94755","name":"EN.685.652.81.SP25 Data Engineering Principles and Practice","type":"Course","url":"https://jhu.instructure.com/courses/94755"},"ASSIGNMENT\_POINTS\_POSSIBLE":null,"media\_comment\_asset\_string":"user\_93961","COURSE\_ID":"94755","ROOT\_OUTCOME\_GROUP":{"id":"32009","title":"EN.685.652.81.SP25 Data Engineering Principles and Practice","vendor\_guid":null,"url":"/api/v1/courses/94755/outcome\_groups/32009","subgroups\_url":"/api/v1/courses/94755/outcome\_groups/32009/subgroups","outcomes\_url":"/api/v1/courses/94755/outcome\_groups/32009/outcomes","can\_edit":false,"import\_url":"/api/v1/courses/94755/outcome\_groups/32009/import","context\_id":"94755","context\_type":"Course","description":null},"HAS\_GRADING\_PERIODS":false,"VALID\_DATE\_RANGE":{"start\_at":{"date":"2024-10-01T04:00:00Z","date\_context":"term"},"end\_at":{"date":"2025-10-01T04:00:00Z","date\_context":"term"}},"POST\_TO\_SIS":false,"DUE\_DATE\_REQUIRED\_FOR\_ACCOUNT":false,"ALLOW\_ASSIGN\_TO\_DIFFERENTIATION\_TAGS":false,"CAN\_MANAGE\_DIFFERENTIATION\_TAGS":false,"SECTION\_LIST":\[{"id":"85718","name":"EN.685.652.82.SP25","start\_at":"2025-01-21T00:00:00-05:00","end\_at":"2025-05-06T23:59:59-04:00","override\_course\_and\_term\_dates":null},{"id":"81118","name":"EN.685.652.81.SP25","start\_at":"2025-01-21T00:00:00-05:00","end\_at":"2025-05-06T23:59:59-04:00","override\_course\_and\_term\_dates":null}\],"SUBMISSION\_ID":"17780068","FIRST\_ANNOTATION\_SUBMISSION":false,"RICH\_CONTENT\_APP\_HOST":"rich-content-iad.inscloudgate.net","JWT":"ZXlKaGJHY2lPaUprYVhJaUxDSmxibU1pT2lKQk1qVTJSME5OSWl3aWNtVm5hVzl1SWpvaWRYTXRaV0Z6ZEMweElpd2laVzUyYVhKdmJtMWxiblFpT2lKUWNtOWtkV04wYVc5dUluMC4uODR5YTE5LVNKWlk3b2M3Sy5MNzFiUjNyUGZhMTBSRzV1SFd2d290NzMxalI2YTNVMEw4VVBZUVBlOW1NWmZueWpHM0Zfd1BOVmMxTFJsZWgxVzR6ZHktbkl2cmcxXy15ZnpIbHF3Tl9FMUxJT0xxdWc3eDYtd2NiT0huYjhoZ1M5Ym1PazgzX09SV1BwYXBia3ZsSFBMNzA2WElhNzlDVG9OU1lUU3lUWWFGZ1hNSEhqa2IyMmNSZktSV3Z4aUtROTNrWmFjTjRnUndkd0M4OVZ5bnZIa25iclI3aDJJWGNIUUhaQ2RaaVpDdDlaeGg2QTdyMmZDTUZNaS1NYmdTb19fMEl1eFZYMVROd2RpZmtDdGJMUDkyTnNaSFhKbHVYZ3VkZzJxdXVkS3VyblVZdGlCNFBYc1ZkazVRaDY2cUlVQmtVLTVMUWFQWTBZV3ZiOFlQRzc1RE05STdJTWVDWDQ1bWZjal9OOVdRXzd3Mi1NUXZmem11a1JZM0NTY0ZlelRNTWFHdmVtVGhVRzFaaGtjWFBrV0pXZExIR2ZsMVNmaEdzN0ZGVFFLbmVrSHpKejc0QU84VF9MMEZBUDRRdzdyQ3BJU2Q0ZTFtSHdzMWtHMTBwV1NqTEhhOE5fcjFoZnU1UEVmaUVVSUdCY2pEeGdLYjlfOFNJYjMxcHgtWDVEWF82YWpEOVVwRTZaX0llb3RzbzNpVGVxbUFVSEVLdlNTVGlVMHBTT1BESzNqZlJkZkJ3OHU5NkhpT1V6N2FabXVaQ1BzX1ZwRjJOdGdIYndDUHNOV3B2WWZqcVlnOXkwSzZDQmZHZUpBN0JSdEppZFY1WDlCZWxvYkRabTdzdm9SemxsNGNYVk4tUHZudjgwZ245UmlVUjlYTHp1VWhaWmRaQ2xualhYNWJJeVUzM3ZucDJ6UHRlQm1YUFphQnNwLUtyanRpUTBXeDdlRThFWnF2R3dES2JfMElYb0taa0M5M3NWZ3ZLeXhFX0FZbWNTRGJaSXNuRWtkSTdNaGdmdzgxb05ZbDFmcFBQS0xUUmthZlAtSS00VXFoT0otazJpRVI4bFo1ekdrendpSW13WUQ2amkzRUhSN3d6cWJHZWxCRUxrOUoxblV0M2NSY0xZNWRBejNqYmlxQjgudWFQYTZhRHhsM2x4aWw0TVBOc2w0QQ==","RICH\_CONTENT\_CAN\_UPLOAD\_FILES":false,"RICH\_CONTENT\_CAN\_EDIT\_FILES":false,"RICH\_CONTENT\_FILES\_TAB\_DISABLED":true,"RICH\_CONTENT\_INST\_RECORD\_TAB\_DISABLED":true,"RICH\_CONTENT\_AI\_TEXT\_TOOLS":false,"ASSIGNMENT\_ID":"943804","PREREQS":{},"EULA\_URL":null,"EXTERNAL\_TOOLS":\[{"id":"490","domain":null,"url":"https://onedrivelti.microsoft.com/tool","consumer\_key":"fake","name":"Microsoft OneDrive","description":"Microsoft OneDrive LTI 1.3","created\_at":"2022-04-25T13:39:44-04:00","updated\_at":"2024-11-06T20:15:48-05:00","privacy\_level":"public","custom\_fields":{"ContextHistory":"$Context.id.history","AllowedAttempts":"$Canvas.assignment.allowedAttempts","StudentAttempts":"$Canvas.assignment.submission.studentAttempts","AllowedFileExtensions":"$com.instructure.Assignment.allowedFileExtensions"},"workflow\_state":"public","account\_navigation":null,"analytics\_hub":null,"assignment\_edit":null,"assignment\_group\_menu":null,"assignment\_index\_menu":null,"assignment\_menu":null,"assignment\_selection":{"enabled":true,"placement":"assignment\_selection","message\_type":"LtiDeepLinkingRequest","target\_link\_uri":"https://onedrivelti.microsoft.com/tool?launchType=assignments","label":"Microsoft OneDrive","selection\_width":800,"selection\_height":400},"assignment\_view":null,"collaboration":{"enabled":true,"placement":"collaboration","message\_type":"LtiDeepLinkingRequest","target\_link\_uri":"https://onedrivelti.microsoft.com/tool?launchType=collaborations","label":"Microsoft OneDrive","selection\_width":800,"selection\_height":400},"course\_assignments\_menu":null,"course\_home\_sub\_navigation":null,"course\_navigation":{"enabled":true,"default":"enabled","placement":"course\_navigation","message\_type":"LtiResourceLinkRequest","selection\_height":800,"label":"Microsoft OneDrive","selection\_width":800},"course\_settings\_sub\_navigation":null,"discussion\_topic\_index\_menu":null,"discussion\_topic\_menu":null,"file\_index\_menu":null,"file\_menu":null,"global\_navigation":null,"homework\_submission":{"enabled":true,"icon\_url":"https://onedrivelti.microsoft.com/favicon-1.ico","placement":"homework\_submission","message\_type":"LtiDeepLinkingRequest","target\_link\_uri":"https://onedrivelti.microsoft.com/tool?launchType=assignments","label":"Microsoft OneDrive","selection\_width":800,"selection\_height":400},"link\_selection":{"enabled":true,"placement":"link\_selection","message\_type":"LtiDeepLinkingRequest","target\_link\_uri":"https://onedrivelti.microsoft.com/tool?launchType=linkSelection","label":"Microsoft OneDrive","selection\_width":800,"selection\_height":400},"migration\_selection":null,"module\_group\_menu":null,"module\_index\_menu":null,"module\_index\_menu\_modal":null,"module\_menu\_modal":null,"module\_menu":null,"post\_grades":null,"quiz\_index\_menu":null,"quiz\_menu":null,"resource\_selection":null,"similarity\_detection":null,"student\_context\_card":null,"submission\_type\_selection":null,"tool\_configuration":null,"top\_navigation":null,"user\_navigation":null,"wiki\_index\_menu":null,"wiki\_page\_menu":null,"editor\_button":{"enabled":true,"icon\_url":"https://onedrivelti.microsoft.com/favicon-1.ico","placement":"editor\_button","message\_type":"LtiDeepLinkingRequest","target\_link\_uri":"https://onedrivelti.microsoft.com/tool?launchType=sharedItem","label":"Microsoft OneDrive","selection\_width":800,"selection\_height":400},"is\_rce\_favorite":false,"not\_selectable":false,"version":"1.3","unified\_tool\_id":"6a3aa58a-9449-4998-828f-58d37d5624f7","developer\_key\_id":"118","lti\_registration\_id":"5","deployment\_id":"490:68e8b23cc7b061020242e3ee0704928fad04a9af"}\],"PERMISSIONS":{"context":{"read\_as\_admin":false,"manage\_assignments\_edit":false},"assignment":{"update":false,"submit":true},"can\_manage\_groups":false,"manage\_rubrics":false},"SIMILARITY\_PLEDGE":null,"CONFETTI\_ENABLED":true,"EMOJIS\_ENABLED":false,"EMOJI\_DENY\_LIST":null,"USER\_ASSET\_STRING":"user\_93961","OUTCOMES\_NEW\_DECAYING\_AVERAGE\_CALCULATION":true,"assigned\_rubric":null,"rubric\_association":null,"ai\_rubrics\_enabled":false,"rubric\_self\_assessment\_ff\_enabled":false,"rubric\_self\_assessment\_enabled":false,"can\_update\_rubric\_self\_assessment":false,"CONDITIONAL\_RELEASE\_SERVICE\_ENABLED":true,"CONDITIONAL\_RELEASE\_ENV":{"assignment":{"id":"943804","title":"Module 14 - Assignment","description":"\\u003cp\\u003eIn this assignment, you will be creating part of an ETL pipeline in Google Colab to clean and process the High-Volume For-Hire Vehicles in the NYC Taxi dataset \\u003cstrong\\u003eusing PySpark\\u003c/strong\\u003e in the cloud notebook environment of \\u003ca href=\\"https://colab.research.google.com/\\"\\u003eGoogle Colab\\u003c/a\\u003e.\\u003c/p\\u003e\\n\\u003ch1\\u003eAssignment\\u003c/h1\\u003e\\n\\u003cp\\u003eFollow the instructions below using the provided \\u003ca id=\\"12651793\\" class=\\"instructure\_file\_link inline\_disabled\\" href=\\"/courses/94755/files/12984422?wrap=1\\" target=\\"\_blank\\" data-api-endpoint=\\"https://jhu.instructure.com/api/v1/courses/84489/files/12651793\\" data-api-returntype=\\"File\\"\\u003eModule 14 Jupyter Notebook Assignment Template (Download)\\u003c/a\\u003e\\u003c/p\\u003e\\n\\u003cp\\u003e\\u003cstrong\\u003eAll the code that you write must be in PySpark for this assignment.\\u0026nbsp;\\u003c/strong\\u003e\\u003c/p\\u003e\\n\\u003cp\\u003e\\u003ca href=\\"https://spark.apache.org/docs/latest/api/python/reference/pyspark.pandas/index.html\\"\\u003ehttps://spark.apache.org/docs/latest/api/python/reference/pyspark.pandas/index.html\\u003c/a\\u003e\\u003c/p\\u003e\\n\\u003cp\\u003eSet Up Spark Environment\\u003c/p\\u003e\\n\\u003col\\u003e\\n\\u003cli\\u003eLog in to \\u003ca href=\\"https://colab.research.google.com/\\"\\u003eGoogle Colab\\u003c/a\\u003e\\u003cspan\\u003e and create a new notebook.\\u003c/span\\u003e\\n\\u003c/li\\u003e\\n\\u003cli\\u003eInstall Spark\\n\\u003col\\u003e\\n\\u003cli\\u003ePip install pyspark\\u003c/li\\u003e\\n\\u003cli\\u003ePip install findspark\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003c/li\\u003e\\n\\u003cli\\u003eImport findspark and run findspark.init() which is used to locate spark on the system.\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003cpre style=\\"padding-left: 40px;\\"\\u003eimport findspark\\u003cbr\\u003efindspark.init()\\u003c/pre\\u003e\\n\\u003col start=\\"4\\"\\u003e\\n\\u003cli\\u003eImport any necessary modules from pyspark.sql\\u003c/li\\u003e\\n\\u003cli\\u003e(10 Points) Create your SparkSession\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003cp\\u003e\\u0026nbsp;\\u003c/p\\u003e\\n\\u003ch3\\u003e\\u003cstrong\\u003eLoad Data\\u003c/strong\\u003e\\u003c/h3\\u003e\\n\\u003cp\\u003eNYC Taxi Data Documentation:\\u003c/p\\u003e\\n\\u003cul\\u003e\\n\\u003cli\\u003e\\u003ca href=\\"https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page\\"\\u003ehttps://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page\\u003c/a\\u003e\\u003c/li\\u003e\\n\\u003cli\\u003e\\u003ca href=\\"https://www.google.com/url?q=https%3A%2F%2Fwww.nyc.gov%2Fassets%2Ftlc%2Fdownloads%2Fpdf%2Fdata\_dictionary\_trip\_records\_hvfhs.pdf\\"\\u003ehttps://www.nyc.gov/assets/tlc/downloads/pdf/data\_dictionary\_trip\_records\_hvfhs.pdf\\u003c/a\\u003e\\u003c/li\\u003e\\n\\u003c/ul\\u003e\\n\\u003cp\\u003e\\u0026nbsp;\\u003c/p\\u003e\\n\\u003col style=\\"list-style-type: decimal;\\"\\u003e\\n\\u003cli\\u003eUse the following code to download the required data (this may take several minutes to complete):\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003cpre style=\\"padding-left: 40px;\\"\\u003e!wget -P ./taxi-files/ https://d37ci6vzurychx.cloudfront.net/trip-data/fhvhv\_tripdata\_2020-03.parquet\\u003c/pre\\u003e\\n\\u003col start=\\"2\\"\\u003e\\n\\u003cli\\u003eCheck to make sure the necessary files were downloaded. The command below should return '1' - if it does not, try 'Disconnect and delete runtime' and re-run all code above.\\n\\u003cul\\u003e\\n\\u003cli\\u003eNote: We are only focusing on the 'FHVHV' subset of the NYC Taxi data - high-volume for-hire vehicle bases for companies dispatching 10,000+ trip per day, meaning Uber, Lyft, Via, and Juno\\u003c/li\\u003e\\n\\u003c/ul\\u003e\\n\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003cpre style=\\"padding-left: 40px;\\"\\u003e!find ./taxi-files/ -maxdepth 1 -name \\"\*fhvhv\_tripdata\*\\" -printf '.' | wc -m\\u003c/pre\\u003e\\n\\u003col start=\\"3\\"\\u003e\\n\\u003cli\\u003e(10 Points) Load the parquet file with Spark, limiting the results to 100,000 records. Show the resulting data frame\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003cp\\u003e\\u0026nbsp;\\u003c/p\\u003e\\n\\u003ch3\\u003e\\u003cstrong\\u003eData Cleaning\\u003c/strong\\u003e\\u003c/h3\\u003e\\n\\u003col\\u003e\\n\\u003cli\\u003e(10 Points) Remove any duplicate rows if they exist. Output the remaining number of rows.\\u003c/li\\u003e\\n\\u003cli\\u003e(10 Points) Remove any trips with a duration of less than 1 minute or more than 24 hours. Output the remaining number of rows.\\u003c/li\\u003e\\n\\u003cli\\u003e(10 Points) Remove any trips with base\_passenger\_fare less than $2.50 or greater than $1,000. Output the remaining number of rows.\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003ch3\\u003e\\u003cstrong\\u003eData Transformation\\u003c/strong\\u003e\\u003c/h3\\u003e\\n\\u003col\\u003e\\n\\u003cli\\u003e(10 Points) Create three new columns:\\n\\u003col\\u003e\\n\\u003cli\\u003eA column that indicates whether the trip was taken during the morning rush hour (6:00-9:59 AM), the afternoon rush hour (3:00-6:59 PM), or outside of rush hour.\\u003c/li\\u003e\\n\\u003cli\\u003eA column that calculates the total amount of the trip (fare amount + tip amount)\\u003c/li\\u003e\\n\\u003cli\\u003eA column that calculates the speed of the trip (distance / duration).\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003cp\\u003eShow the first 5 results\\u003c/p\\u003e\\n\\u003cp\\u003e\\u0026nbsp;\\u003c/p\\u003e\\n\\u003col start=\\"2\\"\\u003e\\n\\u003cli\\u003e(10 Points) The 'hvfhs\_license\_num' column corresponds to the different HVFHS businesses:\\n\\u003cul\\u003e\\n\\u003cli\\u003eHV0002: Juno\\u003c/li\\u003e\\n\\u003cli\\u003eHV0003: Uber\\u003c/li\\u003e\\n\\u003cli\\u003eHV0004: Via\\u003c/li\\u003e\\n\\u003cli\\u003eHV0005: Lyft\\u003c/li\\u003e\\n\\u003c/ul\\u003e\\n\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003cp\\u003eCreate a new column that contains the business name based on the license number.\\u003cbr\\u003eOutput a count of how many rides each business has in the data.\\u003c/p\\u003e\\n\\u003cp\\u003e\\u0026nbsp;\\u003c/p\\u003e\\n\\u003col start=\\"3\\"\\u003e\\n\\u003cli\\u003e(20 Points) We want to know the average driver pay and rider cost per mile for each business. Calculate the average driver\_pay including tips by trip\_miles and total cost (base\_passenger\_fare + tolls + bcf + sales\_tax + congestion\_surcharge + airport\_fee) by trip\_miles, grouped by business. Show the result.\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003ch3\\u003e\\u003cstrong\\u003eSaving Data\\u003c/strong\\u003e\\u003c/h3\\u003e\\n\\u003col\\u003e\\n\\u003cli\\u003e(10 Points) Save your results from the previous step as a SINGLE csv file\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003cp\\u003e\\u0026nbsp;\\u003c/p\\u003e\\n\\u003ch2\\u003eWhat to turn in:\\u003c/h2\\u003e\\n\\u003col\\u003e\\n\\u003cli\\u003eDownload the .ipynb (File \\u0026gt; Download) and upload to Canvas as \\u0026lt;student-first-initial\\u0026gt;\\u0026lt;student-lastname\\u0026gt;-module14.ipynb\\u003c/li\\u003e\\n\\u003cli\\u003eUpload a HTML version of the notebook with all results visible as \\u0026lt;student-first-initial\\u0026gt;\\u0026lt;student-lastname\\u0026gt;-module14.html\\u003c/li\\u003e\\n\\u003cli\\u003eUpload the single csv file which was saved in the last question as \\u0026lt;student-first-initial\\u0026gt;\\u0026lt;student-lastname\\u0026gt;-module14.csv\\u003c/li\\u003e\\n\\u003c/ol\\u003e\\n\\u003cp\\u003ePlease do not zip the files\\u003c/p\\u003e","points\_possible":100.0,"grading\_type":"points","submission\_types":"online\_upload","grading\_scheme":{"A+":0.97,"A":0.93,"A-":0.9,"B+":0.87,"B":0.83,"B-":0.8,"C+":0.77,"C":0.73,"C-":0.7,"D+":0.67,"D":0.63,"F":0.0}},"course\_id":"94755","stats\_url":"/api/v1/courses/94755/mastery\_paths/stats","rule":null},"SUBMIT\_ASSIGNMENT":{"ALLOWED\_EXTENSIONS":\[\],"ID":"943804","GROUP\_ID\_FOR\_USER":null},"badge\_counts":{"submissions":0},"notices":\[\],"active\_context\_tab":"assignments"}; BRANDABLE\_CSS\_HANDLEBARS\_INDEX = \[\["new\_styles\_normal\_contrast","new\_styles\_high\_contrast","new\_styles\_normal\_contrast\_rtl","new\_styles\_high\_contrast\_rtl"\],{"10":\["908ffbc673",0,"d5c9044c6e",2\],"15":\["c8540c43a4",0,"0a2196be1d",2\],"19":\["df5777ed9c"\],"61":\["d5c4afc14e","ebb835cdef","384361a056","2e0ba247d5"\],"67":\["db2aeb63d1",0,"32c90f1518",2\],"71":\["b848cc547a","83ae671549","d1c7bac7c6","0888a4a9e7"\],"06":\["ba28819778",0,"96b99aafe5",2\],"f0":\["b349f31f5e",0,0,0\],"c8":\["f0a308d011","8041fc9e65","74aaf5a5d7","9948c8b351"\],"1e":\["834e660fc6","35fd7c2fa0","99d344b95a","3de47096dc"\],"b3":\["336edad65b",0,"9838b0e53d",2\],"0c":\["4dae5befd2",0,"c18876be89",2\],"da":\["b5a7f9cd8f","6e65f5abf7","773390ae11","6481b459be"\],"1d":\["2128789890",0,"e568085637",2\],"08":\["64bff5a97d"\],"e2":\["79d37f210d"\],"9f":\["d39b291ba6",0,0,0\],"2b":\["20b6964699","b11dc54da6","62fe3ea30b","6bb4a7ae9e"\],"2c":\["8a926fc28b",0,0,0\],"c2":\["6f2721ae01"\],"9c":\["c31821c764",0,"1693aba1da",2\],"c5":\["b5d5bef953","09b4a0b487","27a133737e","2098769aea"\],"f2":\["51574f9b13"\]}\] REMOTES = {}; //<!\[CDATA\[ (window.bundles || (window.bundles = \[\])).push('assignment\_show'); (window.bundles || (window.bundles = \[\])).push('submit\_assignment'); (window.bundles || (window.bundles = \[\])).push('edit\_rubric'); (window.bundles || (window.bundles = \[\])).push('navigation\_header'); //\]\]> /\* \* Copyright (C) 2024 - present Instructure, Inc. \* \* This file is part of Canvas. \* \* Canvas is free software: you can redistribute it and/or modify it under \* the terms of the GNU Affero General Public License as published by the Free \* Software Foundation, version 3 of the License. \* \* Canvas is distributed in the hope that it will be useful, but WITHOUT ANY \* WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR \* A PARTICULAR PURPOSE. See the GNU Affero General Public License for more \* details. \* \* You should have received a copy of the GNU Affero General Public License along \* with this program. If not, see <http://www.gnu.org/licenses/>. \*/ .contentLayout--tablet\_\_1HO4D { padding: 5rem 0 8rem; /\* 80px 0 128px \*/ } .contentLayout\_\_content\_\_169Ly { height: 100%; padding: 2.25rem 1.5rem; /\* 36px 24px \*/ } .contentLayout\_\_content--tablet\_\_39Ma8 { height: unset; margin: 0 auto; padding: 3.75rem 6.25rem; /\* 60px 100px \*/ width: 35.75rem; /\* 572px \*/ } .contentLayout\_\_background\_\_27fkG { bottom: 0; left: 0; position: absolute; right: 0; top: 0; } .draggable.dragging { background: white; box-shadow: 2px 2px 4px grey; padding: 1rem; } .dragging.rubric-divider { display: none; } .mejs-offscreen{clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);clip-path:polygon(0px 0,0 0,0 0,0 0);position:absolute!important;height:1px;width:1px;overflow:hidden}.mejs-container{position:relative;background:#000;font-family:Helvetica,Arial,serif;text-align:left;vertical-align:top;text-indent:0}.mejs-fill-container,.mejs-fill-container .mejs-container{width:100%;height:100%}.mejs-fill-container{overflow:hidden}.mejs-container:focus{outline:0}.me-plugin{position:absolute}.mejs-embed,.mejs-embed body{width:100%;height:100%;margin:0;padding:0;background:#000;overflow:hidden}.mejs-fullscreen{overflow:hidden!important}.mejs-container-fullscreen{position:fixed;left:0;top:0;right:0;bottom:0;overflow:hidden;z-index:1000}.mejs-container-fullscreen .mejs-mediaelement,.mejs-container-fullscreen video{width:100%;height:100%}.mejs-clear{clear:both}.mejs-background{position:absolute;top:0;left:0}.mejs-mediaelement{position:absolute;top:0;left:0;width:100%;height:100%}.mejs-poster{position:absolute;top:0;left:0;background-size:contain;background-position:50% 50%;background-repeat:no-repeat}:root .mejs-poster img{display:none}.mejs-poster img{border:0;padding:0}.mejs-overlay{position:absolute;top:0;left:0}.mejs-overlay-play{cursor:pointer}.mejs-overlay-button{position:absolute;top:50%;left:50%;width:100px;height:100px;margin:-50px 0 0 -50px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/ab412966d30a966c.svg) no-repeat}.no-svg .mejs-overlay-button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/403b9897d2f9584a.png)}.mejs-overlay:hover .mejs-overlay-button{background-position:0 -100px}.mejs-overlay-loading{position:absolute;top:50%;left:50%;width:80px;height:80px;margin:-40px 0 0 -40px;background:#333;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(0,0,0,.9);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.9)),to(rgba(0,0,0,.9)));background:-webkit-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-moz-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-o-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-ms-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:linear-gradient(rgba(50,50,50,.9),rgba(0,0,0,.9))}.mejs-overlay-loading span{display:block;width:80px;height:80px;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/3d2aa6c0efad5113.gif) 50% 50% no-repeat}.mejs-container .mejs-controls{position:absolute;list-style-type:none;margin:0;padding:0;bottom:0;left:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));height:30px;width:100%}.mejs-container .mejs-controls div{list-style-type:none;background-image:none;display:block;float:left;margin:0;padding:0;width:26px;height:26px;font-size:11px;line-height:11px;font-family:Helvetica,Arial,serif;border:0}.mejs-controls .mejs-button button{cursor:pointer;display:block;font-size:0;line-height:0;text-decoration:none;margin:7px 5px;padding:0;position:absolute;height:16px;width:16px;border:0;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/e63625629c427008.svg) no-repeat}.no-svg .mejs-controls .mejs-button button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/21af56cf08cc9170.png)}.mejs-controls .mejs-button button:focus{outline:dotted 1px #999}.mejs-container .mejs-controls .mejs-time{color:#fff;display:block;height:17px;width:auto;padding:10px 3px 0;overflow:hidden;text-align:center;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}.mejs-container .mejs-controls .mejs-time a{color:#fff;font-size:11px;line-height:12px;display:block;float:left;margin:1px 2px 0 0;width:auto}.mejs-controls .mejs-play button{background-position:0 0}.mejs-controls .mejs-pause button{background-position:0 -16px}.mejs-controls .mejs-stop button{background-position:-112px 0}.mejs-controls div.mejs-time-rail{direction:ltr;width:200px;padding-top:5px}.mejs-controls .mejs-time-rail span,.mejs-controls .mejs-time-rail a{display:block;position:absolute;width:180px;height:10px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;cursor:pointer}.mejs-controls .mejs-time-rail .mejs-time-total{margin:5px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-time-rail .mejs-time-buffering{width:100%;background-image:-o-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,.15)),color-stop(0.75,rgba(255,255,255,.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-ms-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);-webkit-background-size:15px 15px;-moz-background-size:15px 15px;-o-background-size:15px 15px;background-size:15px 15px;-webkit-animation:buffering-stripes 2s linear infinite;-moz-animation:buffering-stripes 2s linear infinite;-ms-animation:buffering-stripes 2s linear infinite;-o-animation:buffering-stripes 2s linear infinite;animation:buffering-stripes 2s linear infinite}@-webkit-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-moz-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-ms-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-o-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}.mejs-controls .mejs-time-rail .mejs-time-loaded{background:#3caac8;background:rgba(60,170,200,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(44,124,145,.8)),to(rgba(78,183,212,.8)));background:-webkit-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-moz-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-o-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-ms-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:linear-gradient(rgba(44,124,145,.8),rgba(78,183,212,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-current{background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-handle{display:none;position:absolute;margin:0;width:10px;background:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;cursor:pointer;border:solid 2px #333;top:-2px;text-align:center}.mejs-controls .mejs-time-rail .mejs-time-float{position:absolute;display:none;background:#eee;width:36px;height:17px;border:solid 1px #333;top:-26px;margin-left:-18px;text-align:center;color:#111}.mejs-controls .mejs-time-rail .mejs-time-float-current{margin:2px;width:30px;display:block;text-align:center;left:0}.mejs-controls .mejs-time-rail .mejs-time-float-corner{position:absolute;display:block;width:0;height:0;line-height:0;border:solid 5px #eee;border-color:#eee transparent transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:15px;left:13px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float{width:48px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-current{width:44px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-corner{left:18px}.mejs-controls .mejs-fullscreen-button button{background-position:-32px 0}.mejs-controls .mejs-unfullscreen button{background-position:-32px -16px}.mejs-controls .mejs-volume-button{}.mejs-controls .mejs-mute button{background-position:-16px -16px}.mejs-controls .mejs-unmute button{background-position:-16px 0}.mejs-controls .mejs-volume-button{position:relative}.mejs-controls .mejs-volume-button .mejs-volume-slider{height:115px;width:25px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(50,50,50,.7);-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:-115px;left:0;z-index:1;position:absolute;margin:0}.mejs-controls .mejs-volume-button:hover{-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-total{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.5);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.9);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-handle{position:absolute;left:4px;top:-3px;width:16px;height:6px;background:#ddd;background:rgba(255,255,255,.9);cursor:N-resize;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;margin:0}.mejs-controls a.mejs-horizontal-volume-slider{height:26px;width:56px;position:relative;display:block;float:left;vertical-align:middle}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle{display:none}.mejs-controls .mejs-captions-button{position:relative}.mejs-controls .mejs-captions-button button{background-position:-48px 0}.mejs-controls .mejs-captions-button .mejs-captions-selector{position:absolute;bottom:26px;right:-51px;width:85px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px 10px 0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-captions-button .mejs-captions-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li label{width:55px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-controls .mejs-captions-button .mejs-captions-translations{font-size:10px;margin:0 0 5px}.mejs-chapters{position:absolute;top:0;left:0;border-right:solid 1px #fff;width:10000px;z-index:1}.mejs-chapters .mejs-chapter{position:absolute;float:left;background:#222;background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#323232, endColorstr=#000000);overflow:hidden;border:0}.mejs-chapters .mejs-chapter .mejs-chapter-block{font-size:11px;color:#fff;padding:5px;display:block;border-right:solid 1px #333;border-bottom:solid 1px #333;cursor:pointer}.mejs-chapters .mejs-chapter .mejs-chapter-block-last{border-right:0}.mejs-chapters .mejs-chapter .mejs-chapter-block:hover{background:#666;background:rgba(102,102,102,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(102,102,102,.7)),to(rgba(50,50,50,.6)));background:-webkit-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-moz-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-o-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-ms-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:linear-gradient(rgba(102,102,102,.7),rgba(50,50,50,.6));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#666666, endColorstr=#323232)}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-title{font-size:12px;font-weight:700;display:block;white-space:nowrap;text-overflow:ellipsis;margin:0 0 3px;line-height:12px}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-timespan{font-size:12px;line-height:12px;margin:3px 0 4px;display:block;white-space:nowrap;text-overflow:ellipsis}.mejs-captions-layer{position:absolute;bottom:0;left:0;text-align:center;line-height:20px;font-size:16px;color:#fff}.mejs-captions-layer a{color:#fff;text-decoration:underline}.mejs-captions-layer\[lang=ar\]{font-size:20px;font-weight:400}.mejs-captions-position{position:absolute;width:100%;bottom:15px;left:0}.mejs-captions-position-hover{bottom:35px}.mejs-captions-text,.mejs\_\_captions-text \*{padding:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(20,20,20,.5);white-space:pre-wrap;-webkit-box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5);box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5)}.me-cannotplay{}.me-cannotplay a{color:#fff;font-weight:700}.me-cannotplay span{padding:15px;display:block}.mejs-controls .mejs-loop-off button{background-position:-64px -16px}.mejs-controls .mejs-loop-on button{background-position:-64px 0}.mejs-controls .mejs-backlight-off button{background-position:-80px -16px}.mejs-controls .mejs-backlight-on button{background-position:-80px 0}.mejs-controls .mejs-picturecontrols-button{background-position:-96px 0}.mejs-contextmenu{position:absolute;width:150px;padding:10px;border-radius:4px;top:0;left:0;background:#fff;border:solid 1px #999;z-index:1001}.mejs-contextmenu .mejs-contextmenu-separator{height:1px;font-size:0;margin:5px 6px;background:#333}.mejs-contextmenu .mejs-contextmenu-item{font-family:Helvetica,Arial,serif;font-size:12px;padding:4px 6px;cursor:pointer;color:#333}.mejs-contextmenu .mejs-contextmenu-item:hover{background:#2C7C91;color:#fff}.mejs-controls .mejs-sourcechooser-button{position:relative}.mejs-controls .mejs-sourcechooser-button button{background-position:-128px 0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector{position:absolute;bottom:26px;right:-10px;width:130px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label{width:100px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-postroll-layer{position:absolute;bottom:0;left:0;width:100%;height:100%;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(50,50,50,.7);z-index:1000;overflow:hidden}.mejs-postroll-layer-content{width:100%;height:100%}.mejs-postroll-close{position:absolute;right:0;top:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(50,50,50,.7);color:#fff;padding:4px;z-index:100;cursor:pointer}div.mejs-speed-button{width:46px!important;position:relative}.mejs-controls .mejs-button.mejs-speed-button button{background:transparent;width:36px;font-size:11px;line-height:normal;color:#fff}.mejs-controls .mejs-speed-button .mejs-speed-selector{position:absolute;top:-100px;left:-10px;width:60px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/019e02a0194687d6.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label.mejs-speed-selected{color:rgba(33,248,248,1)}.mejs-controls .mejs-speed-button .mejs-speed-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li{margin:0 0 6px;padding:0 10px;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label{width:60px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:11px;color:#fff;margin-left:5px;cursor:pointer}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li:hover{background-color:#c8c8c8!important;background-color:rgba(255,255,255,.4)!important}.mejs-controls .mejs-button.mejs-jump-forward-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/1b04fe65cf397777.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-jump-forward-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}.mejs-controls .mejs-button.mejs-skip-back-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/83bc028944a3cf2a.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-skip-back-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}/\* \* Copyright (C) 2014 - present Instructure, Inc. \* \* This file is part of Canvas. \* \* Canvas is free software: you can redistribute it and/or modify it under \* the terms of the GNU Affero General Public License as published by the Free \* Software Foundation, version 3 of the License. \* \* Canvas is distributed in the hope that it will be useful, but WITHOUT ANY \* WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR \* A PARTICULAR PURPOSE. See the GNU Affero General Public License for more \* details. \* \* You should have received a copy of the GNU Affero General Public License along \* with this program. If not, see <http://www.gnu.org/licenses/>. \*/ /\* customizations to mediaelementplayer css \*/ /\* Because this file is not proccessed by our brandable\_css sass pipeline, it cannot use our sass-direction helpers. So we have to handle RTL manually by putting direction-specific styles in \[dir="ltr"\] or \[dir="rtl"\] blocks. \*/ /\* stylelint-disable property-disallowed-list, declaration-property-value-disallowed-list \*/ /\* good menu widths \*/ .mejs-sourcechooser-selector { width: 160px; } .mejs-sourcechooser-selector label { width: 160px !important; } .mejs-captions-selector { width: 105px; } \[dir="ltr"\] .mejs-captions-selector { text-align: left } \[dir="rtl"\] .mejs-captions-selector { text-align: right } .mejs-captions-selector label { width: 70px !important; } /\* Subtitile upload link \*/ .mejs-captions-selector .upload-track { color: white; margin-top: 3px; margin-bottom: 5px; } \[dir="ltr"\] .mejs-captions-selector .upload-track { margin-right: 0px; margin-left: 5px; float: left; } \[dir="rtl"\] .mejs-captions-selector .upload-track { margin-left: 0px; margin-right: 5px; float: right; } /\* inherited caption "?" icon for tooltip \*/ .mejs-captions-selector .track-tip-container { position: absolute; top: 5px; } /\* "x" button to remove a subtitle \*/ .mejs-captions-selector a\[data-remove\] { position: absolute; top: 5px; color: white; } \[dir="ltr"\] .mejs-captions-selector a\[data-remove\] { right: 5px } \[dir="rtl"\] .mejs-captions-selector a\[data-remove\] { left: 5px } \[dir="ltr"\] .mejs-captions-selector .track-tip-container { right: 6px } \[dir="rtl"\] .mejs-captions-selector .track-tip-container { left: 6px } /\* style menu items without a radio button \*/ .mejs-button \[role="menu"\] { padding: 0 !important; } /\* compensate for above 0 padding \*/ .mejs-button \[role="menu"\] ul li { position: relative; padding: 0 10px !important; } /\* add a hover effect \*/ .mejs-button \[role="menu"\] ul li:hover { background-color: #c8c8c8 !important; background-color: rgba(255, 255, 255, 0.4) !important; } .mejs-button \[role="menu"\] ul li input { border: 0; clip: rect(0 0 0 0); position: absolute; overflow: hidden; margin: -1px; padding: 0; width: 1px; height: 1px; } .mejs-button \[role="menu"\] ul li input\[type="radio"\]:not(:checked)+span { display: none; } .mejs-button \[role="menu"\] ul li input\[type="radio"\]:checked+span { display: inline; position: absolute; top: 5px; left: 2px; } .mejs-button \[role="menu"\] ul li label { cursor: pointer; } \[dir="ltr"\] .mejs-button \[role="menu"\] ul li label { margin-left: 5px } \[dir="rtl"\] .mejs-button \[role="menu"\] ul li label { margin-right: 5px } .mejs-button \[role="menu"\] label.mejs-selected { color: #21f8f8 !important; } .mejs-button.mejs-speed-button .mejs-speed-selector{ height: 150px; } .mejs-button.mejs-speed-button .mejs-speed-selector li, label { margin-bottom: 0px; } /\* stylelint-enable property-disallowed-list, declaration-property-value-disallowed-list \*/ .\_annotation-overlay\_1kxzn\_1{position:absolute;top:0;right:0;bottom:0;left:0;-webkit-user-select:none;user-select:none;z-index:1;background-color:#000c;display:flex;flex-direction:column;justify-content:center;align-items:center}.\_media-buffering-indicator\_1fwjr\_1{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;pointer-events:none;opacity:0;z-index:1;background-color:#00000080;transition:opacity .2s ease}\[data-media-player\]\[data-buffering\] .\_media-buffering-spinner\_1fwjr\_17{pointer-events:none;animation:\_media-buffering-spin\_1fwjr\_17 1s linear infinite}.\_media-buffering-track\_1fwjr\_22{color:#f5f5f5;opacity:.25}.\_media-buffering-track-fill\_1fwjr\_27{color:var(--media-brand, #f5f5f5);opacity:.75}\[data-media-player\]\[data-buffering\] .\_media-buffering-indicator\_1fwjr\_1{opacity:1}@keyframes \_media-buffering-spin\_1fwjr\_17{to{transform:rotate(360deg)}}.\_controls-overlay\_151j5\_1{display:flex;position:absolute;gap:.5rem;padding:1rem;top:0;right:0;bottom:0;left:0;justify-content:end;pointer-events:none}.\_keyboard-shortcuts-overlay\_151j5\_11{position:absolute;top:0;right:0;bottom:0;left:0;background-color:#000000b3;color:#fff;padding:1.5rem;-webkit-user-select:none;user-select:none;overflow-y:auto;display:flex;flex-direction:column;align-items:center;z-index:1}.\_keyboard-shortcuts-overlay\_151j5\_11 header{width:100%;display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem}:is(.\_keyboard-shortcuts-overlay\_151j5\_11 header) h2{font-size:1rem;font-weight:500;margin:0}@container player (width > 400px) and (height > 300px){:is(.\_keyboard-shortcuts-overlay\_151j5\_11 header) h2{font-size:1.5rem}}.\_keyboard-shortcuts-overlay\_151j5\_11 table{width:100%;max-width:54rem;padding:0;border-collapse:collapse}@container player (width > 400px) and (height > 300px){.\_keyboard-shortcuts-overlay\_151j5\_11 table{padding:2rem}}:is(.\_keyboard-shortcuts-overlay\_151j5\_11 table) tr{border-bottom:1px solid rgba(232 234 236 / .2)}:is(.\_keyboard-shortcuts-overlay\_151j5\_11 table) tbody tr:last-child{border-bottom:none}:is(.\_keyboard-shortcuts-overlay\_151j5\_11 table) th,:is(.\_keyboard-shortcuts-overlay\_151j5\_11 table) td{text-align:left;font-size:.75rem;line-height:1.5}@container player (width > 400px) and (height > 300px){:is(.\_keyboard-shortcuts-overlay\_151j5\_11 table) th,:is(.\_keyboard-shortcuts-overlay\_151j5\_11 table) td{font-size:.875rem}}@container player (width >= 720px) and (height > 300px){:is(.\_keyboard-shortcuts-overlay\_151j5\_11 table) th,:is(.\_keyboard-shortcuts-overlay\_151j5\_11 table) td{font-size:1rem}}.\_keyboard-shortcuts-overlay\_151j5\_11 .\_screen-reader-content\_151j5\_76{width:.0625rem;height:.0625rem;margin:-.0625rem;padding:0;position:absolute;top:0;inset-inline-start:0;overflow:hidden;clip:rect(0 0 0 0);border:0}.\_controls-button\_151j5\_90{width:2.25rem;height:2.25rem;display:flex;align-items:center;justify-content:center;border-radius:var(--radius-2);border:1px solid #d7dade;background:var(--controls-layout-bg-color)}.\_controls-button\_151j5\_90:focus-visible{outline:var(--focus-ring)}.\_keyboard-shortcuts-button\_151j5\_106{opacity:0;margin-right:auto}.\_keyboard-shortcuts-button\_151j5\_106:focus-visible{opacity:1;pointer-events:auto}.\_kebab-menu-button\_151j5\_116{opacity:1;pointer-events:auto;transition:opacity;transition-duration:0s;transition-timing-function:linear;transition-delay:0s;cursor:pointer}.\_kebab-menu-button\_151j5\_116:hover{background-color:var(--media-button-icon-hover-color, #e0e0e0)}.\_kebab-menu\_151j5\_116{display:flex;flex-direction:column;min-width:200px;pointer-events:auto;background-color:var(--settings-menu-bg-color, white);border-radius:var(--radius-2);padding-top:.25rem;padding-bottom:.25rem;z-index:1000;filter:drop-shadow(0 .125rem .1875rem rgba(0 0 0 / .5))}.\_kebab-menu-item\_151j5\_145{font-family:inherit;font-size:1rem;height:36px;text-rendering:geometricprecision;display:flex;align-items:center;gap:.5rem;padding:0 11px;border:none;outline:none;background-color:transparent;cursor:pointer;color:inherit;touch-action:manipulation;-webkit-user-select:none;-webkit-tap-highlight-color:transparent}.\_kebab-menu-item\_151j5\_145:hover,.\_kebab-menu-item\_151j5\_145:focus{color:var(--settings-media-hover-color, white);background-color:var(--settings-media-hover-bg-color, rgb(43 122 188))}\[data-media-player\]\[data-fullscreen\] .\_kebab-menu-button\_151j5\_116{display:none}\[data-media-player\]\[data-playing\]:not(\[data-hover\]) .\_kebab-menu-button\_151j5\_116:not(:focus-visible){opacity:0;transition-delay:1.5s;transition-duration:.2s}.\_close-button\_151j5\_184{background-color:transparent;border:none;cursor:pointer;color:#fff;display:flex;align-items:center;justify-content:center;box-sizing:border-box;padding:0;width:2.25rem;height:2.25rem}.\_arrow\_151j5\_198{fill:#fff}.\_captions\_1cu0g\_1{position:absolute;top:0;right:0;bottom:0;left:0;display:flex;flex-direction:var(--captions-flex-direction, column);align-items:center;padding:var(--caption-offset, var(--spacing-3))}.\_captions\_1cu0g\_1\[aria-hidden=true\]{display:none}.\_captions\_1cu0g\_1 \[data-part=cue\]{color:var(--captions-color, white);text-align:center;max-width:50ch;line-height:1.5;font-size:calc(var(--captions-base-font-size-small) \* var(--captions-font-size-multiplier, 1));padding:var(--spacing-2);background-color:var(--captions-background-color, rgba(22 22 22 / .75));border-radius:var(--radius-2)}@container player (width > 425px){.\_captions\_1cu0g\_1 \[data-part=cue\]{font-size:calc(var(--captions-base-font-size-normal) \* var(--captions-font-size-multiplier, 1))}}.\_comments-overlay\_bymws\_1{position:absolute;top:0;right:0;bottom:0;left:0;padding:var(--spacing-3);display:flex;align-items:end;pointer-events:none}.\_comments-container\_bymws\_10{display:flex;flex-direction:column;gap:.25rem;width:15rem}@container player (width >= 460px){.\_comments-container\_bymws\_10{width:23.4375rem}}.\_comments-container\_bymws\_10.\_kebab\_bymws\_20{margin-right:3.4375rem}@media (hover: none) and (orientation: portrait) and (max-width: 720px){\[data-fullscreen\] .\_comments-overlay\_bymws\_1{justify-content:end}}.\_comment\_bymws\_1{display:grid;grid-template-areas:"avatar text";grid-template-columns:auto 1fr;align-items:center;padding:var(--spacing-1);gap:var(--spacing-1);border-radius:var(--radius-2);background-color:var(--comments-background-color);cursor:pointer;border:1px solid #666;pointer-events:auto}@container player (height > 540px){.\_comment\_bymws\_1{grid-template-areas:"text text" "avatar name"}}.\_comment-text\_bymws\_51{grid-area:text;color:var(--comments-color);font-size:var(--comments-font-size-small);line-height:1.5;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-clamp:1;-webkit-user-select:none;user-select:none}@container player (height >= 400px){.\_comment-text\_bymws\_51{-webkit-line-clamp:2;line-clamp:2;font-size:var(--comments-font-size-large)}}.\_comment-author-avatar\_bymws\_71{grid-area:avatar;box-sizing:border-box;display:inline-block;object-fit:cover;width:var(--comments-avatar-size-xss);height:var(--comments-avatar-size-xss);border-radius:50%;-webkit-user-select:none;user-select:none;pointer-events:none;background-color:#fff;contain:paint}@container player (height >= 400px){.\_comment-author-avatar\_bymws\_71{width:var(--comments-avatar-size-s);height:var(--comments-avatar-size-s)}}@container player (height > 540px){.\_comment-author-avatar\_bymws\_71{width:var(--comments-avatar-size-xs);height:var(--comments-avatar-size-xs)}}.\_comment-author-name\_bymws\_95{grid-area:name;color:var(--comments-author-color);font-size:var(--comments-font-size-large);font-weight:700;line-height:1.5;display:none}@container player (height > 540px){.\_comment-author-name\_bymws\_95{display:inline}}.\_settings-menu\_1gbpr\_1{display:flex;flex-direction:column;font-size:.875rem;line-height:1.25rem;background-color:var(--settings-menu-bg-color, white);padding-top:.25rem;padding-bottom:.25rem;border-radius:var(--radius-2);width:294px;z-index:1000;max-height:calc(100% - 4rem);overflow:auto;filter:drop-shadow(0 .125rem .1875rem rgba(0 0 0 / .5))}.\_settings-menu\_1gbpr\_1:focus-visible{outline:2px solid var(--settings-menu-focus-color, #0078d4)}@container player (width > 400px) and (height > 300px){.\_settings-menu\_1gbpr\_1{font-size:1rem;line-height:1.5rem}}@container player (height <= 300px){.\_settings-menu\_1gbpr\_1{max-height:calc(100% - 56px)}}@container player (width < 300px){.\_settings-menu\_1gbpr\_1{max-width:calc(100% - 8px)}}.\_menu-heading\_1gbpr\_37{display:block;margin:0 var(--spacing-2);padding-top:var(--spacing-2);padding-bottom:.5625rem;border-bottom:.0625rem solid #c7cdd1;font-weight:700}.\_check-icon\_1gbpr\_48,.\_trash-icon\_1gbpr\_49{width:1.25rem;height:1.25rem}.\_check-icon\_1gbpr\_48{visibility:hidden}.\_trash-icon\_1gbpr\_49{color:var(--warning-color)}.\_menu-item-label\_1gbpr\_62{display:block}.\_menu-item\_1gbpr\_62{-webkit-appearance:none;-moz-appearance:none;appearance:none;background:none;border:none;outline:none;touch-action:manipulation;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;display:flex;align-items:center;padding:6px 11px;gap:var(--spacing-2);cursor:pointer;font-size:inherit;line-height:inherit;font-family:inherit;color:inherit}.\_menu-item\_1gbpr\_62:hover,.\_menu-item\_1gbpr\_62:focus-visible{color:var(--settings-media-hover-color, white);background-color:var(--settings-media-hover-bg-color, rgb(43 122 188))}:is(.\_menu-item\_1gbpr\_62:hover,.\_menu-item\_1gbpr\_62:focus-visible) .\_trash-icon\_1gbpr\_49{color:var(--settings-media-hover-color)}.\_menu-item\_1gbpr\_62\[aria-checked=true\] .\_check-icon\_1gbpr\_48{visibility:visible}.\_menu-back-button\_1gbpr\_99{display:flex;align-items:center;gap:var(--spacing-1);padding:6px 11px;color:var(--settings-submenu-color, #2d3b45);font-size:inherit;line-height:inherit;font-family:inherit;cursor:pointer;user-select:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:none;outline:none;border:none;touch-action:manipulation;-webkit-user-select:none;-webkit-tap-highlight-color:transparent}.\_menu-back-button\_1gbpr\_99:hover,.\_menu-back-button\_1gbpr\_99:focus{color:var(--settings-media-hover-color, white);background-color:var(--settings-media-hover-bg-color, rgb(43 122 188))}.\_arrow\_1gbpr\_125{fill:#fff}.\_menu-hint\_1wiu5\_1{color:var(--settings-media-submenu-hint-color, #9ea6ad)}.\_menu-button\_1wiu5\_5{position:relative;display:flex;align-items:center;width:100%;gap:var(--spacing-1);padding:.375rem .6875rem;color:var(--settings-submenu-color, #2d3b45);font-size:inherit;line-height:inherit;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:none;outline:none;border:none;touch-action:manipulation;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;font-family:inherit}.\_menu-button\_1wiu5\_5:hover,.\_menu-button\_1wiu5\_5:focus{color:var(--settings-media-hover-color, white);background-color:var(--settings-media-hover-bg-color, rgb(43 122 188))}.\_menu-button\_1wiu5\_5:hover .\_menu-hint\_1wiu5\_1,.\_menu-button\_1wiu5\_5:focus .\_menu-hint\_1wiu5\_1{color:var(--settings-media-hover-color, white)}.\_menu-label\_1wiu5\_37{flex-grow:1;text-align:left}.\_menu-icon\_1wiu5\_42{width:1.125rem;height:1.125rem}.\_switch-track\_7nhpo\_1{position:relative;background-color:#e8e8e8;width:2.625rem;height:1.75rem;border-radius:.875rem;will-change:background-color;transition:background-color .2s;box-shadow:#d7dade 0 0 0 .0625rem inset;margin:-.25rem 0}@container player (width > 400px) and (height > 300px){.\_switch-track\_7nhpo\_1{margin:-.125rem 0}}.\_switch-thumb\_7nhpo\_17{background-color:#fff;width:1.5rem;height:1.5rem;border-radius:.75rem;transform:translate(.125rem,.125rem);box-shadow:#e8eaec 0 0 0 .0625rem inset;will-change:transform;transition:transform .2s;display:flex;align-items:center;justify-content:center}.\_switch-icon\_7nhpo\_31{width:.875rem;height:.875rem;color:var(--settings-submenu-color)}.\_switch-body\_7nhpo\_37{display:flex;align-items:center;border:none;background-color:transparent;text-align:left;font-family:inherit;gap:var(--spacing-1);padding:.375rem .6875rem;color:var(--settings-submenu-color);font-size:inherit;line-height:inherit;cursor:pointer;outline:none;touch-action:manipulation;-webkit-user-select:none;-webkit-tap-highlight-color:transparent}.\_switch-body\_7nhpo\_37\[aria-checked=true\] .\_switch-track\_7nhpo\_1{background-color:#03893d}.\_switch-body\_7nhpo\_37\[aria-checked=true\] .\_switch-icon\_7nhpo\_31{color:#03893d}.\_switch-body\_7nhpo\_37\[aria-checked=true\] .\_switch-thumb\_7nhpo\_17{transform:translate(1rem,.125rem)}.\_switch-body\_7nhpo\_37:hover,.\_switch-body\_7nhpo\_37:focus-visible{color:var(--settings-media-hover-color);background-color:var(--settings-media-hover-bg-color)}\[aria-checked=true\]:is(.\_switch-body\_7nhpo\_37:hover,.\_switch-body\_7nhpo\_37:focus-visible) .\_switch-track\_7nhpo\_1{background-color:#e8e8e8}.\_switch-label\_7nhpo\_78{flex-grow:1}.\_menu-icon\_7nhpo\_82{width:1.125rem;height:1.125rem}.\_feedback-overlay\_3kkqe\_1{position:absolute;top:0;right:0;bottom:0;left:0;display:flex;padding:var(--spacing-4);flex-direction:column;justify-content:center;align-items:center;-webkit-user-select:none;user-select:none;pointer-events:none}.\_feedback-message\_3kkqe\_14{font-weight:300;position:absolute;top:10%;display:flex;justify-content:center;align-items:center;padding:var(--spacing-2);background-color:var(--feedback-message-bg-color, black);color:var(--feedback-message-color, white);border-radius:var(--radius-2);font-size:1rem;line-height:1.5;opacity:.75}.\_feedback-icon\_3kkqe\_30{box-sizing:border-box;display:inline-flex;color:var(--feedback-icon-color, white);padding:var(--spacing-3);width:4.5rem;height:4.5rem;background-color:var(--feedback-icon-bg-color, black);border-radius:var(--radius-3);animation:\_feedback-icon-animation\_3kkqe\_1 .2s linear;animation-fill-mode:forwards;will-change:transform,opacity}.\_feedback-icon\_3kkqe\_30:has(.right){align-self:end}.\_feedback-icon\_3kkqe\_30:has(.left){align-self:start}.\_feedback-icon\_3kkqe\_30>svg{width:100%;height:100%}@keyframes \_feedback-icon-animation\_3kkqe\_1{0%{transform:scale(0);opacity:0}to{transform:scale(1);opacity:.5}}@media (max-width: 425px){\[data-fullscreen\] .\_full-screen-button\_1xm32\_2{display:none}}\[data-media-player\]\[data-view-type=audio\] .\_full-screen-button\_1xm32\_2{display:none}.\_gestures-container\_1fn3b\_1{display:contents}.\_gesture\_1fn3b\_1{position:absolute;top:0;right:0;bottom:0;left:0}\[data-fullscreen\] .\_gesture\_1fn3b\_1{top:3.625rem}button.\_play-pause-button\_1834v\_1{border:none;background:none}@media (max-width: 425px) and (hover: none){button.\_play-pause-button\_1834v\_1{display:none}}.\_poster\_195hi\_1{width:100%;height:100%;object-fit:contain;position:absolute;display:none}.\_poster\_195hi\_1\[data-visible\]{display:block}.\_small-layout-overlay\_4hkng\_1{position:absolute;top:0;right:0;bottom:0;left:0;display:flex;visibility:hidden;align-items:center;justify-content:center}@media (max-width: 425px) and (hover: none){.\_small-layout-overlay\_4hkng\_1{visibility:visible}}.\_small-layout-button\_4hkng\_14{width:5rem;height:5rem;background-color:#1616164d;display:flex;align-items:center;justify-content:center;border-radius:50%}.\_small-layout-icon-play\_4hkng\_24,.\_small-layout-icon-pause\_4hkng\_30{width:3rem;height:3rem;color:#fff}.\_small-layout-timestamp\_4hkng\_36{position:absolute;left:0;bottom:0;margin:.5rem;display:flex;background:#000c;color:#fff;padding:.375rem .75rem;border-radius:var(--radius-2)}.\_full-screen-close-icon\_4hkng\_49{display:none}\[data-fullscreen\] .\_full-screen-close-icon\_4hkng\_49{background-color:transparent;border:none;display:flex;align-items:center;justify-content:center;position:absolute;top:0;left:0;padding:1.25rem;color:#fff;cursor:pointer;-webkit-user-select:none;user-select:none}\[data-fullscreen\]\[data-playing\] .\_full-screen-close-icon\_4hkng\_49,\[data-media-player\]\[data-playing\] .\_small-layout-button\_4hkng\_14,\[data-media-player\]\[data-playing\] .\_small-layout-timestamp\_4hkng\_36{animation:\_fade-out\_4hkng\_1 1s;animation-delay:.5s;animation-fill-mode:forwards}@keyframes \_fade-out\_4hkng\_1{0%{opacity:1}to{opacity:0}}.\_time-indicator\_1uygf\_1{display:flex;color:#586874;-webkit-user-select:none;user-select:none}\[data-fullscreen\] .\_time-indicator\_1uygf\_1,\[data-darkmode=true\] .\_time-indicator\_1uygf\_1{color:#fff}.\_comment-markers\_1i9t2\_1{display:flex;position:relative;width:100%;height:.375rem;-webkit-user-select:none;user-select:none;pointer-events:none}.\_comment-marker\_1i9t2\_1{position:absolute;height:100%;width:.375rem;background-color:var(--comments-indicator-color);border-radius:50%}\[data-darkmode=true\] .\_comment-marker\_1i9t2\_1,\[data-fullscreen\] .\_comment-marker\_1i9t2\_1{background-color:var(--comments-indicator-color-darkmode)}.\_timeline-wrapper\_1i9t2\_23,.\_timeline-wrapper-compact\_1i9t2\_24{position:relative;display:flex;flex-direction:column;align-items:center;padding:0 var(--spacing-2);grid-area:slider}.\_track\_1i9t2\_33{width:100%;height:.25rem;will-change:height;position:relative;background-color:var(--timeline-track-bg-color, #ccd0d2);border-radius:var(--radius-1);contain:strict;transition:height .15s,border-radius .15s}.\_thumb\_1i9t2\_46{position:absolute;width:1.125rem;height:1.125rem;background-color:var(--timeline-thumb-color, #2b7abc);border-radius:var(--radius-3);cursor:pointer;opacity:0;transform:translate(-50%) translateZ(0);transition:opacity .15s ease-in;left:var(--slider-fill);will-change:left}.\_root\_1i9t2\_60{display:inline-flex;width:100%;height:1.25rem;position:relative;align-items:center;contain:layout style;outline:none;cursor:pointer;user-select:none;touch-action:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent}.\_root\_1i9t2\_60\[data-active\] .\_track\_1i9t2\_33{border-radius:var(--radius-2);height:.625rem}.\_root\_1i9t2\_60\[data-focus\] .\_track\_1i9t2\_33{outline:var(--focus-ring);outline-offset:1px;border-radius:2px}.\_root\_1i9t2\_60\[data-active\] .\_thumb\_1i9t2\_46{opacity:1}.\_track-inner\_1i9t2\_90{position:absolute;will-change:width;height:100%}.\_progress\_1i9t2\_96{z-index:0;width:var(--slider-progress, 0%);background-color:var(--timeline-track-progress-bg-color, #adb2b6)}.\_track-fill\_1i9t2\_102{z-index:1;width:var(--slider-fill, 0%);background-color:var(--timeline-track-fill-bg-color, #2b7abc)}:is(\[data-fullscreen\] .\_root\_1i9t2\_60,\[data-darkmode=true\] .\_root\_1i9t2\_60) .\_track\_1i9t2\_33{background-color:#333}:is(\[data-fullscreen\] .\_root\_1i9t2\_60,\[data-darkmode=true\] .\_root\_1i9t2\_60) .\_progress\_1i9t2\_96{background-color:#666}.\_pins\_1i9t2\_119{display:flex;position:relative;height:2rem;width:100%;-webkit-user-select:none;user-select:none;margin-top:var(--spacing-1)}.\_pin-button\_1i9t2\_128{display:flex;background-color:transparent;border:none;padding:0;position:absolute;transform:translate(-50%);cursor:pointer;transition:transform .2s ease-out;touch-action:manipulation;-webkit-user-select:none;-webkit-tap-highlight-color:transparent}.\_pin-button\_1i9t2\_128:hover{transform:translate(-50%) scale(1.25);z-index:1}.\_pin-button\_1i9t2\_128:focus-visible{outline:var(--focus-ring);border-radius:var(--radius-2)}.\_annotation-pin\_1i9t2\_153{fill:var(--pin-color-1);stroke:var(--pin-color-2)}.\_annotation-pin\_1i9t2\_153:focus-visible{outline:var(--focus-ring)}.\_quiz-pin\_1i9t2\_162{fill:var(--pin-color-2);stroke:var(--controls-layout-bg-color)}.\_quiz-pin\_1i9t2\_162:focus-visible{outline:var(--focus-ring)}.\_annotation-pin-child\_1i9t2\_171{fill:var(--pin-color-3)}.\_quiz-pin-child\_1i9t2\_175{fill:#fff;font-size:.875rem}.\_interactive-pin-container\_1i9t2\_180{position:absolute;top:0;right:0;bottom:0;left:0;padding:0 var(--spacing-2);pointer-events:none}.\_interactive-pin-wrapper\_1i9t2\_187{position:relative;width:100%;height:100%}.\_interactive-pin-icon\_1i9t2\_193{transform-box:fill-box;transform-origin:center;transition:transform .2s ease-out}.\_interactive-pin-icon\_1i9t2\_193\[data-open=true\]{transform:rotate(45deg)}.\_interactive-pin\_1i9t2\_180{filter:drop-shadow(0 3px 6px rgba(0 0 0 / .16)) drop-shadow(0 3px 6px rgba(0 0 0 / .1))}.\_interactive-pin\_1i9t2\_180>.\_bg\_1i9t2\_207{fill:var(--timeline-thumb-color)}.\_interactive-pin\_1i9t2\_180>.\_symbol\_1i9t2\_211{stroke:var(--controls-layout-bg-color)}.\_interactive-pin-button\_1i9t2\_216{position:absolute;cursor:pointer;transform:translate(-50%);background-color:transparent;border:none;padding:0;display:flex;touch-action:manipulation;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;pointer-events:auto}.\_interactive-pin-button\_1i9t2\_216:hover .\_interactive-pin\_1i9t2\_180>.\_bg\_1i9t2\_207{fill:#225f92}.\_interactive-pin-button\_1i9t2\_216:focus-visible{outline:var(--focus-ring);border-radius:var(--radius-2)}.\_interactive-pin-menu\_1i9t2\_242{display:flex;flex-direction:column;gap:.25rem;background-color:var(--settings-menu-bg-color, white);padding:.75rem .5rem;border-radius:var(--radius-2);width:169px;z-index:1000;pointer-events:auto;filter:drop-shadow(0 .125rem .1875rem rgba(0 0 0 / .5))}.\_interactive-pin-menu\_1i9t2\_242:focus-visible{outline:var(--focus-ring)}.\_interactive-pin-menu-item\_1i9t2\_262{font-family:inherit;font-size:14px;text-rendering:geometricprecision;display:flex;align-items:center;gap:.25rem;color:var(--pin-color-3);padding:4px 6px;border-radius:var(--radius-2);border:1px solid #d7dade;background-color:var(--pin-color-1);cursor:pointer}.\_interactive-pin-menu-item\_1i9t2\_262:hover{background-color:#e8eaec}.\_arrow\_1i9t2\_283{fill:#fff}.\_tooltip\_1i9t2\_287{background-color:var(--tooltip-bg-color);color:#fff;padding:.375rem .75rem;border-radius:var(--radius-2);font-size:.875rem;pointer-events:none}.\_tooltip-arrow\_1i9t2\_296{fill:var(--tooltip-bg-color)}.\_timeline-wrapper\_1i9t2\_23{padding-top:.375rem}.\_timeline-wrapper\_1i9t2\_23:has(.\_comment-markers\_1i9t2\_1),.\_timeline-wrapper\_1i9t2\_23:has(.\_pins\_1i9t2\_119):not(:has(.\_interactive-pin-container\_1i9t2\_180)){padding-top:0}.\_timeline-wrapper\_1i9t2\_23:not(:has(.\_interactive-pin-container\_1i9t2\_180)) .\_pins\_1i9t2\_119{margin-top:0}.\_timeline-wrapper-compact\_1i9t2\_24{padding-top:0}.\_timeline-wrapper-compact\_1i9t2\_24:has(.\_comment-markers\_1i9t2\_1){margin-top:-.375rem}.\_wrapper\_1ijfr\_1{display:flex;align-items:center}.\_track\_1ijfr\_6{width:100%;height:.25rem;will-change:height;background-color:var(--volume-track-bg-color, #ccd0d2);border-radius:var(--radius-1);contain:strict;transition:height .15s,border-radius .15s}.\_thumb\_1ijfr\_16{position:absolute;width:.875rem;height:.875rem;background-color:var(--volume-thumb-bg-color, #2d3b45);border-radius:var(--radius-3);cursor:pointer;opacity:0;transform:translate(-50%) translateZ(0);transition:opacity .15s ease-in;left:var(--slider-fill);will-change:left}.\_track-fill\_1ijfr\_30{width:var(--slider-fill, 0%);will-change:width;height:100%;background-color:var(--volume-track-fill-bg-color, #2d3b45)}:is(\[data-fullscreen\],\[data-darkmode=true\]) .\_track\_1ijfr\_6{background-color:#666}:is(\[data-fullscreen\],\[data-darkmode=true\]) .\_track-fill\_1ijfr\_30,:is(\[data-fullscreen\],\[data-darkmode=true\]) .\_thumb\_1ijfr\_16{background-color:#f5f5f5}.\_root\_1ijfr\_49{display:inline-flex;height:1.25rem;align-items:center;contain:layout style;cursor:pointer;user-select:none;touch-action:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;width:0;will-change:width,margin;transition:all .15s;box-sizing:border-box}@media (max-width: 425px) and (hover: none){.\_root\_1ijfr\_49{display:none}}.\_root\_1ijfr\_49\[data-active\] .\_track\_1ijfr\_6{border-radius:.125rem;height:.3125rem}.\_root\_1ijfr\_49\[data-focus\]{outline:none}.\_root\_1ijfr\_49\[data-focus\] .\_track\_1ijfr\_6{outline:var(--focus-ring);outline-offset:1px;border-radius:2px}.\_root\_1ijfr\_49\[data-active\] .\_thumb\_1ijfr\_16{opacity:1}.\_wrapper\_1ijfr\_1:hover \[data-media-volume-slider\],\[data-media-volume-slider\]\[data-active\]{margin-left:.5rem;width:4rem}.\_root\_5cfhx\_1{background-color:var(--controls-layout-bg-color, #f5f5f5);padding:var(--spacing-1);display:grid;align-items:center;row-gap:.25rem;column-gap:1rem;border-bottom-left-radius:var(--radius-2);border-bottom-right-radius:var(--radius-2)}.\_normal\_5cfhx\_14{grid-template-columns:auto 1fr auto;grid-template-areas:"slider slider slider" "left-controls indicators right-controls"}.\_compact\_5cfhx\_21{grid-template-columns:auto minmax(0,1fr) auto;grid-template-areas:"left-controls slider right-controls"}@container player (width > 425px){.\_compact\_5cfhx\_21{grid-template-columns:auto auto minmax(0,1fr) auto;grid-template-areas:"left-controls indicators slider right-controls"}}\[data-fullscreen\] .\_root\_5cfhx\_1,\[data-darkmode=true\].\_root\_5cfhx\_1{background-color:#000}.\_left-controls\_5cfhx\_36{display:flex;gap:.25rem;grid-area:left-controls}.\_right-controls\_5cfhx\_42{display:flex;gap:.25rem;grid-area:right-controls}.\_indicators\_5cfhx\_48{grid-area:indicators;font-size:1rem;overflow:hidden;display:none}@container player (width > 425px){.\_indicators\_5cfhx\_48{display:block}}\[data-media-player\]{--volume-track-bg-color: #ccd0d2;--volume-track-fill-bg-color: #2d3b45;--volume-thumb-bg-color: #2d3b45;--feedback-message-bg-color: black;--feedback-message-color: white;--feedback-icon-color: white;--feedback-icon-bg-color: black;--timeline-track-bg-color: #ccd0d2;--timeline-track-progress-bg-color: #adb2b6;--timeline-track-fill-bg-color: #2b7abc;--timeline-progress-bg-color: #adb2b6;--timeline-thumb-color: #2b7abc;--settings-menu-bg-color: white;--settings-submenu-color: #2d3b45;--settings-media-hover-color: white;--settings-media-hover-bg-color: rgb(43 122 188);--settings-media-submenu-hint-color: var(--settings-submenu-color);--captions-background-color: rgba(22 22 22 / .75);--captions-color: white;--captions-base-font-size-small: .75rem;--captions-base-font-size-normal: 1rem;--comments-background-color: rgba(0 0 0 / .8);--comments-color: white;--comments-font-size-small: .75rem;--comments-font-size-normal: .875rem;--comments-font-size-large: 1rem;--comments-author-color: white;--comments-indicator-color: #64707a;--comments-indicator-color-darkmode: #868686;--comments-avatar-size-xss: 1.25rem;--comments-avatar-size-xs: 1.875rem;--comments-avatar-size-s: 2.5rem;--controls-layout-bg-color: #f5f5f5;--media-button-icon-color: #2d3b45;--media-button-icon-hover-color: #e0e0e0;--focus-outline-color: #2b7abc;--spacing-1: .5rem;--spacing-2: .625rem;--spacing-3: 1rem;--spacing-4: 2rem;--radius-1: .0625rem;--radius-2: .25rem;--radius-3: 50%;--media-button-area-size-small: 2rem;--media-button-area-size-medium: 2.5rem;--media-button-area-size-large: 3rem;--media-button-icon-size-small: 1rem;--media-button-icon-size-medium: 1.5rem;--media-button-icon-size-large: 1.5rem;--action-buttons-color: #0374b5;--action-buttons-hover-color: #235f93;--action-buttons-border-color: #025483;--warning-color: #e62429;--pin-color-1: #f2f4f4;--pin-color-2: #586874;--pin-color-3: #273540;--pin-light-color: #9ea6ad;--tooltip-bg-color: #334451;--focus-ring: 2px solid var(--focus-outline-color);outline:none;border-radius:var(--radius-2);position:relative;font-family:Lato,sans-serif;display:grid;container:player / size;width:100%;height:100%;grid-template-rows:1fr auto;overflow:hidden}\[data-media-player\]:focus-visible{outline:var(--focus-ring)}\[data-media-provider\]{display:flex;position:relative;background-color:#000;contain:paint;border-top-left-radius:var(--radius-2);border-top-right-radius:var(--radius-2)}\[data-media-provider\] video,\[data-media-provider\] iframe{width:100%;height:100%;object-fit:contain;position:absolute}.audio-layout-wrapper{display:flex;align-items:center;justify-content:center;position:relative;background-color:var(--controls-layout-bg-color);width:100%;border-top-left-radius:var(--radius-2);border-top-right-radius:var(--radius-2)}.controls-button{background-color:transparent;border:none;border-radius:var(--radius-2);cursor:pointer;padding:var(--spacing-1);margin:0;display:flex;align-items:center;justify-content:center;transition:background-color .2s;width:var(--media-button-area-size-small);height:var(--media-button-area-size-small)}@container player (width > 400px) and (height > 300px){.controls-button{width:var(--media-button-area-size-medium);height:var(--media-button-area-size-medium)}}@container player (width >= 720px) and (height > 300px){.controls-button{width:var(--media-button-area-size-large);height:var(--media-button-area-size-large)}}.controls-button\[data-hover\],.controls-button:hover{background-color:var(--media-button-icon-hover-color, #e0e0e0)}.controls-button:focus-visible,.controls-button\[data-focus\]{outline:var(--focus-ring)}.controls-button-icon{color:var(--media-button-icon-color);width:var(--media-button-icon-size-small);height:var(--media-button-icon-size-small)}@container player (width > 400px) and (height > 300px){.controls-button-icon{width:var(--media-button-icon-size-medium);height:var(--media-button-icon-size-medium)}}@container player (width >= 720px) and (height > 300px){.controls-button-icon{width:var(--media-button-icon-size-large);height:var(--media-button-icon-size-large)}}:is(\[data-fullscreen\],\[data-darkmode=true\]) .controls-button-icon{color:#fff}:is(\[data-fullscreen\],\[data-darkmode=true\]) .controls-button\[data-hover\],:is(\[data-fullscreen\],\[data-darkmode=true\]) .controls-button:hover{background-color:#ffffff26}.icon-rotate{transition:transform .2s ease-out}.controls-button\[aria-expanded=true\] .icon-rotate{transform:rotate(60deg);transition:transform .1s ease-in}.vds-blocker{top:0;right:0;bottom:0;left:0;position:absolute;pointer-events:none} \[inert\] { pointer-events: none; cursor: default; } \[inert\], \[inert\] \* { user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; } pre code.hljs { display: block; overflow-x: auto; padding: 1em } code.hljs { padding: 3px 5px } /\* Google Code style (c) Aahan Krish <geekpanth3r@gmail.com> \*/ .hljs { background: white; color: black } .hljs-comment, .hljs-quote { color: #800 } .hljs-keyword, .hljs-selector-tag, .hljs-section, .hljs-title, .hljs-name { color: #008 } .hljs-variable, .hljs-template-variable { color: #660 } .hljs-string, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-regexp { color: #080 } .hljs-literal, .hljs-symbol, .hljs-bullet, .hljs-meta, .hljs-number, .hljs-link { color: #066 } .hljs-title, .hljs-doctag, .hljs-type, .hljs-attr, .hljs-built\_in, .hljs-params { color: #606 } .hljs-attribute, .hljs-subst { color: #000 } .hljs-formula { background-color: #eee; font-style: italic } .hljs-selector-id, .hljs-selector-class { color: #9B703F } .hljs-addition { background-color: #baeeba } .hljs-deletion { background-color: #ffc8bd } .hljs-doctag, .hljs-strong { font-weight: bold } .hljs-emphasis { font-style: italic }body.tablesorter-disableSelection { -ms-user-select: none; -moz-user-select: -moz-none;-khtml-user-select: none; -webkit-user-select: none; user-select: none; }.tablesorter-resizable-container { position: relative; height: 1px; }.tablesorter-resizable-handle { position: absolute; display: inline-block; width: 8px;top: 1px; cursor: ew-resize; z-index: 3; user-select: none; -moz-user-select: none; }.immersive-reader-button{cursor:pointer;display:inline-block;padding:5px;} .immersive-reader-button:hover{background:rgba(0,0,0,.05);border-radius:2px
+::: {.ic-flash-static .ic-flash-error role="alert"}
+::: {.ic-flash__icon aria-hidden="true"}
+:::
 
-You need to have JavaScript enabled in order to access this site.
-=================================================================
+# You need to have JavaScript enabled in order to access this site.
+:::
 
-Global Navigation Menu
+::: {#flash_message_holder}
+:::
 
-[
+::: {#flash_screenreader_holder .screenreader-only role="alert" aria-live="assertive" aria-relevant="additions" aria-atomic="true"}
+:::
+
+::: {#application .ic-app}
+::: {#mobile-header .no-print}
+[]{#mobileHeaderInboxUnreadBadge .menu-item__badge
+style="min-width: 0; top: 12px; height: 12px; right: 6px; display:none;"}
+[Global Navigation Menu]{.screenreader-only}
+
+::: mobile-header-space
+:::
+
+[](https://jhu.instructure.com/courses/94755){.mobile-header-title
+.expandable role="button" aria-controls="mobileContextNavContainer"}
+
+<div>
 
 EN.685.652.81.SP25
 
+</div>
+
+<div>
+
 Module 14 - Assignment
 
-](https://jhu.instructure.com/courses/94755)
+</div>
 
-Immersive Reader
+::: {#immersive_reader_mobile_mount_point}
+<div>
 
-[Skip To Content](https://jhu.instructure.com/courses/94755/assignments/943804#content)
+[[[[![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgNDAgMzciIHJvdGF0ZT0iMCIgd2lkdGg9IjFlbSIgaGVpZ2h0PSIxZW0iIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJwcmVzZW50YXRpb24iIGZvY3VzYWJsZT0iZmFsc2UiIGNsYXNzPSJjc3MtMXVoMm1kMC1pbmxpbmVTVkctc3ZnSWNvbiIgc3R5bGU9IndpZHRoOiAxZW07IGhlaWdodDogMWVtOyI+PGcgcm9sZT0icHJlc2VudGF0aW9uIj4KICAgIDxnIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zNy40LDAuOSBMMzcuNCw5LjYgTDM1LjQsOS42IEwzNS40LDIuOSBMMjQuNCwyLjkgQzIyLjksMy4zIDIwLDQuNSAyMCw2IEwyMCwxNy4yIEwxOCwxNy4yIEwxOCw2IEMxOCw1IDE1LjYsMy42IDEzLjgsMi45IEwyLDIuOSBMMiwyOSBMMTIuNCwyOSBMMTIuNCwzMSBMMCwzMSBMMCwwLjkgTDE0LjEsMC45IEwxNC4zLDEgQzE1LDEuMiAxNy41LDIuMiAxOC45LDMuNyBDMjAuNSwxLjkgMjMuNSwxLjEgMjMuOSwxIEwyNC4xLDEgTDM3LjQsMSBMMzcuNCwwLjkgWiIgZmlsbD0iIzAwMDAwMCI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMjcuNCwzNyBMMjUuOCwzNyBMMTguNCwyOS40IEwxNCwyOS40IEwxNCwyMSBMMTguNCwyMC45IEwyNi4xLDEzIEwyNy40LDEzIEwyNy40LDM3IFogTTE2LDI3LjQgTDE5LjIsMjcuNCBMMjUuMywzMy43IEwyNS4zLDE2LjYgTDE5LjIsMjIuOSBMMTUuOSwyMi45IEwxNS45LDI3LjQgTDE2LDI3LjQgWiIgZmlsbD0iIzAxOTdGMiI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMzEuMywzMi43IEwyOS42LDMxLjcgQzI5LjYsMzEuNyAzMS43LDI4LjMgMzEuNywyNS4yIEMzMS43LDIxLjkgMjkuNiwxOC41IDI5LjYsMTguNCBMMzEuMywxNy40IEMzMS40LDE3LjYgMzMuNywyMS4zIDMzLjcsMjUuMiBDMzMuNywyOC44IDMxLjQsMzIuNiAzMS4zLDMyLjcgWiIgZmlsbD0iIzAxOTdGMiI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMzYuNCwzNi4yIEwzNC44LDM1IEMzNC44LDM1IDM4LDMwLjggMzgsMjUuMiBDMzgsMTkuNiAzNC44LDE1LjQgMzQuOCwxNS40IEwzNi40LDE0LjIgQzM2LjUsMTQuNCA0MCwxOSA0MCwyNS4zIEM0MCwzMS41IDM2LjUsMzYgMzYuNCwzNi4yIFoiIGZpbGw9IiMwMTk3RjIiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+CjwvZz48L3N2Zz4=){.css-1uh2md0-inlineSVG-svgIcon}]{.css-quqv7u-baseButton__iconSVG}[Immersive
+Reader]{.css-r9cwls-screenReaderContent}]{.css-5udsuu-baseButton__iconOnly}]{.css-qi8ml9-baseButton__childrenLayout}]{.css-1u5gywy-baseButton__content}
 
-[Dashboard](https://jhu.instructure.com/)
+</div>
+:::
 
-*   [
-    
-    ![Maria Jose Hito Ramos](./Module 14 - Assignment_files/8ad8e011-0920-43c7-93ad-2caf5a95ea46)
-    
+::: mobile-header-space
+:::
+:::
+
+::: {#header .ic-app-header .no-print aria-label="Global Header"}
+[Skip To
+Content](https://jhu.instructure.com/courses/94755/assignments/943804#content){#skip_navigation_link}
+
+::: {.ic-app-header__main-navigation role="region" aria-label="Global Navigation"}
+::: ic-app-header__logomark-container
+[[Dashboard]{.screenreader-only}](https://jhu.instructure.com/){.ic-app-header__logomark}
+:::
+
+-   [](https://jhu.instructure.com/profile/settings){#global_nav_profile_link
+    .ic-app-header__menu-list-link role="button"}
+
+    ::: menu-item-icon-container
+    ::: {.fs-exclude .ic-avatar aria-hidden="true"}
+    ![Maria Jose Hito
+    Ramos](./Module%2014%20-%20Assignment_files/8ad8e011-0920-43c7-93ad-2caf5a95ea46)
+    :::
+
+    []{.menu-item__badge}
+    :::
+
+    ::: menu-item__text
     Account
-    
-    ](https://jhu.instructure.com/profile/settings)
-*   [
-    
+    :::
+-   [](https://jhu.instructure.com/){#global_nav_dashboard_link
+    .ic-app-header__menu-list-link}
+
+    ::: {.menu-item-icon-container aria-hidden="true"}
+    ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpYy1pY29uLXN2ZyBpYy1pY29uLXN2Zy0tZGFzaGJvYXJkIiB2ZXJzaW9uPSIxLjEiIHg9IjAiIHk9IjAiIHZpZXdib3g9IjAgMCAyODAgMjAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyODAgMjAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNMjczLjA5LDE4MC43NUgxOTcuNDdWMTY0LjQ3aDYyLjYyQTEyMi4xNiwxMjIuMTYsMCwxLDAsMTcuODUsMTQyYTEyNCwxMjQsMCwwLDAsMiwyMi41MUg5MC4xOHYxNi4yOUg2Ljg5bC0xLjUtNi4yMkExMzguNTEsMTM4LjUxLDAsMCwxLDEuNTcsMTQyQzEuNTcsNjUuNjQsNjMuNjcsMy41MywxNDAsMy41M1MyNzguNDMsNjUuNjQsMjc4LjQzLDE0MmExMzcuNjcsMTM3LjY3LDAsMCwxLTMuODQsMzIuNTdaTTY2LjQ5LDg3LjYzLDUwLjI0LDcxLjM4LDYxLjc1LDU5Ljg2LDc4LDc2LjEyWm0xNDcsMEwyMDIsNzYuMTJsMTYuMjUtMTYuMjUsMTEuNTEsMTEuNTFaTTEzMS44NSw1My44MnYtMjNoMTYuMjl2MjNabTE1LjYzLDE0Mi4zYTMxLjcxLDMxLjcxLDAsMCwxLTI4LTE2LjgxYy02LjQtMTIuMDgtMTUuNzMtNzIuMjktMTcuNTQtODQuMjVhOC4xNSw4LjE1LDAsMCwxLDEzLjU4LTcuMmM4Ljg4LDguMjEsNTMuNDgsNDkuNzIsNTkuODgsNjEuODFhMzEuNjEsMzEuNjEsMCwwLDEtMjcuOSw0Ni40NVpNMTIxLjgxLDExNi4yYzQuMTcsMjQuNTYsOS4yMyw1MC4yMSwxMiw1NS40OUExNS4zNSwxNS4zNSwwLDEsMCwxNjEsMTU3LjNDMTU4LjE4LDE1MiwxMzkuNzksMTMzLjQ0LDEyMS44MSwxMTYuMloiPjwvcGF0aD48L3N2Zz4=){.ic-icon-svg
+    .ic-icon-svg--dashboard}
+    :::
+
+    ::: menu-item__text
     Dashboard
-    
-    ](https://jhu.instructure.com/)
-*   [
-    
+    :::
+-   [](https://jhu.instructure.com/courses){#global_nav_courses_link
+    .ic-app-header__menu-list-link role="button"}
+
+    ::: {.menu-item-icon-container aria-hidden="true"}
+    ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpYy1pY29uLXN2ZyBpYy1pY29uLXN2Zy0tY291cnNlcyIgdmVyc2lvbj0iMS4xIiB4PSIwIiB5PSIwIiB2aWV3Ym94PSIwIDAgMjgwIDI1OSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjgwIDI1OSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTczLjMxLDE5OGMtMTEuOTMsMC0yMi4yMiw4LTI0LDE4LjczYTI2LjY3LDI2LjY3LDAsMCwwLS4zLDMuNjN2LjNhMjIsMjIsMCwwLDAsNS40NCwxNC42NSwyMi40NywyMi40NywwLDAsMCwxNy4yMiw4SDIwMFYyMjguMTloLTEzNFYyMTMuMDhIMjAwVjE5OFptMjEtMTA1Ljc0aDkwLjY0VjYySDk0LjNaTTc5LjE5LDEwNy4zNFY0Ni45MkgyMDB2NjAuNDJabTcuNTUsMzAuMjFWMTIyLjQ1SDE5Mi40OXYxNS4xMVpNNzEuNjUsMTYuNzFBMjIuNzIsMjIuNzIsMCwwLDAsNDksMzkuMzZWMTkwLjg4YTQxLjEyLDQxLjEyLDAsMCwxLDI0LjMyLThoMTU3VjE2LjcxWk0zMy44OCwzOS4zNkEzNy43OCwzNy43OCwwLDAsMSw3MS42NSwxLjZIMjQ1LjM2VjE5OEgyMTUuMTV2NDUuMzJoMjIuNjZWMjU4LjRINzEuNjVhMzcuODUsMzcuODUsMCwwLDEtMzcuNzYtMzcuNzZaIj48L3BhdGg+PC9zdmc+){.ic-icon-svg
+    .ic-icon-svg--courses}
+    :::
+
+    ::: menu-item__text
     Courses
-    
-    ](https://jhu.instructure.com/courses)
-*   [
-    
+    :::
+-   [](https://jhu.instructure.com/groups){#global_nav_groups_link
+    .ic-app-header__menu-list-link role="button"}
+
+    ::: {.menu-item-icon-container aria-hidden="true"}
+    ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpYy1pY29uLXN2ZyBpYy1pY29uLXN2Zy0tZ3JvdXBzIiB2aWV3Ym94PSIwIDAgMjAwIDEzNSI+PHBhdGggZD0iTTEzNC41IDEyOS40YzAtMS4xIDAtMTkuOC02LjItMzEuMS00LjUtOC41LTE2LjQtMTIuNC0zNS0xOS4yLTEuNy0uNi0zLjQtMS4xLTUuMS0xLjd2LTguNWM1LjYtNS4xIDguNS0xMi40IDguNS0yMC4zVjI5LjRDOTYuNiAxMyA4My42IDAgNjcuMiAwUzM3LjkgMTMgMzcuOSAyOS40djE5LjJjMCA3LjMgMy40IDE0LjcgOC41IDIwLjN2OC41Yy0xLjcuNi0zLjQgMS4xLTUuMSAxLjctMTguNiA2LjItMzAuNSAxMC43LTM1IDE5LjJDMCAxMDkuNiAwIDEyOC44IDAgMTI5LjRjMCAzLjQgMi4zIDUuNiA1LjYgNS42aDEyMy43YzMuNSAwIDUuNy0yLjMgNS4yLTUuNnptLTEyMy4yLTUuN2MuNi01LjYgMS43LTE0LjcgMy40LTE5LjhDMTcgOTguOCAzMCA5NC4zIDQzLjUgODkuOGMyLjgtMS4xIDUuNi0yLjMgOS0zLjQgMi4zLS42IDQtMi44IDQtNS4xVjY2LjdjMC0xLjctLjYtMy40LTEuNy00LjUtNC0zLjQtNi4yLTguNS02LjItMTMuNlYyOS40YzAtMTAuMiA3LjktMTguMSAxOC4xLTE4LjFzMTguMSA3LjkgMTguMSAxOC4xdjE5LjJjMCA1LjEtMi4zIDEwLjItNi4yIDEzLjYtMS4xIDEuMS0xLjcgMi44LTEuNyA0LjV2MTQuN2MwIDIuMyAxLjcgNC41IDQgNS4xIDIuOCAxLjEgNi4yIDIuMyA5IDMuNCAxMy42IDUuMSAyNi42IDkuNiAyOC44IDE0LjEgMi44IDUuMSA0IDEzLjYgNC41IDE5LjhIMTEuM3pNMTk2IDc5LjFjLTIuOC02LjItMTEuMy05LjYtMjIuNi0xMy42bC0xLjctLjZ2LTMuNGM0LjUtNCA2LjgtOS42IDYuOC0xNS44VjM1YzAtMTIuNC05LjYtMjItMjItMjJzLTIyIDEwLjItMjIgMjJ2MTAuN2MwIDYuMiAyLjMgMTEuOSA2LjggMTUuOFY2NWwtMS43LjZjLTcuMyAyLjgtMTMgNC41LTE2LjkgNy4zLTEuNyAxLjEtMi4zIDIuOC0yLjMgNS4xLjYgMS43IDEuNyAzLjQgMy40IDQuNSA3LjkgNCAxMi40IDcuMyAxNC4xIDEwLjcgMi4zIDQuNSA0IDEwLjIgNS4xIDE4LjEuNiAyLjMgMi44IDQuNSA1LjYgNC41aDQ1LjhjMy40IDAgNS42LTIuOCA1LjYtNS4xIDAtMy45IDAtMjQuMy00LTMxLjZ6bS00Mi45IDI1LjRjLTEuMS02LjgtMi44LTEyLjQtNS4xLTE2LjktMS43LTQtNS4xLTYuOC05LjYtMTAuMiAxLjctMS4xIDMuNC0xLjcgNS4xLTIuM2w1LjYtMi4zYzEuNy0uNiAzLjQtMi44IDMuNC01LjF2LTkuNmMwLTEuNy0uNi0zLjQtMi4zLTQuNS0yLjgtMS43LTQuNS01LjEtNC41LTguNVYzNC41YzAtNi4yIDQuNS0xMC43IDEwLjctMTAuN3MxMC43IDUuMSAxMC43IDEwLjd2MTAuN2MwIDMuNC0xLjcgNi4yLTQuNSA4LjUtMS4xIDEuMS0yLjMgMi44LTIuMyA0LjV2MTAuMmMwIDIuMyAxLjEgNC41IDMuNCA1LjFsNS42IDIuM2M2LjggMi4zIDE1LjMgNS42IDE2LjQgNy45IDEuNyAyLjggMi44IDEyLjQgMi44IDIwLjloLTM1LjR6Ij48L3BhdGg+PC9zdmc+){.ic-icon-svg
+    .ic-icon-svg--groups}
+    :::
+
+    ::: menu-item__text
     Groups
-    
-    ](https://jhu.instructure.com/groups)
-*   [
-    
+    :::
+-   [](https://jhu.instructure.com/calendar){#global_nav_calendar_link
+    .ic-app-header__menu-list-link}
+
+    ::: {.menu-item-icon-container aria-hidden="true"}
+    ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpYy1pY29uLXN2ZyBpYy1pY29uLXN2Zy0tY2FsZW5kYXIiIHZlcnNpb249IjEuMSIgeD0iMCIgeT0iMCIgdmlld2JveD0iMCAwIDI4MCAyODAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI4MCAyODAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik0xOTcuMDcsMjEzLjM4aDE2LjMxVjE5Ny4wN0gxOTcuMDdabS0xNi4zMSwxNi4zMVYxODAuNzZoNDguOTJ2NDguOTJabS00OC45Mi0xNi4zMWgxNi4zMVYxOTcuMDdIMTMxLjg1Wm0tMTYuMzEsMTYuMzFWMTgwLjc2aDQ4LjkydjQ4LjkyWk02Ni42MiwyMTMuMzhIODIuOTNWMTk3LjA3SDY2LjYyWk01MC4zMiwyMjkuNjhWMTgwLjc2SDk5LjI0djQ4LjkyWm0xNDYuNzUtODEuNTNoMTYuMzFWMTMxLjg1SDE5Ny4wN1ptLTE2LjMxLDE2LjMxVjExNS41NGg0OC45MnY0OC45MlptLTQ4LjkyLTE2LjMxaDE2LjMxVjEzMS44NUgxMzEuODVabS0xNi4zMSwxNi4zMVYxMTUuNTRoNDguOTJ2NDguOTJaTTY2LjYyLDE0OC4xNUg4Mi45M1YxMzEuODVINjYuNjJaTTUwLjMyLDE2NC40NlYxMTUuNTRIOTkuMjR2NDguOTJaTTM0LDI2Mi4yOUgyNDZWODIuOTNIMzRaTTI0Niw2Ni42MlY0Mi4xNkE4LjE3LDguMTcsMCwwLDAsMjM3Ljg0LDM0SDIxMy4zOHY4LjE1YTguMTUsOC4xNSwwLDEsMS0xNi4zMSwwVjM0SDgyLjkzdjguMTVhOC4xNSw4LjE1LDAsMCwxLTE2LjMxLDBWMzRINDIuMTZBOC4xNyw4LjE3LDAsMCwwLDM0LDQyLjE2VjY2LjYyWm0tOC4xNS00OC45MmEyNC40OSwyNC40OSwwLDAsMSwyNC40NiwyNC40NlYyNzguNkgxNy43MVY0Mi4xNkEyNC40OSwyNC40OSwwLDAsMSw0Mi4xNiwxNy43MUg2Ni42MlY5LjU1YTguMTUsOC4xNSwwLDAsMSwxNi4zMSwwdjguMTVIMTk3LjA3VjkuNTVhOC4xNSw4LjE1LDAsMSwxLDE2LjMxLDB2OC4xNVoiPjwvcGF0aD48L3N2Zz4=){.ic-icon-svg
+    .ic-icon-svg--calendar}
+    :::
+
+    ::: menu-item__text
     Calendar
-    
-    ](https://jhu.instructure.com/calendar)
-*   [
-    
+    :::
+-   [](https://jhu.instructure.com/conversations){#global_nav_conversations_link
+    .ic-app-header__menu-list-link}
+
+    ::: menu-item-icon-container
+    [![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpYy1pY29uLXN2ZyBpYy1pY29uLXN2Zy0taW5ib3giIHZlcnNpb249IjEuMSIgeD0iMCIgeT0iMCIgdmlld2JveD0iMCAwIDI4MCAyODAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI4MCAyODAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik05MS43MiwxMjAuNzVoOTYuNTZWMTA0LjY1SDkxLjcyWm0wLDQ4LjI4aDgwLjQ3VjE1Mi45NEg5MS43MlptMC05Ni41Nmg4MC40N1Y1Ni4zN0g5MS43MlptMTYwLjk0LDM0Ljg4SDIyOC41MlYxMC43OGgtMTc3djk2LjU2SDI3LjM0QTI0LjE3LDI0LjE3LDAsMCwwLDMuMiwxMzEuNDhWMjQ0LjE0YTI0LjE3LDI0LjE3LDAsMCwwLDI0LjE0LDI0LjE0SDI1Mi42NmEyNC4xNywyNC4xNywwLDAsMCwyNC4xNC0yNC4xNFYxMzEuNDhBMjQuMTcsMjQuMTcsMCwwLDAsMjUyLjY2LDEwNy4zNFptMCwxNi4wOWE4LjA2LDguMDYsMCwwLDEsOCw4djUxLjc3bC0zMi4xOSwxOS4zMVYxMjMuNDRaTTY3LjU4LDIwMy45MXYtMTc3SDIxMi40MnYxNzdaTTI3LjM0LDEyMy40NEg1MS40OHY3OS4xM0wxOS4yOSwxODMuMjZWMTMxLjQ4QTguMDYsOC4wNiwwLDAsMSwyNy4zNCwxMjMuNDRaTTI1Mi42NiwyNTIuMTlIMjcuMzRhOC4wNiw4LjA2LDAsMCwxLTgtOFYyMDJsMzAsMThIMjMwLjc1bDMwLTE4djQyLjEyQTguMDYsOC4wNiwwLDAsMSwyNTIuNjYsMjUyLjE5WiI+PC9wYXRoPjwvc3ZnPg==){.ic-icon-svg
+    .ic-icon-svg--inbox} ]{aria-hidden="true"} []{.menu-item__badge}
+    :::
+
+    ::: menu-item__text
     Inbox
-    
-    ](https://jhu.instructure.com/conversations)
-*   [
-    
+    :::
+-   [](https://jhu.instructure.com/courses/94755/assignments/943804#){#global_nav_history_link
+    .ic-app-header__menu-list-link role="button"}
+
+    ::: {.menu-item-icon-container aria-hidden="true"}
+    ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTkyMCAxOTIwIiBjbGFzcz0iaWMtaWNvbi1zdmcgbWVudS1pdGVtX19pY29uIHN2Zy1pY29uLWhpc3RvcnkiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik05NjAgMTEyLjk0MWMtNDY3LjEyNSAwLTg0Ny4wNTkgMzc5LjkzNC04NDcuMDU5IDg0Ny4wNTkgMCA0NjcuMTI1IDM3OS45MzQgODQ3LjA1OSA4NDcuMDU5IDg0Ny4wNTkgNDY3LjEyNSAwIDg0Ny4wNTktMzc5LjkzNCA4NDcuMDU5LTg0Ny4wNTkgMC00NjcuMTI1LTM3OS45MzQtODQ3LjA1OS04NDcuMDU5LTg0Ny4wNTlNOTYwIDE5MjBDNDMwLjY0NSAxOTIwIDAgMTQ4OS4zNTUgMCA5NjBTNDMwLjY0NSAwIDk2MCAwczk2MCA0MzAuNjQ1IDk2MCA5NjAtNDMwLjY0NSA5NjAtOTYwIDk2MG00MTcuOTA1LTU3NS45NTVMOTAzLjU1MiA5ODguMjhWMzk1LjM0aDExMi45NDF2NTM2LjQ3bDQyOS4xNzcgMzIxLjc3LTY3Ljc2NSA5MC40NjV6IiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbC1ydWxlPSJldmVub2RkIj48L3BhdGg+Cjwvc3ZnPg==){.ic-icon-svg
+    .menu-item__icon .svg-icon-history}
+    :::
+
+    ::: menu-item__text
     History
-    
-    ](https://jhu.instructure.com/courses/94755/assignments/943804#)
-*   [
-    
-    10 unread release notes.10
-    
+    :::
+-   [](https://help.instructure.com/){#global_nav_help_link
+    .ic-app-header__menu-list-link role="button"
+    track-category="help system" track-label="help button"}
+
+    ::: {.menu-item-icon-container role="presentation"}
+    ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpYy1pY29uLXN2ZyBtZW51LWl0ZW1fX2ljb24gc3ZnLWljb24taGVscCIgdmVyc2lvbj0iMS4xIiB4PSIwIiB5PSIwIiB2aWV3Ym94PSIwIDAgMjAwIDIwMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjAwIDIwMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgZmlsbD0iY3VycmVudENvbG9yIj48cGF0aCBkPSJNMTAwLDEyNy44OEExMS4xNSwxMS4xNSwwLDEsMCwxMTEuMTYsMTM5LDExLjE2LDExLjE2LDAsMCwwLDEwMCwxMjcuODhabTguODItODguMDhhMzMuMTksMzMuMTksMCwwLDEsMjMuNSwyMy41LDMzLjU0LDMzLjU0LDAsMCwxLTI0LDQxLjIzLDMuNCwzLjQsMCwwLDAtMi43NCwzLjE1djkuMDZIOTQuNDJ2LTkuMDZhMTQuNTcsMTQuNTcsMCwwLDEsMTEuMTMtMTQsMjIuNDMsMjIuNDMsMCwwLDAsMTMuNjYtMTAuMjcsMjIuNzMsMjIuNzMsMCwwLDAsMi4zMS0xNy4zN0EyMS45MiwyMS45MiwwLDAsMCwxMDYsNTAuNTlhMjIuNjcsMjIuNjcsMCwwLDAtMTkuNjgsMy44OCwyMi4xOCwyMi4xOCwwLDAsMC04LjY1LDE3LjY0SDY2LjU0YTMzLjI1LDMzLjI1LDAsMCwxLDEzLTI2LjQ3QTMzLjcyLDMzLjcyLDAsMCwxLDEwOC44MiwzOS44Wk0xMDAsNS4yQTk0LjgsOTQuOCwwLDEsMCwxOTQuOCwxMDAsOTQuOTEsOTQuOTEsMCwwLDAsMTAwLDUuMm0wLDE3OC40NUE4My42NSw4My42NSwwLDEsMSwxODMuNjUsMTAwLDgzLjczLDgzLjczLDAsMCwxLDEwMCwxODMuNjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01LjIgLTUuMikiPjwvcGF0aD48L3N2Zz4=){.ic-icon-svg
+    .menu-item__icon .svg-icon-help} [[[10 unread release
+    notes.]{.css-r9cwls-screenReaderContent}[10]{aria-hidden="true"}]{dir="ltr"}]{.menu-item__badge}
+    :::
+
+    ::: menu-item__text
     Help
-    
-    ](https://help.instructure.com/)
+    :::
+:::
 
-*   [
-    
-    ](https://jhu.instructure.com/courses/94755/assignments/943804# "Expand global navigation
-    ")
+::: ic-app-header__secondary-navigation
+-   [](https://jhu.instructure.com/courses/94755/assignments/943804# "Expand global navigation
+                    "){#primaryNavToggle .ic-app-header__menu-list-link
+    .ic-app-header__menu-list-link--nav-toggle role="button"
+    aria-label="Expand global navigation
+                    "}
 
-[Close](https://jhu.instructure.com/courses/94755/assignments/943804#)
+    ::: {.menu-item-icon-container aria-hidden="true"}
+    ![](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpYy1pY29uLXN2ZyBpYy1pY29uLXN2Zy0tbmF2dG9nZ2xlIiB2ZXJzaW9uPSIxLjEiIHg9IjAiIHk9IjAiIHdpZHRoPSI0MCIgaGVpZ2h0PSIzMiIgdmlld2JveD0iMCAwIDQwIDMyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KICA8cGF0aCBkPSJNMzkuNSwzMC4yOFYyLjQ4SDM3LjE4djI3LjhabS00LjkzLTEzLjlMMjIuMTcsNCwyMC41Myw1LjYxbDkuNjEsOS42MUguNXYyLjMxSDMwLjE0bC05LjYxLDkuNjEsMS42NCwxLjY0WiI+PC9wYXRoPgo8L3N2Zz4=){.ic-icon-svg
+    .ic-icon-svg--navtoggle}
+    :::
+:::
 
-*   [_My Dashboard_](https://jhu.instructure.com/)
-*   [EN.685.652.81.SP25](https://jhu.instructure.com/courses/94755)
-*   [Assignments](https://jhu.instructure.com/courses/94755/assignments)
-*   [Module 14 - Assignment](https://jhu.instructure.com/courses/94755/assignments/943804)
+::: {#global_nav_tray_container}
+:::
 
-Immersive Reader
+::: {#global_nav_tour}
+:::
+:::
 
-Spring 2025
+::: {#instructure_ajax_error_box}
+::: {style="text-align: right; background-color: #fff;"}
+[Close](https://jhu.instructure.com/courses/94755/assignments/943804#){.close_instructure_ajax_error_box_link}
+:::
+:::
 
-*   [Home](https://jhu.instructure.com/courses/94755)
-*   [Course Syllabus](https://jhu.instructure.com/courses/94755/external_tools/14137)
-*   [Announcements](https://jhu.instructure.com/courses/94755/announcements)
-*   [Modules](https://jhu.instructure.com/courses/94755/modules)
-*   [Assignments](https://jhu.instructure.com/courses/94755/assignments)
-*   [Discussions](https://jhu.instructure.com/courses/94755/discussion_topics)
-*   [Grades](https://jhu.instructure.com/courses/94755/grades)
-*   [People](https://jhu.instructure.com/courses/94755/users)
-*   [Course Evaluations](https://jhu.instructure.com/courses/94755/external_tools/10253)
-*   [eReserves](https://jhu.instructure.com/courses/94755/external_tools/13942?display=borderless)
+::: {#wrapper .ic-Layout-wrapper}
+::: {.ic-app-nav-toggle-and-crumbs .no-print}
 
-#right-side-wrapper { height: 100%; } .assignment\_header { border-bottom: 1px solid #a4a4a4; overflow: hidden; } #assignment\_head { margin-top: 0; font-weight: bold; } .lock\_explanation { text-align: left; margin-top: 20px; }
+::: ic-app-crumbs
+-   [[ *[My Dashboard]{.screenreader-only}*
+    ]{.ellipsible}](https://jhu.instructure.com/)
+-   [[EN.685.652.81.SP25]{.ellipsible}](https://jhu.instructure.com/courses/94755)
+-   [[Assignments]{.ellipsible}](https://jhu.instructure.com/courses/94755/assignments)
+-   [[Module 14 -
+    Assignment]{.ellipsible}](https://jhu.instructure.com/courses/94755/assignments/943804)
+:::
 
-Module 14 - Assignment
-======================
+::: right-of-crumbs
+::: {#immersive_reader_mount_point}
+<div>
 
+[[[[![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgNDAgMzciIHJvdGF0ZT0iMCIgd2lkdGg9IjFlbSIgaGVpZ2h0PSIxZW0iIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJwcmVzZW50YXRpb24iIGZvY3VzYWJsZT0iZmFsc2UiIGNsYXNzPSJjc3MtMXVoMm1kMC1pbmxpbmVTVkctc3ZnSWNvbiIgc3R5bGU9IndpZHRoOiAxZW07IGhlaWdodDogMWVtOyI+PGcgcm9sZT0icHJlc2VudGF0aW9uIj4KICAgIDxnIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik0zNy40LDAuOSBMMzcuNCw5LjYgTDM1LjQsOS42IEwzNS40LDIuOSBMMjQuNCwyLjkgQzIyLjksMy4zIDIwLDQuNSAyMCw2IEwyMCwxNy4yIEwxOCwxNy4yIEwxOCw2IEMxOCw1IDE1LjYsMy42IDEzLjgsMi45IEwyLDIuOSBMMiwyOSBMMTIuNCwyOSBMMTIuNCwzMSBMMCwzMSBMMCwwLjkgTDE0LjEsMC45IEwxNC4zLDEgQzE1LDEuMiAxNy41LDIuMiAxOC45LDMuNyBDMjAuNSwxLjkgMjMuNSwxLjEgMjMuOSwxIEwyNC4xLDEgTDM3LjQsMSBMMzcuNCwwLjkgWiIgZmlsbD0iIzAwMDAwMCI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMjcuNCwzNyBMMjUuOCwzNyBMMTguNCwyOS40IEwxNCwyOS40IEwxNCwyMSBMMTguNCwyMC45IEwyNi4xLDEzIEwyNy40LDEzIEwyNy40LDM3IFogTTE2LDI3LjQgTDE5LjIsMjcuNCBMMjUuMywzMy43IEwyNS4zLDE2LjYgTDE5LjIsMjIuOSBMMTUuOSwyMi45IEwxNS45LDI3LjQgTDE2LDI3LjQgWiIgZmlsbD0iIzAxOTdGMiI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMzEuMywzMi43IEwyOS42LDMxLjcgQzI5LjYsMzEuNyAzMS43LDI4LjMgMzEuNywyNS4yIEMzMS43LDIxLjkgMjkuNiwxOC41IDI5LjYsMTguNCBMMzEuMywxNy40IEMzMS40LDE3LjYgMzMuNywyMS4zIDMzLjcsMjUuMiBDMzMuNywyOC44IDMxLjQsMzIuNiAzMS4zLDMyLjcgWiIgZmlsbD0iIzAxOTdGMiI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMzYuNCwzNi4yIEwzNC44LDM1IEMzNC44LDM1IDM4LDMwLjggMzgsMjUuMiBDMzgsMTkuNiAzNC44LDE1LjQgMzQuOCwxNS40IEwzNi40LDE0LjIgQzM2LjUsMTQuNCA0MCwxOSA0MCwyNS4zIEM0MCwzMS41IDM2LjUsMzYgMzYuNCwzNi4yIFoiIGZpbGw9IiMwMTk3RjIiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+CjwvZz48L3N2Zz4=){.css-1uh2md0-inlineSVG-svgIcon}]{.css-quqv7u-baseButton__iconSVG}[Immersive
+Reader]{.css-r9cwls-screenReaderContent}]{.css-5udsuu-baseButton__iconOnly}]{.css-qi8ml9-baseButton__childrenLayout}]{.css-1u5gywy-baseButton__content}
+
+</div>
+:::
+:::
+:::
+
+::: {#main .ic-Layout-columns}
+::: ic-Layout-watermark
+:::
+
+::: {#left-side .ic-app-course-menu .ic-sticky-on .list-view style="display: block"}
+::: {#sticky-container .ic-sticky-frame}
+[Spring 2025]{#section-tabs-header-subtitle .ellipsis}
+
+-   [Home](https://jhu.instructure.com/courses/94755){.home
+    tabindex="0"}
+-   [Course
+    Syllabus](https://jhu.instructure.com/courses/94755/external_tools/14137){.context_external_tool_14137
+    tabindex="0"}
+-   [Announcements](https://jhu.instructure.com/courses/94755/announcements){.announcements
+    tabindex="0"}
+-   [Modules](https://jhu.instructure.com/courses/94755/modules){.modules
+    tabindex="0"}
+-   [Assignments](https://jhu.instructure.com/courses/94755/assignments){.assignments
+    .active aria-current="page" tabindex="0"}
+-   [Discussions](https://jhu.instructure.com/courses/94755/discussion_topics){.discussions
+    tabindex="0"}
+-   [Grades](https://jhu.instructure.com/courses/94755/grades){.grades
+    tabindex="0"}
+-   [People](https://jhu.instructure.com/courses/94755/users){.people
+    tabindex="0"}
+-   [Course
+    Evaluations](https://jhu.instructure.com/courses/94755/external_tools/10253){.context_external_tool_10253
+    tabindex="0"}
+-   [eReserves](https://jhu.instructure.com/courses/94755/external_tools/13942?display=borderless){.context_external_tool_13942
+    target="_blank" tabindex="0"}
+:::
+:::
+
+::: {#not_right_side .ic-app-main-content}
+::: {#content-wrapper .ic-Layout-contentWrapper}
+::: {#content .ic-Layout-contentMain role="main"}
+::: {#assignment_show .assignment .content_underline_links lti-page-content="true"}
+::: assignment-title
+::: title-content
+# Module 14 - Assignment []{.ally-prominent-af-download-button} {#module-14---assignment .title}
+:::
+
+::: assignment-buttons
 New Attempt
+:::
+:::
 
-*   Due Tuesday by 11:59pm
-*   Points 100
-*   Submitting a file upload
+-   [Due]{.title} [ [ [Tuesday]{.display_date} by
+    [11:59pm]{.display_time} ]{.date_text}]{.value}
+-   [Points]{.title} [100]{.value}
+-   [Submitting]{.title} [a file upload]{.value}
 
-In this assignment, you will be creating part of an ETL pipeline in Google Colab to clean and process the High-Volume For-Hire Vehicles in the NYC Taxi dataset **using PySpark** in the cloud notebook environment of [Google Colab Links to an external site.](https://colab.research.google.com/).
+::: clear
+:::
 
-Assignment
-==========
+::: clear
+:::
 
-Follow the instructions below using the provided [Module 14 Jupyter Notebook Assignment Template (Download)](https://jhu.instructure.com/courses/94755/files/12984422?wrap=1) [Download Module 14 Jupyter Notebook Assignment Template (Download)](https://jhu.instructure.com/courses/94755/files/12984422/download?download_frd=1)
+::: {.description .user_content .enhanced resource-type="assignment.body" resource-id="943804"}
+In this assignment, you will be creating part of an ETL pipeline in
+Google Colab to clean and process the High-Volume For-Hire Vehicles in
+the NYC Taxi dataset **using PySpark** in the cloud notebook environment
+of [Google
+Colab[![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTkyMCAxOTIwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJ3aWR0aDoxZW07IGhlaWdodDoxZW07IHZlcnRpY2FsLWFsaWduOm1pZGRsZTsgZmlsbDpjdXJyZW50Q29sb3IiPgogICAgPHBhdGggZD0iTTEyMjYuNjY3IDI2N2M4OC4yMTMgMCAxNjAgNzEuNzg3IDE2MCAxNjB2NDI2LjY2N0gxMjgwdi0xNjBIMTA2LjY2N3Y4MDBDMTA2LjY2NyAxNTIzIDEzMC41NiAxNTQ3IDE2MCAxNTQ3aDEwNjYuNjY3YzI5LjQ0IDAgNTMuMzMzLTI0IDUzLjMzMy01My4zMzN2LTIxMy4zMzRoMTA2LjY2N3YyMTMuMzM0YzAgODguMjEzLTcxLjc4NyAxNjAtMTYwIDE2MEgxNjBjLTg4LjIxMyAwLTE2MC03MS43ODctMTYwLTE2MFY0MjdjMC04OC4yMTMgNzEuNzg3LTE2MCAxNjAtMTYwWm0zNTcuNzA2IDQ0Mi4yOTMgMzIwIDMyMGMyMC44IDIwLjggMjAuOCA1NC42MTQgMCA3NS40MTRsLTMyMCAzMjAtNzUuNDEzLTc1LjQxNCAyMjguOTA3LTIyOC45MDZIOTA2LjYxM1YxMDEzLjcyaDgzMS4yNTRMMTUwOC45NiA3ODQuNzA3bDc1LjQxMy03NS40MTRabS0zNTcuNzA2LTMzNS42MjZIMTYwYy0yOS40NCAwLTUzLjMzMyAyNC01My4zMzMgNTMuMzMzdjE2MEgxMjgwVjQyN2MwLTI5LjMzMy0yMy44OTMtNTMuMzMzLTUzLjMzMy01My4zMzNaIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjwvcGF0aD4KPC9zdmc+)
+[Links to an external site.]{.screenreader-only}]{.external_link_icon
+style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+role="presentation"}](https://colab.research.google.com/){.external
+target="_blank" rel="noreferrer noopener"}.
 
-**All the code that you write must be in PySpark for this assignment.** 
+# Assignment
 
-[https://spark.apache.org/docs/latest/api/python/reference/pyspark.pandas/index.html Links to an external site.](https://spark.apache.org/docs/latest/api/python/reference/pyspark.pandas/index.html)
+Follow the instructions below using the provided [[[Module 14 Jupyter
+Notebook Assignment Template
+(Download)](https://jhu.instructure.com/courses/94755/files/12984422?wrap=1){#12651793
+.inline_disabled target="_blank"
+api-endpoint="https://jhu.instructure.com/api/v1/courses/84489/files/12651793"
+api-returntype="File"
+data-id="12984422"}[[![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTkyMCAxOTIwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJ3aWR0aDoxZW07IGhlaWdodDoxZW07IHZlcnRpY2FsLWFsaWduOm1pZGRsZTsgZmlsbDpjdXJyZW50Q29sb3IiPgogICAgPHBhdGggZD0ibTE4MDcuMDkzIDE0ODIuNDc3IDc5LjczNiA3OS45NjMtMzU1LjMxMyAzNTUuMzEySDM1NS4zNDZMLjAzNSAxNTYyLjQ0bDc5Ljg1LTc5Ljk2MyAzMjIuMjIgMzIyLjMzNEgxNDg0Ljc2bDMyMi4zMzQtMzIyLjMzNFpNOTk3LjY3Ny0uMDMzdjExNjcuMDJsMzU1LjMxMy0zNTUuMzEzIDc5Ljk2MiA3OS44NS00OTEuODU4IDQ5MS42MzNMNDQ5LjQ2IDg5MS41MjRsNzkuOTYyLTc5Ljg1IDM1NS4zMTMgMzU1LjMxM1YtLjAzM2gxMTIuOTQxWiIgZmlsbC1ydWxlPSJldmVub2RkIj48L3BhdGg+Cjwvc3ZnPg==)
+]{role="presentation"}[Download Module 14 Jupyter Notebook Assignment
+Template
+(Download)]{.screenreader-only}](https://jhu.instructure.com/courses/94755/files/12984422/download?download_frd=1){.file_download_btn
+role="button" download=""
+style="margin-inline-start: 5px; text-decoration: none;"
+data-id="12984422"}]{.instructure_file_holder .link_holder
+.instructure_file_link_holder}]{.ally-file-link-holder .link_holder}
+
+**All the code that you write must be in PySpark for this assignment. **
+
+[https://spark.apache.org/docs/latest/api/python/reference/pyspark.pandas/index.html[![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTkyMCAxOTIwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJ3aWR0aDoxZW07IGhlaWdodDoxZW07IHZlcnRpY2FsLWFsaWduOm1pZGRsZTsgZmlsbDpjdXJyZW50Q29sb3IiPgogICAgPHBhdGggZD0iTTEyMjYuNjY3IDI2N2M4OC4yMTMgMCAxNjAgNzEuNzg3IDE2MCAxNjB2NDI2LjY2N0gxMjgwdi0xNjBIMTA2LjY2N3Y4MDBDMTA2LjY2NyAxNTIzIDEzMC41NiAxNTQ3IDE2MCAxNTQ3aDEwNjYuNjY3YzI5LjQ0IDAgNTMuMzMzLTI0IDUzLjMzMy01My4zMzN2LTIxMy4zMzRoMTA2LjY2N3YyMTMuMzM0YzAgODguMjEzLTcxLjc4NyAxNjAtMTYwIDE2MEgxNjBjLTg4LjIxMyAwLTE2MC03MS43ODctMTYwLTE2MFY0MjdjMC04OC4yMTMgNzEuNzg3LTE2MCAxNjAtMTYwWm0zNTcuNzA2IDQ0Mi4yOTMgMzIwIDMyMGMyMC44IDIwLjggMjAuOCA1NC42MTQgMCA3NS40MTRsLTMyMCAzMjAtNzUuNDEzLTc1LjQxNCAyMjguOTA3LTIyOC45MDZIOTA2LjYxM1YxMDEzLjcyaDgzMS4yNTRMMTUwOC45NiA3ODQuNzA3bDc1LjQxMy03NS40MTRabS0zNTcuNzA2LTMzNS42MjZIMTYwYy0yOS40NCAwLTUzLjMzMyAyNC01My4zMzMgNTMuMzMzdjE2MEgxMjgwVjQyN2MwLTI5LjMzMy0yMy44OTMtNTMuMzMzLTUzLjMzMy01My4zMzNaIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjwvcGF0aD4KPC9zdmc+)
+[Links to an external site.]{.screenreader-only}]{.external_link_icon
+style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+role="presentation"}](https://spark.apache.org/docs/latest/api/python/reference/pyspark.pandas/index.html){.external
+target="_blank" rel="noreferrer noopener"}
 
 Set Up Spark Environment
 
-1.  Log in to [Google Colab Links to an external site.](https://colab.research.google.com/) and create a new notebook.
+1.  Log in to [Google
+    Colab[![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTkyMCAxOTIwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJ3aWR0aDoxZW07IGhlaWdodDoxZW07IHZlcnRpY2FsLWFsaWduOm1pZGRsZTsgZmlsbDpjdXJyZW50Q29sb3IiPgogICAgPHBhdGggZD0iTTEyMjYuNjY3IDI2N2M4OC4yMTMgMCAxNjAgNzEuNzg3IDE2MCAxNjB2NDI2LjY2N0gxMjgwdi0xNjBIMTA2LjY2N3Y4MDBDMTA2LjY2NyAxNTIzIDEzMC41NiAxNTQ3IDE2MCAxNTQ3aDEwNjYuNjY3YzI5LjQ0IDAgNTMuMzMzLTI0IDUzLjMzMy01My4zMzN2LTIxMy4zMzRoMTA2LjY2N3YyMTMuMzM0YzAgODguMjEzLTcxLjc4NyAxNjAtMTYwIDE2MEgxNjBjLTg4LjIxMyAwLTE2MC03MS43ODctMTYwLTE2MFY0MjdjMC04OC4yMTMgNzEuNzg3LTE2MCAxNjAtMTYwWm0zNTcuNzA2IDQ0Mi4yOTMgMzIwIDMyMGMyMC44IDIwLjggMjAuOCA1NC42MTQgMCA3NS40MTRsLTMyMCAzMjAtNzUuNDEzLTc1LjQxNCAyMjguOTA3LTIyOC45MDZIOTA2LjYxM1YxMDEzLjcyaDgzMS4yNTRMMTUwOC45NiA3ODQuNzA3bDc1LjQxMy03NS40MTRabS0zNTcuNzA2LTMzNS42MjZIMTYwYy0yOS40NCAwLTUzLjMzMyAyNC01My4zMzMgNTMuMzMzdjE2MEgxMjgwVjQyN2MwLTI5LjMzMy0yMy44OTMtNTMuMzMzLTUzLjMzMy01My4zMzNaIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjwvcGF0aD4KPC9zdmc+)
+    [Links to an external
+    site.]{.screenreader-only}]{.external_link_icon
+    style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+    role="presentation"}](https://colab.research.google.com/){.external
+    target="_blank" rel="noreferrer noopener"} and create a new
+    notebook.
 2.  Install Spark
     1.  Pip install pyspark
     2.  Pip install findspark
-3.  Import findspark and run findspark.init() which is used to locate spark on the system.
+3.  Import findspark and run findspark.init() which is used to locate
+    spark on the system.
 
-import findspark  
+``` {style="padding-left: 40px;"}
+import findspark
 findspark.init()
+```
 
 4.  Import any necessary modules from pyspark.sql
 5.  (10 Points) Create your SparkSession
+
+ 
 
 ### **Load Data**
 
 NYC Taxi Data Documentation:
 
-*   [https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page Links to an external site.](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
-*   [https://www.nyc.gov/assets/tlc/downloads/pdf/data\_dictionary\_trip\_records\_hvfhs.pdf Links to an external site.](https://www.google.com/url?q=https%3A%2F%2Fwww.nyc.gov%2Fassets%2Ftlc%2Fdownloads%2Fpdf%2Fdata_dictionary_trip_records_hvfhs.pdf)
+-   [https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page[![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTkyMCAxOTIwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJ3aWR0aDoxZW07IGhlaWdodDoxZW07IHZlcnRpY2FsLWFsaWduOm1pZGRsZTsgZmlsbDpjdXJyZW50Q29sb3IiPgogICAgPHBhdGggZD0iTTEyMjYuNjY3IDI2N2M4OC4yMTMgMCAxNjAgNzEuNzg3IDE2MCAxNjB2NDI2LjY2N0gxMjgwdi0xNjBIMTA2LjY2N3Y4MDBDMTA2LjY2NyAxNTIzIDEzMC41NiAxNTQ3IDE2MCAxNTQ3aDEwNjYuNjY3YzI5LjQ0IDAgNTMuMzMzLTI0IDUzLjMzMy01My4zMzN2LTIxMy4zMzRoMTA2LjY2N3YyMTMuMzM0YzAgODguMjEzLTcxLjc4NyAxNjAtMTYwIDE2MEgxNjBjLTg4LjIxMyAwLTE2MC03MS43ODctMTYwLTE2MFY0MjdjMC04OC4yMTMgNzEuNzg3LTE2MCAxNjAtMTYwWm0zNTcuNzA2IDQ0Mi4yOTMgMzIwIDMyMGMyMC44IDIwLjggMjAuOCA1NC42MTQgMCA3NS40MTRsLTMyMCAzMjAtNzUuNDEzLTc1LjQxNCAyMjguOTA3LTIyOC45MDZIOTA2LjYxM1YxMDEzLjcyaDgzMS4yNTRMMTUwOC45NiA3ODQuNzA3bDc1LjQxMy03NS40MTRabS0zNTcuNzA2LTMzNS42MjZIMTYwYy0yOS40NCAwLTUzLjMzMyAyNC01My4zMzMgNTMuMzMzdjE2MEgxMjgwVjQyN2MwLTI5LjMzMy0yMy44OTMtNTMuMzMzLTUzLjMzMy01My4zMzNaIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjwvcGF0aD4KPC9zdmc+)
+    [Links to an external
+    site.]{.screenreader-only}]{.external_link_icon
+    style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+    role="presentation"}](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page){.external
+    target="_blank" rel="noreferrer noopener"}
+-   [https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_hvfhs.pdf[![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTkyMCAxOTIwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJ3aWR0aDoxZW07IGhlaWdodDoxZW07IHZlcnRpY2FsLWFsaWduOm1pZGRsZTsgZmlsbDpjdXJyZW50Q29sb3IiPgogICAgPHBhdGggZD0iTTEyMjYuNjY3IDI2N2M4OC4yMTMgMCAxNjAgNzEuNzg3IDE2MCAxNjB2NDI2LjY2N0gxMjgwdi0xNjBIMTA2LjY2N3Y4MDBDMTA2LjY2NyAxNTIzIDEzMC41NiAxNTQ3IDE2MCAxNTQ3aDEwNjYuNjY3YzI5LjQ0IDAgNTMuMzMzLTI0IDUzLjMzMy01My4zMzN2LTIxMy4zMzRoMTA2LjY2N3YyMTMuMzM0YzAgODguMjEzLTcxLjc4NyAxNjAtMTYwIDE2MEgxNjBjLTg4LjIxMyAwLTE2MC03MS43ODctMTYwLTE2MFY0MjdjMC04OC4yMTMgNzEuNzg3LTE2MCAxNjAtMTYwWm0zNTcuNzA2IDQ0Mi4yOTMgMzIwIDMyMGMyMC44IDIwLjggMjAuOCA1NC42MTQgMCA3NS40MTRsLTMyMCAzMjAtNzUuNDEzLTc1LjQxNCAyMjguOTA3LTIyOC45MDZIOTA2LjYxM1YxMDEzLjcyaDgzMS4yNTRMMTUwOC45NiA3ODQuNzA3bDc1LjQxMy03NS40MTRabS0zNTcuNzA2LTMzNS42MjZIMTYwYy0yOS40NCAwLTUzLjMzMyAyNC01My4zMzMgNTMuMzMzdjE2MEgxMjgwVjQyN2MwLTI5LjMzMy0yMy44OTMtNTMuMzMzLTUzLjMzMy01My4zMzNaIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjwvcGF0aD4KPC9zdmc+)
+    [Links to an external
+    site.]{.screenreader-only}]{.external_link_icon
+    style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+    role="presentation"}](https://www.google.com/url?q=https%3A%2F%2Fwww.nyc.gov%2Fassets%2Ftlc%2Fdownloads%2Fpdf%2Fdata_dictionary_trip_records_hvfhs.pdf){.external
+    target="_blank" rel="noreferrer noopener"}
 
-1.  Use the following code to download the required data (this may take several minutes to complete):
+ 
 
-!wget -P ./taxi-files/ https://d37ci6vzurychx.cloudfront.net/trip-data/fhvhv\_tripdata\_2020-03.parquet
+1.  Use the following code to download the required data (this may take
+    several minutes to complete):
 
-2.  Check to make sure the necessary files were downloaded. The command below should return '1' - if it does not, try 'Disconnect and delete runtime' and re-run all code above.
-    *   Note: We are only focusing on the 'FHVHV' subset of the NYC Taxi data - high-volume for-hire vehicle bases for companies dispatching 10,000+ trip per day, meaning Uber, Lyft, Via, and Juno
+``` {style="padding-left: 40px;"}
+!wget -P ./taxi-files/ https://d37ci6vzurychx.cloudfront.net/trip-data/fhvhv_tripdata_2020-03.parquet
+```
 
-!find ./taxi-files/ -maxdepth 1 -name "\*fhvhv\_tripdata\*" -printf '.' | wc -m
+2.  Check to make sure the necessary files were downloaded. The command
+    below should return \'1\' - if it does not, try \'Disconnect and
+    delete runtime\' and re-run all code above.
+    -   Note: We are only focusing on the \'FHVHV\' subset of the NYC
+        Taxi data - high-volume for-hire vehicle bases for companies
+        dispatching 10,000+ trip per day, meaning Uber, Lyft, Via, and
+        Juno
 
-3.  (10 Points) Load the parquet file with Spark, limiting the results to 100,000 records. Show the resulting data frame
+``` {style="padding-left: 40px;"}
+!find ./taxi-files/ -maxdepth 1 -name "*fhvhv_tripdata*" -printf '.' | wc -m
+```
+
+3.  (10 Points) Load the parquet file with Spark, limiting the results
+    to 100,000 records. Show the resulting data frame
+
+ 
 
 ### **Data Cleaning**
 
-1.  (10 Points) Remove any duplicate rows if they exist. Output the remaining number of rows.
-2.  (10 Points) Remove any trips with a duration of less than 1 minute or more than 24 hours. Output the remaining number of rows.
-3.  (10 Points) Remove any trips with base\_passenger\_fare less than $2.50 or greater than $1,000. Output the remaining number of rows.
+1.  (10 Points) Remove any duplicate rows if they exist. Output the
+    remaining number of rows.
+2.  (10 Points) Remove any trips with a duration of less than 1 minute
+    or more than 24 hours. Output the remaining number of rows.
+3.  (10 Points) Remove any trips with base_passenger_fare less than
+    \$2.50 or greater than \$1,000. Output the remaining number of rows.
 
 ### **Data Transformation**
 
 1.  (10 Points) Create three new columns:
-    1.  A column that indicates whether the trip was taken during the morning rush hour (6:00-9:59 AM), the afternoon rush hour (3:00-6:59 PM), or outside of rush hour.
-    2.  A column that calculates the total amount of the trip (fare amount + tip amount)
-    3.  A column that calculates the speed of the trip (distance / duration).
+    1.  A column that indicates whether the trip was taken during the
+        morning rush hour (6:00-9:59 AM), the afternoon rush hour
+        (3:00-6:59 PM), or outside of rush hour.
+    2.  A column that calculates the total amount of the trip (fare
+        amount + tip amount)
+    3.  A column that calculates the speed of the trip (distance /
+        duration).
 
 Show the first 5 results
 
-2.  (10 Points) The 'hvfhs\_license\_num' column corresponds to the different HVFHS businesses:
-    *   HV0002: Juno
-    *   HV0003: Uber
-    *   HV0004: Via
-    *   HV0005: Lyft
+ 
 
-Create a new column that contains the business name based on the license number.  
+2.  (10 Points) The \'hvfhs_license_num\' column corresponds to the
+    different HVFHS businesses:
+    -   HV0002: Juno
+    -   HV0003: Uber
+    -   HV0004: Via
+    -   HV0005: Lyft
+
+Create a new column that contains the business name based on the license
+number.\
 Output a count of how many rides each business has in the data.
 
-3.  (20 Points) We want to know the average driver pay and rider cost per mile for each business. Calculate the average driver\_pay including tips by trip\_miles and total cost (base\_passenger\_fare + tolls + bcf + sales\_tax + congestion\_surcharge + airport\_fee) by trip\_miles, grouped by business. Show the result.
+ 
+
+3.  (20 Points) We want to know the average driver pay and rider cost
+    per mile for each business. Calculate the average driver_pay
+    including tips by trip_miles and total cost (base_passenger_fare +
+    tolls + bcf + sales_tax + congestion_surcharge + airport_fee) by
+    trip_miles, grouped by business. Show the result.
 
 ### **Saving Data**
 
-1.  (10 Points) Save your results from the previous step as a SINGLE csv file
+1.  (10 Points) Save your results from the previous step as a SINGLE csv
+    file
 
-What to turn in:
-----------------
+ 
 
-1.  Download the .ipynb (File > Download) and upload to Canvas as <student-first-initial><student-lastname>-module14.ipynb
-2.  Upload a HTML version of the notebook with all results visible as <student-first-initial><student-lastname>-module14.html
-3.  Upload the single csv file which was saved in the last question as <student-first-initial><student-lastname>-module14.csv
+## What to turn in:
+
+1.  Download the .ipynb (File \> Download) and upload to Canvas as
+    \<student-first-initial\>\<student-lastname\>-module14.ipynb
+2.  Upload a HTML version of the notebook with all results visible as
+    \<student-first-initial\>\<student-lastname\>-module14.html
+3.  Upload the single csv file which was saved in the last question as
+    \<student-first-initial\>\<student-lastname\>-module14.csv
 
 Please do not zip the files
+:::
 
-1746590340 05/06/2025 11:59pm
+::: {style="display: none;"}
+[1746590340]{.timestamp} [05/06/2025]{.due_date_string}
+[11:59pm]{.due_time_string}
+:::
+:::
 
-*   [File Upload](https://jhu.instructure.com/courses/94755/assignments/943804#submit_online_upload_form)
-*   [Microsoft OneDrive](https://jhu.instructure.com/courses/94755/assignments/943804#submit_from_external_tool_form_490)
+::: {#submit_assignment style="display: none;" context_code="course_94755" asset_string="assignment_943804"}
+::: {#submit_assignment_tabs .content}
+-   [File
+    Upload](https://jhu.instructure.com/courses/94755/assignments/943804#submit_online_upload_form){.submit_online_upload_option}
+-   [Microsoft
+    OneDrive](https://jhu.instructure.com/courses/94755/assignments/943804#submit_from_external_tool_form_490){.external-tool
+    data-id="490" data-name="Microsoft OneDrive"}
 
-   
++-----------------------------------+-----------------------------------+
+| Upload a file, or choose a file   |                                   |
+| you\'ve already uploaded.         |                                   |
++-----------------------------------+-----------------------------------+
+| [F                                |                                   |
+| ile:]{style="visibility: hidden"} |                                   |
+|                                   |                                   |
+| ::: {.submission_attach           |                                   |
+| ment style="margin-bottom: 1em;"} |                                   |
+| ::: {.attachment_wrappe           |                                   |
+| r style="display: inline-block;"} |                                   |
+| [[[[[[[]{.css-138gh4t-view        |                                   |
+| dir=                              |                                   |
+| "ltr"}]{.css-or986r-fileDrop__lay |                                   |
+| out}]{.css-pzil2g-fileDrop__label |                                   |
+| Content}]{.css-37r8z8-view--block |                                   |
+| dir="ltr"                         |                                   |
+| }]{.css-1y2l5e6-view--inlineBlock |                                   |
+| dir="lt                           |                                   |
+| r"}]{.css-1trb0el-view--flex-flex |                                   |
+| dir="ltr" direction="row"         |                                   |
+| wrap="no-wr                       |                                   |
+| ap"}]{.css-h20mns-view--flex-flex |                                   |
+| dir="ltr" direction="column"      |                                   |
+| wrap="no-wrap"}                   |                                   |
+|                                   |                                   |
+| ::: {.css-a7w0x7-view dir="ltr"}  |                                   |
+| ::: {.css-y8apvp-view dir="ltr"}  |                                   |
+| ![](./Module%2014%20-%20Assignm   |                                   |
+| ent_files/216eca4688bb838f.svg){. |                                   |
+| css-10lj25s-view--inlineBlock-img |                                   |
+| dir="ltr"}                        |                                   |
+| :::                               |                                   |
+|                                   |                                   |
+| ::: {.css-138gh4t-view dir="ltr"} |                                   |
+| [Drag a file here,                |                                   |
+| or]{.css-4vgewj-text              |                                   |
+| wrap="normal"                     |                                   |
+| letter-spacing="normal"}          |                                   |
+| :::                               |                                   |
+|                                   |                                   |
+| ::: {.css-138gh4t-view dir="ltr"} |                                   |
+| [Choose a file to                 |                                   |
+| upload]{.css-pktqeo-text          |                                   |
+| color="brand" wrap="normal"       |                                   |
+| letter-spacing="normal"}          |                                   |
+| :::                               |                                   |
+| :::                               |                                   |
+|                                   |                                   |
+| [[[[![](data:image/svg+xml;       |                                   |
+| base64,PHN2ZyBuYW1lPSJJY29uSW1hZ2 |                                   |
+| UiIHZpZXdib3g9IjAgMCAxOTIwIDE5MjA |                                   |
+| iIHJvdGF0ZT0iMCIgd2lkdGg9IjFlbSIg |                                   |
+| aGVpZ2h0PSIxZW0iIGFyaWEtaGlkZGVuP |                                   |
+| SJ0cnVlIiByb2xlPSJwcmVzZW50YXRpb2 |                                   |
+| 4iIGZvY3VzYWJsZT0iZmFsc2UiIGNsYXN |                                   |
+| zPSJjc3MtMXVoMm1kMC1pbmxpbmVTVkct |                                   |
+| c3ZnSWNvbiIgc3R5bGU9IndpZHRoOiAxZ |                                   |
+| W07IGhlaWdodDogMWVtOyI+PGcgcm9sZT |                                   |
+| 0icHJlc2VudGF0aW9uIj48cGF0aCBkPSJ |                                   |
+| NMTkyMCAxMTN2MTY5NC4xMThIMFYxMTNo |                                   |
+| MTkyMFptLTExMi45NDEgMTEyLjk0MUgxM |                                   |
+| TIuOTRWMTY5NC4yOWgxNjk0LjEyVjIyNS |                                   |
+| 45NDFaTTkzNS45NDQgMTA1OC43N2MxODI |                                   |
+| uODUxLTI1OC40MDkgMzMyLjQ5OC0yODYu |                                   |
+| ODcgNDI2LjY5MS0yNjQuODQ3IDE2MC43M |                                   |
+| TYgMzcuMzg0IDI3Mi4wNzYgMjQyLjI2ID |                                   |
+| MzMC44MDUgNjA4Ljk4bDEwLjUwNCA2NS4 |                                   |
+| zOTJIMjA3LjkyNGwyMC4xMDQtNzEuNzE4 |                                   |
+| Yzg1LjM4NC0zMDYuMDcgMTcyLjkxMy00N |                                   |
+| TcuMDcyIDI4My4zNy00ODkuNzEyIDEwMi |                                   |
+| 41NS0zMC4xNTYgMTg1LjMzNiA0My44MiA |                                   |
+| yNTguODYgMTA5LjEgNDMuNTk2IDM4LjUx |                                   |
+| NCA5MC44MDYgODEuMDkyIDEyMi41NDIgN |                                   |
+| zguODM0IDE1LjkyNS0xLjgwNyAzMi4xOD |                                   |
+| gtMjAuNTU2IDQzLjE0NC0zNi4wMjlabTQ |                                   |
+| wMS4xNjctMTU0Ljg0MmMtODMuMDEyLTE5 |                                   |
+| LjMxMy0xOTYuMDY2IDYwLjc2Mi0zMDguO |                                   |
+| Dk1IDIyMC4wMS0zNS4yMzcgNDkuODA3LT |                                   |
+| c2LjM0OCA3Ny44MTYtMTIyLjMxNSA4My4 |                                   |
+| xMjQtNzYuMjI2IDkuMDI0LTEzOC4xODIt |                                   |
+| NDIuODI3LTE5OC44MTItOTYuMjY2bC0zL |                                   |
+| jg2OC0zLjQxM2MtMi41NzgtMi4yNzYtNS |                                   |
+| 4xNTQtNC41NTItNy43My02LjgyNC01NC4 |                                   |
+| yMTEtNDguMTEzLTExMC42ODItOTcuMDE3 |                                   |
+| LTE1Mi4wMTgtODUuMzg0LTM0LjQ0NyAxM |                                   |
+| C4xNjUtMTAyLjMyNSA2OS4xMi0xODUuNz |                                   |
+| g4IDM0MC4xNzloMTIxMi43NjJjLTUwLjQ |                                   |
+| 4NS0yNjUuMTg2LTEzNC40LTQyOC4zODYt |                                   |
+| MjMzLjMzNi00NTEuNDI2Wk02NzcuNjQ3I |                                   |
+| DMzOC44ODJjMTI0LjU3NCAwIDIyNS44OD |                                   |
+| IgMTAxLjMwOSAyMjUuODgyIDIyNS44ODM |                                   |
+| gMCAxMjQuNTc0LTEwMS4zMDggMjI1Ljg4 |                                   |
+| Mi0yMjUuODgyIDIyNS44ODJTNDUxLjc2N |                                   |
+| SA2ODkuMzQgNDUxLjc2NSA1NjQuNzY1cz |                                   |
+| EwMS4zMDgtMjI1Ljg4MyAyMjUuODgyLTI |                                   |
+| yNS44ODNabTAgMTEyLjk0MmMtNjIuMzQz |                                   |
+| IDAtMTEyLjk0MSA1MC43MS0xMTIuOTQxI |                                   |
+| DExMi45NCAwIDYyLjIzMSA1MC41OTggMT |                                   |
+| EyLjk0MiAxMTIuOTQxIDExMi45NDIgNjI |                                   |
+| uMzQ0IDAgMTEyLjk0MS01MC43MSAxMTIu |                                   |
+| OTQxLTExMi45NDEgMC02Mi4yMy01MC41O |                                   |
+| TctMTEyLjk0MS0xMTIuOTQtMTEyLjk0MV |                                   |
+| oiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PC9 |                                   |
+| wYXRoPjwvZz48L3N2Zz4=){#IconImage |                                   |
+| .css-1uh2m                        |                                   |
+| d0-inlineSVG-svgIcon}]{.css-quqv7 |                                   |
+| u-baseButton__iconSVG}]{.css-1b1p |                                   |
+| tk2-baseButton__iconWrapper}[[Use |                                   |
+| Webcam]{.css-11xkk0o-baseButt     |                                   |
+| on__children}]{.css-1s7boi7-baseB |                                   |
+| utton__childrenWrapper}]{.css-qi8 |                                   |
+| ml9-baseButton__childrenLayout}]{ |                                   |
+| .css-1mc6m81-baseButton__content} |                                   |
+|                                   |                                   |
+| <div>                             |                                   |
+|                                   |                                   |
+| </div>                            |                                   |
+| :::                               |                                   |
+|                                   |                                   |
+| [[remove empty                    |                                   |
+| attachment]{.screenr              |                                   |
+| eader-only}](https://jhu.instruct |                                   |
+| ure.com/courses/94755/assignments |                                   |
+| /943804#){.remove_attachment_link |                                   |
+| .no-hover style="display: none;"} |                                   |
+| :::                               |                                   |
+|                                   |                                   |
+| Add Another File                  |                                   |
+|                                   |                                   |
+| :                                 |                                   |
+| :: {#submission_attachment_blank  |                                   |
+| .submission_attachment style="dis |                                   |
+| play: none; margin-bottom: 1em;"} |                                   |
+| ::: {.attachment_wrappe           |                                   |
+| r style="display: inline-block;"} |                                   |
+| :::                               |                                   |
+|                                   |                                   |
+| [[remove empty                    |                                   |
+| attachment]{.screenr              |                                   |
+| eader-only}](https://jhu.instruct |                                   |
+| ure.com/courses/94755/assignments |                                   |
+| /943804#){.remove_attachment_link |                                   |
+| .no-hover style="display: none;"} |                                   |
+| :::                               |                                   |
++-----------------------------------+-----------------------------------+
+| Click here to find a file you\'ve |                                   |
+| already uploaded                  |                                   |
+|                                   |                                   |
+| \                                 |                                   |
+|                                   |                                   |
+| ::: {#uploa                       |                                   |
+| ded_files style="display: none;"} |                                   |
+| :::                               |                                   |
++-----------------------------------+-----------------------------------+
+| ::: textarea-emoji-container      |                                   |
+| ::: textarea-container            |                                   |
+| []{.emoji-picker-container        |                                   |
+| style="display: none;"}           |                                   |
+| :::                               |                                   |
+|                                   |                                   |
+| ::: {.emoji-quick-picker-         |                                   |
+| container style="display: none;"} |                                   |
+| :::                               |                                   |
+| :::                               |                                   |
++-----------------------------------+-----------------------------------+
+| Cancel                            |                                   |
+|                                   |                                   |
+| Submit Assignment                 |                                   |
+|                                   |                                   |
+| []{#progress_indicator}           |                                   |
++-----------------------------------+-----------------------------------+
 
-Upload a file, or choose a file you've already uploaded.
+::: {#submit_from_external_tool_form_490 style="padding: 5px 5px 0 5px;"}
+:::
+:::
+:::
 
-File:
+::: {#rubrics .mathjax_ignore style="margin-bottom: 10px;"}
+::: {#rubric_parameters style="display: none;"}
+:::
 
-![](./Module 14 - Assignment_files/216eca4688bb838f.svg)
+::: {#rubric_long_description_dialog style="display: none;"}
+::: editing
+<div>
 
-Drag a file here, or
+Description
 
-Choose a file to upload
+*Please include a description*
 
-Use Webcam
+</div>
 
-[remove empty attachment](https://jhu.instructure.com/courses/94755/assignments/943804#)
-
-Add Another File
-
-[remove empty attachment](https://jhu.instructure.com/courses/94755/assignments/943804#)
-
-Click here to find a file you've already uploaded  
-
-Cancel Submit Assignment
-
-#google\_docs\_tree li.folder { cursor: pointer; } #google\_docs\_tree li.file { cursor: pointer; -moz-border-radius: 3px; width: 80%; padding-right: 20px; } #google\_docs\_tree li.file:hover { background-color: #eee; } ul.instTree li span.active { background: none; } #google\_docs\_tree li.file.leaf.active { background-color: #ddd; } #google\_docs\_tree li.file .filename { float: left; max-width: 98%; } #google\_docs\_tree li.file .popout { float: right; }
-
-  
-
-Description _Please include a description_
+<div>
 
 Long Description
 
-Cancel Update Criterion
+</div>
 
+::: button-container
+Cancel
+
+Update Criterion
+:::
+:::
+
+::: displaying
+::: long_description
+:::
+:::
+:::
+
+::: {#rubric_criterion_comments_dialog style="display: none;"}
+::: {.criterion_description style="border-bottom: 1px solid #ccc; padding: 5px 0; font-size: 1.2em; font-weight: bold; margin-bottom: 5px;" tabindex="-1"}
+:::
+
+::: editing
 Additional Comments:
 
-Cancel Update Comments
+::: button-container
+Cancel
 
+Update Comments
+:::
+:::
+
+::: displaying
 Additional Comments:
+
+::: {.criterion_comments style="margin-top: 10px;"}
+:::
+:::
+:::
+
+::: {#rubric_rating_dialog style="display: none;"}
+::: {.description style="border-bottom: 1px solid #ccc; padding: 5px 0; font-size: 1.2em; font-weight: bold; margin-bottom: 5px;"}
+[]{#edit_rating_form_criterion_description}
+:::
+
+::: editing
+::: toggle_for_hide_points
+<div>
 
 Rating Score
 
-Rating max score  to >  pts
+</div>
 
-Rating Title  _Please include a rating title_
+[Rating max score]{#rating_form_max_score_label hidden=""} [to \>
+]{.range_rating}pts
+:::
+
+<div>
+
+Rating Title *Please include a rating title*
+
+</div>
+
+<div>
 
 Rating Description
 
-Cancel Update Rating
+</div>
 
-Rubric
-------
+::: button-container
+Cancel
 
-[](https://jhu.instructure.com/courses/94755/rubrics/%7B%7B%20id%20%7D%7D "Edit Rubric")[](https://jhu.instructure.com/search/rubrics?q= "Find Another Rubric")[](https://jhu.instructure.com/courses/94755/rubric_associations/%7B%7B%20rubric_association_id%20%7D%7D "Delete Rubric")
+Update Rating
+:::
+:::
+:::
+:::
 
- [](https://jhu.instructure.com/courses/94755/rubric_associations/%7B%7B%20rubric_association_id%20%7D%7D/assessments/%7B%7B%20assessment_id%20%7D%7D)  [](https://jhu.instructure.com/courses/94755/rubrics/%7B%7B%20rubric_id%20%7D%7D)  [](https://jhu.instructure.com/courses/94755/rubric_associations/%7B%7B%20association_id%20%7D%7D)
+::: {#default_rubric .rubric_container .rubric style="display: none;"}
+::: screenreader-only
+## Rubric
+:::
 
-Can't change a rubric once you've started using it.  [](https://jhu.instructure.com/courses/94755/rubric_associations/%7B%7B%20association_id%20%7D%7D)
+::: rubric_title
+::: {.links .displaying .pull-right style="display: none;"}
+[](https://jhu.instructure.com/courses/94755/rubrics/%7B%7B%20id%20%7D%7D "Edit Rubric"){.edit_rubric_link
+.no-print .no-hover style="" aria-label="Edit Rubric" role="button"}
+[](https://jhu.instructure.com/search/rubrics?q= "Find Another Rubric"){.find_rubric_link
+.no-print .no-hover style="" aria-label="Find Another Rubric"
+role="button"}
+[](https://jhu.instructure.com/courses/94755/rubric_associations/%7B%7B%20rubric_association_id%20%7D%7D "Delete Rubric"){.delete_rubric_link
+.no-print .no-hover style="" aria-label="Delete Rubric" role="button"}
 
-[Find a Rubric](https://jhu.instructure.com/search/rubrics?q= "Find Existing Rubric")
+::: {style="display: none;"}
+::: use_for_grading
+ 
+:::
 
-Title:  [![](./Module 14 - Assignment_files/find-6164443e2a.png) Find Rubric](https://jhu.instructure.com/search/rubrics?q=)
+::: free_form_criterion_comments
+ 
+:::
 
-_Please include a title_
+::: hide_score_total
+ 
+:::
 
-Title
+::: hide_outcome_results
+ 
+:::
 
-You've already rated students with this rubric. Any major changes could affect their assessment results.
+::: hide_points
+ 
+:::
 
-Title
+::: rubric_association_id
+ 
+:::
 
-Criteria
+::: user_id
+ 
+:::
 
-Ratings
+::: assessment_type
+:::
 
-Pts
+[ ](https://jhu.instructure.com/courses/94755/rubric_associations/%7B%7B%20rubric_association_id%20%7D%7D/assessments/%7B%7B%20assessment_id%20%7D%7D){.edit_assessment_link
+rel="nofollow"}
+[ ](https://jhu.instructure.com/courses/94755/rubrics/%7B%7B%20rubric_id%20%7D%7D){.edit_rubric_url}
+[ ](https://jhu.instructure.com/courses/94755/rubric_associations/%7B%7B%20association_id%20%7D%7D){.delete_rubric_url}
+:::
+:::
 
-[Edit criterion description](https://jhu.instructure.com/courses/94755/assignments/943804#) [Delete criterion row](https://jhu.instructure.com/courses/94755/assignments/943804#)
+::: {.links .displaying .locked style="float: right; font-size: 0.8em; display: none;"}
+[Can\'t change a rubric once you\'ve started using it.]{style=""}
+[ ](https://jhu.instructure.com/courses/94755/rubric_associations/%7B%7B%20association_id%20%7D%7D){.delete_rubric_url
+style="display: none;"}
+:::
 
-This criterion is linked to a Learning Outcome Description of criterion
+::: {.editing style="float: right;"}
+[Find a
+Rubric](https://jhu.instructure.com/search/rubrics?q= "Find Existing Rubric"){.find_rubric_link
+.icon-search style=""}
+:::
 
-Range 
+::: {.editing style="text-align: left"}
+Title: [![](./Module%2014%20-%20Assignment_files/find-6164443e2a.png)
+Find
+Rubric](https://jhu.instructure.com/search/rubrics?q=){style="display: none;"}
 
-threshold: 5 pts
+::: editing
+*Please include a title*
+:::
+:::
 
-[Edit rating](https://jhu.instructure.com/courses/94755/assignments/943804#) [Delete rating](https://jhu.instructure.com/courses/94755/assignments/943804#)
+::: displaying
+[Title]{.title tabindex="-1"}
+:::
 
-5 to >0 pts
+::: {.has-assessments-warning style="display: none;"}
+You\'ve already rated students with this rubric. Any major changes could
+affect their assessment results.
+:::
+:::
 
-Full Marks
++-----------------+-----------------+-----------------+-----------------+
+| Criteria        | Ratings         | Pts             |                 |
++=================+=================+=================+=================+
+| ::: container   | <table          | ::: {.editin    |                 |
+| ::: {.          | class="ratings" | g style="white- |                 |
+| links .editing} | style="">       | space: normal"} |                 |
+| [[Edit          | <colgroup>      | [ pts           |                 |
+| criterion       | <col            | ]{st            |                 |
+| description]    | style=          | yle="white-spac |                 |
+| {.screenreader- | "width: 50%" /> | e: nowrap; font |                 |
+| only}](https:// | <col            | -size: 0.8em"}\ |                 |
+| jhu.instructure | style=          | :::             |                 |
+| .com/courses/94 | "width: 50%" /> |                 |                 |
+| 755/assignments | </colgroup>     | ::: displaying  |                 |
+| /943804#){.edit | <tbody>         | [ [             |                 |
+| _criterion_link | <tr             | [ ]{.criterion  |                 |
+| role="button"}  | class="odd">    | _rating_points} |                 |
+| [[Delete        | <td             | /               |                 |
+| criterion       | c               | ]{.             |                 |
+| row]{.          | lass="rating ed | criterion_ratin |                 |
+| screenreader-on | ge_rating"><div | g_points_holder |                 |
+| ly}](https://jh | cla             | style="d        |                 |
+| u.instructure.c | ss="container"> | isplay: none;"} |                 |
+| om/courses/9475 | <div            | [5]{.display_cr |                 |
+| 5/assignments/9 | class           | iterion_points} |                 |
+| 43804#){.delete | ="rating-main"> | pts\            |                 |
+| _criterion_link | <div            | ]               |                 |
+| role="button"}  | class="         | {style="white-s |                 |
+| :::             | editing links"> | pace: nowrap;"} |                 |
+|                 | <a              | :::             |                 |
+| ::: desc        | href="ht        |                 |                 |
+| ription_content | tps://jhu.instr | ::: ignoring    |                 |
+| [ [This         | ucture.com/cour | \--             |                 |
+| criterion is    | ses/94755/assig | :::             |                 |
+| linked to a     | nments/943804#" |                 |                 |
+| Learning        | class="ed       | ::: cri         |                 |
+| Outcome]{.scr   | it_rating_link" | terion_comments |                 |
+| eenreader-only} | role="button"   | [![Additional   |                 |
+| ]{.out          | ><em></em><span | Comments        |                 |
+| come_sr_content | class="screenre | ](./Module%2014 |                 |
+| aria            | ader-only">Edit | %20-%20Assignme |                 |
+| -hidden="true"} | ra              | nt_files/rubric |                 |
+| [Description of | ting</span></a> | _comment-ddae85 |                 |
+| criterio        | <a              | 46ab.png)](http |                 |
+| n]{.description | href="ht        | s://jhu.instruc |                 |
+| .des            | tps://jhu.instr | ture.com/course |                 |
+| cription_title} | ucture.com/cour | s/94755/assignm |                 |
+| []{.lear        | ses/94755/assig | ents/943804# "A |                 |
+| ning_outcome_id | nments/943804#" | dditional Comme |                 |
+| style="d        | class="dele     | nts"){.no-hover |                 |
+| isplay: none;"} | te_rating_link" | .criterion      |                 |
+| [               | ><em></em><span | _comments_link} |                 |
+| ]{.criterion_id | cl              |                 |                 |
+| style="d        | ass="screenread | ::: {.custom_   |                 |
+| isplay: none;"} | er-only">Delete | rating style="d |                 |
+|                 | ra              | isplay: none;"} |                 |
+| ::: {.long_d    | ting</span></a> | :::             |                 |
+| escription .sma | </div>          | :::             |                 |
+| ll_description} | <div            |                 |                 |
+| :::             | class="clear">  |                 |                 |
+|                 |                 |                 |                 |
+| ::: hide_when_l | </div>          |                 |                 |
+| earning_outcome | <span           |                 |                 |
+| :::             | class=          |                 |                 |
+|  {.criterion_us | "nobr toggle_fo |                 |                 |
+| e_range_div .ed | r_hide_points"> |                 |                 |
+| iting .toggle_f | <span           |                 |                 |
+| or_hide_points} | class="p        |                 |                 |
+| Range           | oints">5</span> |                 |                 |
+| :::             | <span           |                 |                 |
+| :::             | class           |                 |                 |
+|                 | ="range_rating" |                 |                 |
+| ::: {.thre      | style="dis      |                 |                 |
+| shold .toggle_f | play: none;">to |                 |                 |
+| or_hide_points} | &gt;<span       |                 |                 |
+| threshold:      | clas            |                 |                 |
+| [5]{.           | s="min_points"> |                 |                 |
+| mastery_points} | 0</span></span> |                 |                 |
+| pts             | pts </span>     |                 |                 |
+| :::             | <div            |                 |                 |
+| :::             | class="descript |                 |                 |
+| :::             | ion rating_desc |                 |                 |
+|                 | ription_value"> |                 |                 |
+|                 | Full Marks      |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class           |                 |                 |
+|                 | ="rating_long_d |                 |                 |
+|                 | escription smal |                 |                 |
+|                 | l_description"> |                 |                 |
+|                 |                 |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <span           |                 |                 |
+|                 | cl              |                 |                 |
+|                 | ass="rating_id" |                 |                 |
+|                 | style           |                 |                 |
+|                 | ="display: none |                 |                 |
+|                 | ;">blank</span> |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class="e        |                 |                 |
+|                 | diting links ad |                 |                 |
+|                 | d_rating_link"> |                 |                 |
+|                 | <a              |                 |                 |
+|                 | href="ht        |                 |                 |
+|                 | tps://jhu.instr |                 |                 |
+|                 | ucture.com/cour |                 |                 |
+|                 | ses/94755/assig |                 |                 |
+|                 | nments/943804#" |                 |                 |
+|                 | class="add_rat  |                 |                 |
+|                 | ing_link_after" |                 |                 |
+|                 | aria-lab        |                 |                 |
+|                 | el="Add rating" |                 |                 |
+|                 | role="button    |                 |                 |
+|                 | "><em></em></a> |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | </div></td>     |                 |                 |
+|                 | <td             |                 |                 |
+|                 | class="rating e |                 |                 |
+|                 | dge_rating infi |                 |                 |
+|                 | nitesimal"><div |                 |                 |
+|                 | cla             |                 |                 |
+|                 | ss="container"> |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class           |                 |                 |
+|                 | ="rating-main"> |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class="         |                 |                 |
+|                 | editing links"> |                 |                 |
+|                 | <a              |                 |                 |
+|                 | href="ht        |                 |                 |
+|                 | tps://jhu.instr |                 |                 |
+|                 | ucture.com/cour |                 |                 |
+|                 | ses/94755/assig |                 |                 |
+|                 | nments/943804#" |                 |                 |
+|                 | class="ed       |                 |                 |
+|                 | it_rating_link" |                 |                 |
+|                 | role="button"   |                 |                 |
+|                 | ><em></em><span |                 |                 |
+|                 | class="screenre |                 |                 |
+|                 | ader-only">Edit |                 |                 |
+|                 | ra              |                 |                 |
+|                 | ting</span></a> |                 |                 |
+|                 | <a              |                 |                 |
+|                 | href="ht        |                 |                 |
+|                 | tps://jhu.instr |                 |                 |
+|                 | ucture.com/cour |                 |                 |
+|                 | ses/94755/assig |                 |                 |
+|                 | nments/943804#" |                 |                 |
+|                 | class="dele     |                 |                 |
+|                 | te_rating_link" |                 |                 |
+|                 | ><em></em><span |                 |                 |
+|                 | cl              |                 |                 |
+|                 | ass="screenread |                 |                 |
+|                 | er-only">Delete |                 |                 |
+|                 | ra              |                 |                 |
+|                 | ting</span></a> |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class="clear">  |                 |                 |
+|                 |                 |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <span           |                 |                 |
+|                 | class=          |                 |                 |
+|                 | "nobr toggle_fo |                 |                 |
+|                 | r_hide_points"> |                 |                 |
+|                 | <span           |                 |                 |
+|                 | class="p        |                 |                 |
+|                 | oints">0</span> |                 |                 |
+|                 | <span           |                 |                 |
+|                 | class           |                 |                 |
+|                 | ="range_rating" |                 |                 |
+|                 | style="dis      |                 |                 |
+|                 | play: none;">to |                 |                 |
+|                 | &gt;<span       |                 |                 |
+|                 | clas            |                 |                 |
+|                 | s="min_points"> |                 |                 |
+|                 | 0</span></span> |                 |                 |
+|                 | pts </span>     |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class="descript |                 |                 |
+|                 | ion rating_desc |                 |                 |
+|                 | ription_value"> |                 |                 |
+|                 | No Marks        |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class           |                 |                 |
+|                 | ="rating_long_d |                 |                 |
+|                 | escription smal |                 |                 |
+|                 | l_description"> |                 |                 |
+|                 |                 |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <span           |                 |                 |
+|                 | cl              |                 |                 |
+|                 | ass="rating_id" |                 |                 |
+|                 | style="         |                 |                 |
+|                 | display: none;" |                 |                 |
+|                 | >blank_2</span> |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | </div></td>     |                 |                 |
+|                 | </tr>           |                 |                 |
+|                 | </tbody>        |                 |                 |
+|                 | </table>        |                 |                 |
+|                 |                 |                 |                 |
+|                 | ::: {.custom_ra |                 |                 |
+|                 | tings style="di |                 |                 |
+|                 | splay: none; fo |                 |                 |
+|                 | nt-size: 0.8em; |                 |                 |
+|                 |  margin: 5px;"} |                 |                 |
+|                 | This area will  |                 |                 |
+|                 | be used by the  |                 |                 |
+|                 | assessor to     |                 |                 |
+|                 | leave comments  |                 |                 |
+|                 | related to this |                 |                 |
+|                 | criterion.      |                 |                 |
+|                 | :::             |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| ::: container   | <table          | ::: {.editin    |                 |
+| ::: {.          | class="ratings" | g style="white- |                 |
+| links .editing} | style="">       | space: normal"} |                 |
+| [[Edit          | <colgroup>      | [ pts           |                 |
+| criterion       | <col            | ]{st            |                 |
+| description]    | style=          | yle="white-spac |                 |
+| {.screenreader- | "width: 50%" /> | e: nowrap; font |                 |
+| only}](https:// | <col            | -size: 0.8em"}\ |                 |
+| jhu.instructure | style=          | :::             |                 |
+| .com/courses/94 | "width: 50%" /> |                 |                 |
+| 755/assignments | </colgroup>     | ::: displaying  |                 |
+| /943804#){.edit | <tbody>         | [ [             |                 |
+| _criterion_link | <tr             | [ ]{.criterion  |                 |
+| role="button"}  | class="odd">    | _rating_points} |                 |
+| [[Delete        | <td             | /               |                 |
+| criterion       | c               | ]{.             |                 |
+| row]{.          | lass="rating ed | criterion_ratin |                 |
+| screenreader-on | ge_rating"><div | g_points_holder |                 |
+| ly}](https://jh | cla             | style="d        |                 |
+| u.instructure.c | ss="container"> | isplay: none;"} |                 |
+| om/courses/9475 | <div            | [5]{.display_cr |                 |
+| 5/assignments/9 | class           | iterion_points} |                 |
+| 43804#){.delete | ="rating-main"> | pts\            |                 |
+| _criterion_link | <div            | ]               |                 |
+| role="button"}  | class="         | {style="white-s |                 |
+| :::             | editing links"> | pace: nowrap;"} |                 |
+|                 | <a              | :::             |                 |
+| ::: desc        | href="ht        |                 |                 |
+| ription_content | tps://jhu.instr | ::: ignoring    |                 |
+| [ [This         | ucture.com/cour | \--             |                 |
+| criterion is    | ses/94755/assig | :::             |                 |
+| linked to a     | nments/943804#" |                 |                 |
+| Learning        | class="ed       | ::: cri         |                 |
+| Outcome]{.scr   | it_rating_link" | terion_comments |                 |
+| eenreader-only} | role="button"   | [![Additional   |                 |
+| ]{.out          | ><em></em><span | Comments        |                 |
+| come_sr_content | class="screenre | ](./Module%2014 |                 |
+| aria            | ader-only">Edit | %20-%20Assignme |                 |
+| -hidden="true"} | ra              | nt_files/rubric |                 |
+| [Description of | ting</span></a> | _comment-ddae85 |                 |
+| criterio        | <a              | 46ab.png)](http |                 |
+| n]{.description | href="ht        | s://jhu.instruc |                 |
+| .des            | tps://jhu.instr | ture.com/course |                 |
+| cription_title} | ucture.com/cour | s/94755/assignm |                 |
+| []{.lear        | ses/94755/assig | ents/943804# "A |                 |
+| ning_outcome_id | nments/943804#" | dditional Comme |                 |
+| style="d        | class="dele     | nts"){.no-hover |                 |
+| isplay: none;"} | te_rating_link" | .criterion      |                 |
+| [               | ><em></em><span | _comments_link} |                 |
+| ]{.criterion_id | cl              |                 |                 |
+| style="d        | ass="screenread | ::: {.custom_   |                 |
+| isplay: none;"} | er-only">Delete | rating style="d |                 |
+|                 | ra              | isplay: none;"} |                 |
+| ::: {.long_d    | ting</span></a> | :::             |                 |
+| escription .sma | </div>          | :::             |                 |
+| ll_description} | <div            |                 |                 |
+| :::             | class="clear">  |                 |                 |
+|                 |                 |                 |                 |
+| ::: hide_when_l | </div>          |                 |                 |
+| earning_outcome | <span           |                 |                 |
+| :::             | class=          |                 |                 |
+|  {.criterion_us | "nobr toggle_fo |                 |                 |
+| e_range_div .ed | r_hide_points"> |                 |                 |
+| iting .toggle_f | <span           |                 |                 |
+| or_hide_points} | class="p        |                 |                 |
+| Range           | oints">5</span> |                 |                 |
+| :::             | <span           |                 |                 |
+| :::             | class           |                 |                 |
+|                 | ="range_rating" |                 |                 |
+| ::: {.thre      | style="dis      |                 |                 |
+| shold .toggle_f | play: none;">to |                 |                 |
+| or_hide_points} | &gt;<span       |                 |                 |
+| threshold:      | clas            |                 |                 |
+| [5]{.           | s="min_points"> |                 |                 |
+| mastery_points} | 0</span></span> |                 |                 |
+| pts             | pts </span>     |                 |                 |
+| :::             | <div            |                 |                 |
+| :::             | class="descript |                 |                 |
+| :::             | ion rating_desc |                 |                 |
+|                 | ription_value"> |                 |                 |
+|                 | Full Marks      |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class           |                 |                 |
+|                 | ="rating_long_d |                 |                 |
+|                 | escription smal |                 |                 |
+|                 | l_description"> |                 |                 |
+|                 |                 |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <span           |                 |                 |
+|                 | cl              |                 |                 |
+|                 | ass="rating_id" |                 |                 |
+|                 | style           |                 |                 |
+|                 | ="display: none |                 |                 |
+|                 | ;">blank</span> |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class="e        |                 |                 |
+|                 | diting links ad |                 |                 |
+|                 | d_rating_link"> |                 |                 |
+|                 | <a              |                 |                 |
+|                 | href="ht        |                 |                 |
+|                 | tps://jhu.instr |                 |                 |
+|                 | ucture.com/cour |                 |                 |
+|                 | ses/94755/assig |                 |                 |
+|                 | nments/943804#" |                 |                 |
+|                 | class="add_rat  |                 |                 |
+|                 | ing_link_after" |                 |                 |
+|                 | aria-lab        |                 |                 |
+|                 | el="Add rating" |                 |                 |
+|                 | role="button    |                 |                 |
+|                 | "><em></em></a> |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | </div></td>     |                 |                 |
+|                 | <td             |                 |                 |
+|                 | class="rating e |                 |                 |
+|                 | dge_rating infi |                 |                 |
+|                 | nitesimal"><div |                 |                 |
+|                 | cla             |                 |                 |
+|                 | ss="container"> |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class           |                 |                 |
+|                 | ="rating-main"> |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class="         |                 |                 |
+|                 | editing links"> |                 |                 |
+|                 | <a              |                 |                 |
+|                 | href="ht        |                 |                 |
+|                 | tps://jhu.instr |                 |                 |
+|                 | ucture.com/cour |                 |                 |
+|                 | ses/94755/assig |                 |                 |
+|                 | nments/943804#" |                 |                 |
+|                 | class="ed       |                 |                 |
+|                 | it_rating_link" |                 |                 |
+|                 | role="button"   |                 |                 |
+|                 | ><em></em><span |                 |                 |
+|                 | class="screenre |                 |                 |
+|                 | ader-only">Edit |                 |                 |
+|                 | ra              |                 |                 |
+|                 | ting</span></a> |                 |                 |
+|                 | <a              |                 |                 |
+|                 | href="ht        |                 |                 |
+|                 | tps://jhu.instr |                 |                 |
+|                 | ucture.com/cour |                 |                 |
+|                 | ses/94755/assig |                 |                 |
+|                 | nments/943804#" |                 |                 |
+|                 | class="dele     |                 |                 |
+|                 | te_rating_link" |                 |                 |
+|                 | ><em></em><span |                 |                 |
+|                 | cl              |                 |                 |
+|                 | ass="screenread |                 |                 |
+|                 | er-only">Delete |                 |                 |
+|                 | ra              |                 |                 |
+|                 | ting</span></a> |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class="clear">  |                 |                 |
+|                 |                 |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <span           |                 |                 |
+|                 | class=          |                 |                 |
+|                 | "nobr toggle_fo |                 |                 |
+|                 | r_hide_points"> |                 |                 |
+|                 | <span           |                 |                 |
+|                 | class="p        |                 |                 |
+|                 | oints">0</span> |                 |                 |
+|                 | <span           |                 |                 |
+|                 | class           |                 |                 |
+|                 | ="range_rating" |                 |                 |
+|                 | style="dis      |                 |                 |
+|                 | play: none;">to |                 |                 |
+|                 | &gt;<span       |                 |                 |
+|                 | clas            |                 |                 |
+|                 | s="min_points"> |                 |                 |
+|                 | 0</span></span> |                 |                 |
+|                 | pts </span>     |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class="descript |                 |                 |
+|                 | ion rating_desc |                 |                 |
+|                 | ription_value"> |                 |                 |
+|                 | No Marks        |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <div            |                 |                 |
+|                 | class           |                 |                 |
+|                 | ="rating_long_d |                 |                 |
+|                 | escription smal |                 |                 |
+|                 | l_description"> |                 |                 |
+|                 |                 |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | <span           |                 |                 |
+|                 | cl              |                 |                 |
+|                 | ass="rating_id" |                 |                 |
+|                 | style="         |                 |                 |
+|                 | display: none;" |                 |                 |
+|                 | >blank_2</span> |                 |                 |
+|                 | </div>          |                 |                 |
+|                 | </div></td>     |                 |                 |
+|                 | </tr>           |                 |                 |
+|                 | </tbody>        |                 |                 |
+|                 | </table>        |                 |                 |
+|                 |                 |                 |                 |
+|                 | ::: {.custom_ra |                 |                 |
+|                 | tings style="di |                 |                 |
+|                 | splay: none; fo |                 |                 |
+|                 | nt-size: 0.8em; |                 |                 |
+|                 |  margin: 5px;"} |                 |                 |
+|                 | This area will  |                 |                 |
+|                 | be used by the  |                 |                 |
+|                 | assessor to     |                 |                 |
+|                 | leave comments  |                 |                 |
+|                 | related to this |                 |                 |
+|                 | criterion.      |                 |                 |
+|                 | :::             |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| ::: {.total_p   |                 |                 |                 |
+| oints_holder .t |                 |                 |                 |
+| oggle_for_hide_ |                 |                 |                 |
+| points style="f |                 |                 |                 |
+| loat: right; "} |                 |                 |                 |
+| Total Points: [ |                 |                 |                 |
+| 5               |                 |                 |                 |
+| ]               |                 |                 |                 |
+| {.rubric_total} |                 |                 |                 |
+| [out of         |                 |                 |                 |
+| 5]{.assessing}  |                 |                 |                 |
+| :::             |                 |                 |                 |
+|                 |                 |                 |                 |
+| ::: {.edit      |                 |                 |                 |
+| ing .pull-left} |                 |                 |                 |
+| []{#add_c       |                 |                 |                 |
+| riterion_holder |                 |                 |                 |
+| .               |                 |                 |                 |
+| criterion_link} |                 |                 |                 |
+| :::             |                 |                 |                 |
+|                 |                 |                 |                 |
+| ::: clear       |                 |                 |                 |
+| :::             |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
 
-blank
+: [Title]{.title}
+:::
 
-[](https://jhu.instructure.com/courses/94755/assignments/943804#)
++-----------------+-----------------+-----------------+-----------------+
+| ::: {.r         |                 |                 |                 |
+| ubric_custom_ra |                 |                 |                 |
+| tings style=""} |                 |                 |                 |
+| I\'ll write     |                 |                 |                 |
+| free-form       |                 |                 |                 |
+| comments when   |                 |                 |                 |
+| assessing       |                 |                 |                 |
+| students        |                 |                 |                 |
+| :::             |                 |                 |                 |
+|                 |                 |                 |                 |
+| ::: {.hide_p    |                 |                 |                 |
+| oints style=""} |                 |                 |                 |
+| Remove points   |                 |                 |                 |
+| from rubric     |                 |                 |                 |
+| :::             |                 |                 |                 |
+|                 |                 |                 |                 |
+| ::: {.          |                 |                 |                 |
+| hide_outcome_re |                 |                 |                 |
+| sults style=""} |                 |                 |                 |
+| Don\'t post     |                 |                 |                 |
+| Outcomes        |                 |                 |                 |
+| results to      |                 |                 |                 |
+| Learning        |                 |                 |                 |
+| Mastery         |                 |                 |                 |
+| Gradebook       |                 |                 |                 |
+| :::             |                 |                 |                 |
+|                 |                 |                 |                 |
+| ::: {.rubric_gr |                 |                 |                 |
+| ading style=""} |                 |                 |                 |
+| Use this rubric |                 |                 |                 |
+| for assignment  |                 |                 |                 |
+| grading         |                 |                 |                 |
+| :::             |                 |                 |                 |
+|                 |                 |                 |                 |
+| ::              |                 |                 |                 |
+| : {.totalling_r |                 |                 |                 |
+| ubric style=""} |                 |                 |                 |
+| Hide score      |                 |                 |                 |
+| total for       |                 |                 |                 |
+| assessment      |                 |                 |                 |
+| results         |                 |                 |                 |
+| :::             |                 |                 |                 |
+|                 |                 |                 |                 |
+| ::: {.ic-       |                 |                 |                 |
+| Action-header . |                 |                 |                 |
+| ic-Action-heade |                 |                 |                 |
+| r--half-margin} |                 |                 |                 |
+| ::: ic-Action-  |                 |                 |                 |
+| header__Primary |                 |                 |                 |
+| Cancel          |                 |                 |                 |
+|                 |                 |                 |                 |
+| Create Rubric   |                 |                 |                 |
+| :::             |                 |                 |                 |
+| :::             |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
 
-[Edit rating](https://jhu.instructure.com/courses/94755/assignments/943804#) [Delete rating](https://jhu.instructure.com/courses/94755/assignments/943804#)
+::: {#assignment_external_tools}
+<div>
 
-0 to >0 pts
+</div>
+:::
 
-No Marks
+::: {#sequence_footer course-id="94755" asset-id="943804" asset-type="Assignment"}
+::: module-sequence-padding
+:::
 
-blank\_2
+::: {.module-sequence-footer role="navigation" aria-label="Module Navigation"}
+::: module-sequence-footer-content
+::: module-sequence-footer-left
+[[[[[[![](data:image/svg+xml;base64,PHN2ZyBuYW1lPSJJY29uTWluaUFycm93U3RhcnQiIHZpZXdib3g9IjAgMCAxOTIwIDE5MjAiIHJvdGF0ZT0iMCIgd2lkdGg9IjFlbSIgaGVpZ2h0PSIxZW0iIGFyaWEtaGlkZGVuPSJ0cnVlIiByb2xlPSJwcmVzZW50YXRpb24iIGZvY3VzYWJsZT0iZmFsc2UiIGNsYXNzPSJjc3MtMXhubjlqYi1pbmxpbmVTVkctc3ZnSWNvbiIgc3R5bGU9IndpZHRoOiAxZW07IGhlaWdodDogMWVtOyI+PGcgcm9sZT0icHJlc2VudGF0aW9uIj48cGF0aCBkPSJNNjk0LjAxOCA5MjYuMjQ0Yy0yNy4yOTYgMTguNzk2LTI3LjMgNDkuMjY5IDAgNjguMDY3bDUwOS44MzYgMzUxLjA3NGMyNy4yOTYgMTguNzk3IDQ5LjQyNCA3LjE4IDQ5LjQyNC0yNS45NTlWNjAxLjEzYzAtMzMuMTMzLTIyLjEyNS00NC43NTctNDkuNDI0LTI1Ljk1OUw2OTQuMDE4IDkyNi4yNDRaIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjwvcGF0aD48L2c+PC9zdmc+){#IconMiniArrowStart
+.css-1xnn9jb-inlineSVG-svgIcon} Previous]{.css-10d73cs-view--flex-flex
+dir="ltr" direction="row"
+wrap="no-wrap"}]{.css-11xkk0o-baseButton__children}]{.css-1mc6m81-baseButton__content}](https://jhu.instructure.com/courses/94755/modules/items/4400511){.css-8a90iy-view--inlineBlock-baseButton
+dir="ltr" aria-label="Previous Module Item"
+aria-describedby="Tooltip___0" popover-trigger="true"
+position-target="Popover___0" cursor="pointer"}]{.css-1ihz85b-position
+position="Popover___0"}]{.module-sequence-footer-button--previous}
+:::
 
-This area will be used by the assessor to leave comments related to this criterion.
+::: module-sequence-footer-right
+[[[[[[Next
+![](data:image/svg+xml;base64,PHN2ZyBuYW1lPSJJY29uTWluaUFycm93RW5kIiB2aWV3Ym94PSIwIDAgMTkyMCAxOTIwIiByb3RhdGU9IjAiIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiBhcmlhLWhpZGRlbj0idHJ1ZSIgcm9sZT0icHJlc2VudGF0aW9uIiBmb2N1c2FibGU9ImZhbHNlIiBjbGFzcz0iY3NzLTF4bm45amItaW5saW5lU1ZHLXN2Z0ljb24iIHN0eWxlPSJ3aWR0aDogMWVtOyBoZWlnaHQ6IDFlbTsiPjxnIHJvbGU9InByZXNlbnRhdGlvbiI+PHBhdGggZD0iTTEyMjUuOTgyIDkyNi4yNDRjMjcuMjk2IDE4Ljc5NiAyNy4zIDQ5LjI2OSAwIDY4LjA2N2wtNTA5LjgzNiAzNTEuMDc0Yy0yNy4yOTYgMTguNzk3LTQ5LjQyNCA3LjE4LTQ5LjQyNC0yNS45NTlWNjAxLjEzYzAtMzMuMTMzIDIyLjEyNS00NC43NTcgNDkuNDI0LTI1Ljk1OWw1MDkuODM2IDM1MS4wNzRaIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjwvcGF0aD48L2c+PC9zdmc+){#IconMiniArrowEnd
+.css-1xnn9jb-inlineSVG-svgIcon}]{.css-10d73cs-view--flex-flex dir="ltr"
+direction="row"
+wrap="no-wrap"}]{.css-11xkk0o-baseButton__children}]{.css-1mc6m81-baseButton__content}](https://jhu.instructure.com/courses/94755/modules/items/4400515){.css-8a90iy-view--inlineBlock-baseButton
+dir="ltr" aria-label="Next Module Item" aria-describedby="Tooltip___1"
+popover-trigger="true" position-target="Popover___1"
+cursor="pointer"}]{.css-1ihz85b-position
+position="Popover___1"}]{.module-sequence-footer-button--next}
+:::
+:::
+:::
+:::
+:::
+:::
 
- pts  
+::: {#right-side-wrapper .ic-app-main-content__secondary}
+::: {#sidebar_content}
+::: details
+## Submission
 
-  / 5 pts
-
-\--
-
-[![Additional Comments](./Module 14 - Assignment_files/rubric_comment-ddae8546ab.png)](https://jhu.instructure.com/courses/94755/assignments/943804# "Additional Comments")
-
-[Edit criterion description](https://jhu.instructure.com/courses/94755/assignments/943804#) [Delete criterion row](https://jhu.instructure.com/courses/94755/assignments/943804#)
-
-This criterion is linked to a Learning Outcome Description of criterion
-
-Range 
-
-threshold: 5 pts
-
-[Edit rating](https://jhu.instructure.com/courses/94755/assignments/943804#) [Delete rating](https://jhu.instructure.com/courses/94755/assignments/943804#)
-
-5 to >0 pts
-
-Full Marks
-
-blank
-
-[](https://jhu.instructure.com/courses/94755/assignments/943804#)
-
-[Edit rating](https://jhu.instructure.com/courses/94755/assignments/943804#) [Delete rating](https://jhu.instructure.com/courses/94755/assignments/943804#)
-
-0 to >0 pts
-
-No Marks
-
-blank\_2
-
-This area will be used by the assessor to leave comments related to this criterion.
-
- pts  
-
-  / 5 pts
-
-\--
-
-[![Additional Comments](./Module 14 - Assignment_files/rubric_comment-ddae8546ab.png)](https://jhu.instructure.com/courses/94755/assignments/943804# "Additional Comments")
-
-Total Points: 5 out of 5
-
- I'll write free-form comments when assessing students
-
- Remove points from rubric
-
- Don't post Outcomes results to Learning Mastery Gradebook
-
- Use this rubric for assignment grading
-
- Hide score total for assessment results
-
-Cancel Create Rubric
-
-[Previous](https://jhu.instructure.com/courses/94755/modules/items/4400511)
-
-[Next](https://jhu.instructure.com/courses/94755/modules/items/4400515)
-
-Submission
-----------
-
+::: header
 Submitted!
+:::
 
+::: content
 May 3 at 3:50pm
 
-[Submission Details](https://jhu.instructure.com/courses/94755/assignments/943804/submissions/93961)
+<div>
 
-[Download MHito-module14.ipynb](https://jhu.instructure.com/courses/94755/assignments/943804/submissions/93961?download=14246154)
+[Submission
+Details](https://jhu.instructure.com/courses/94755/assignments/943804/submissions/93961)
 
-success
+</div>
 
-[Download MHito-module14.html](https://jhu.instructure.com/courses/94755/assignments/943804/submissions/93961?download=14246155)
+<div>
 
-success
+[Download
+MHito-module14.ipynb](https://jhu.instructure.com/courses/94755/assignments/943804/submissions/93961?download=14246154)
 
-[Download MHito-module14.csv](https://jhu.instructure.com/courses/94755/assignments/943804/submissions/93961?download=14246156)
+</div>
 
-success
+[success]{.assignment_presenter_for_submission style="display: none;"}
+[]{.react_pill_container}
 
+<div>
+
+[Download
+MHito-module14.html](https://jhu.instructure.com/courses/94755/assignments/943804/submissions/93961?download=14246155)
+
+</div>
+
+[success]{.assignment_presenter_for_submission style="display: none;"}
+[]{.react_pill_container}
+
+<div>
+
+[Download
+MHito-module14.csv](https://jhu.instructure.com/courses/94755/assignments/943804/submissions/93961?download=14246156)
+
+</div>
+
+[success]{.assignment_presenter_for_submission style="display: none;"}
+[]{.react_pill_container}
+
+::: module
+:::
+
+::: {.comments .module}
 ### Comments:
 
 No Comments
+:::
+:::
+:::
+:::
+:::
+:::
+:::
+:::
 
+::: {style="display:none;"}
+::: {#page_view_id}
 f35565d9-7b79-4747-9aab-f0f7aa2107d5
+:::
+:::
 
-Object.assign( ENV, {} ) //<!\[CDATA\[ (window.deferredBundles || (window.deferredBundles = \[\])).push('usage\_metrics'); (window.bundles || (window.bundles = \[\])).push('inst\_fs\_service\_worker'); //\]\]>
+::: {#aria_alerts .hide-text .affix role="alert" aria-live="assertive"}
+:::
+
+::: {#StudentTray__Container}
+:::
+
+::: NewUserTutorialTray__Container
+:::
+
+::: {#react-router-portals}
+:::
+:::
+
+::: {#ek-overlay style="display: none;"}
+:::
+
+::: {#ek-modal role="dialog" tabindex="-1" aria-live="assertive" aria-labelledby="ek-modal-header" style="display: none;"}
+::: ek-modal-content
+##  {#ek-modal-header .ek-modal-header}
+
+[]{#ek-modal-close}
+
+::: {#ek-modal-body .ek-modal-body}
+:::
+
+::: ek-modal-footer
+:::
+:::
+:::
+
+::: {#nav-tray-portal style="position: relative; z-index: 99;"}
+:::
+
+::: {.ally-helper-hidden-accessible role="log" aria-live="assertive" aria-relevant="additions"}
+<div>
 
 Alternative formats
 
-Module 14 - Instructional Materials Module 14 - Quiz
+</div>
+:::
+
+::: tinymce-a11y-checker-container
+:::
+
+[[[[]{.css-zxcbwr-contextView__arrow}[ Module 14 - Instructional
+Materials]{#Tooltip___0 .css-cfm3yr-tooltip
+role="tooltip"}]{.css-eyiwpm-view--block-contextView__content
+dir="ltr"}]{.css-14is7oh-view--inlineBlock-contextView dir="ltr"
+position-content="Popover___0"}]{dir="ltr"}[[[[]{.css-zxcbwr-contextView__arrow}[
+Module 14 - Quiz]{#Tooltip___1 .css-cfm3yr-tooltip
+role="tooltip"}]{.css-eyiwpm-view--block-contextView__content
+dir="ltr"}]{.css-14is7oh-view--inlineBlock-contextView dir="ltr"
+position-content="Popover___1"}]{dir="ltr"}
+
+::: {.grammarly-desktop-integration aria-label="grammarly-integration" role="group" tabindex="-1" data-content="{\"mode\":\"full\",\"isActive\":true,\"isUserDisabled\":false}"}
+:::
