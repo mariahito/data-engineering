@@ -1,0 +1,9 @@
+flask
+pandas
+numpy
+psycopg2-binary
+apache-airflow
+openpyxl
+requests
+gunicorn
+apache-airflow-providers-postgres
