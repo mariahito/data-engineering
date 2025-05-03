@@ -1,0 +1,121 @@
+month/year,state,covid_cases,fips_code,civilian_population,labor_force,population_percent,employment,employment_percent,unemployment,unemployment_percent,employment_to_population_ratio,unemployment_rate,TempMax,Temp,TempMin,FeelsLike,Humidity,Precipitation,PrecipitationType,Conditions,Description
+Jan-21,California,92557849,6,31150776,18730775,60.1,17096125,54.9,1634650,8.7,0.548818591,0.087270815,58.2,48.6,40.6,47.3,75.7,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Jan-21,Connecticut,6900960,9,2924748,1816716,62.1,1688878,57.7,127838,7,0.577443937,0.07036763,37.6,31.3,25,25.5,61.5,0.1,"rain, snow",Partially cloudy,Partly cloudy throughout the day.
+Jan-21,Florida,47886722,12,17651837,10146298,57.5,9548255,54.1,598043,5.9,0.540921322,0.05894199,62.4,52.4,42.7,51.6,78,0.2,rain,Clear,Clear conditions throughout the day.
+Jan-21,Georgia,24831364,13,8357467,5178158,62,4930758,59,247400,4.8,0.589982348,0.047777607,46.4,35.3,27.7,32.2,71.1,0,rain,Partially cloudy,Partly cloudy throughout the day.
+Jan-21,Maryland,9934465,24,4880724,3178999,65.1,2976494,61,202505,6.4,0.609846818,0.063700869,43,37.4,32.2,33.1,69.6,0.1,rain,Partially cloudy,Clear conditions throughout the day.
+Jan-21,Michigan,17902298,26,8068414,4770719,59.1,4460627,55.3,310092,6.5,0.552850535,0.064999007,31.6,27.2,21.5,20.4,81.3,0.1,"rain, snow","Snow, Rain, Overcast",Cloudy skies throughout the day.
+Jan-21,New York,37738018,36,16147636,9529706,59,8719038,54,810668,8.5,0.539957552,0.085067472,39.9,35,30.6,28.7,57.7,0.1,"rain, snow",Partially cloudy,Partly cloudy throughout the day.
+Jan-21,Pennsylvania,23614488,42,10482980,6497094,62,6012410,57.4,484684,7.5,0.573540157,0.074600121,41,35.1,29.7,30,60.1,0.1,"rain, snow",Partially cloudy,Partly cloudy throughout the day.
+Jan-21,Texas,65895437,48,22370795,14146900,63.2,13194031,59,952869,6.7,0.589788204,0.067355322,64.4,52.8,42.5,51.9,62.2,0.1,rain,Clear,Clear conditions throughout the day.
+Jan-21,Washington,8805144,53,6147140,3876921,63.1,3630780,59.1,246141,6.3,0.590645406,0.063488784,44.6,38.1,32.4,32.8,62.8,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Feb-21,California,98937534,6,31127640,18769981,60.3,17165377,55.1,1604604,8.5,0.551451283,0.08548778,62.8,52,42.2,51.1,63.6,0,rain,Clear,Clear conditions throughout the day.
+Feb-21,Connecticut,7518722,9,2926426,1813938,62,1688035,57.7,125903,6.9,0.576824769,0.069408657,36.8,31,24.8,25.5,63.1,0.1,"rain, snow",Partially cloudy,Partly cloudy throughout the day.
+Feb-21,Florida,51110285,12,17666223,10169604,57.6,9603143,54.4,566461,5.6,0.543587783,0.055701382,66.8,56.1,46.5,55,79.8,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Feb-21,Georgia,26992282,13,8361374,5174112,61.9,4937540,59.1,236572,4.6,0.590517779,0.045722242,50.2,38.8,31,35.1,69.2,0.1,"rain, snow",Partially cloudy,Partly cloudy throughout the day.
+Feb-21,Maryland,10364019,24,4880100,3172878,65,2977470,61,195408,6.2,0.610124793,0.061586988,41.2,36.3,31.7,30.9,71.6,0.2,"rain, snow",Clear,Clear conditions throughout the day.
+Feb-21,Michigan,17638914,26,8064688,4763640,59.1,4460982,55.3,302658,6.4,0.553149979,0.063535028,28.4,20.9,13,12.4,74.7,0,snow,"Snow, Partially cloudy",Clear conditions throughout the day.
+Feb-21,New York,43092026,36,16128886,9536568,59.1,8743816,54.2,792752,8.3,0.542121508,0.083127599,38.7,34.2,29.7,27.8,61.8,0.2,"rain, snow",Partially cloudy,Partly cloudy throughout the day.
+Feb-21,Pennsylvania,25224364,42,10482590,6485858,61.9,6019056,57.4,466802,7.2,0.574195499,0.071972282,38.7,33.3,27.9,28,60.8,0.1,"rain, snow",Partially cloudy,Partly cloudy throughout the day.
+Feb-21,Texas,72586091,48,22392694,14168563,63.3,13234536,59.1,934027,6.6,0.591020268,0.065922493,57.8,47.7,38.5,44.6,68.4,0.1,rain,Clear,Clear conditions throughout the day.
+Feb-21,Washington,9187567,53,6147564,3878148,63.1,3640705,59.2,237443,6.1,0.592219129,0.061225874,43.2,37.2,31.9,31.2,66.6,0.2,"rain, snow",Partially cloudy,Partly cloudy throughout the day.
+Mar-21,California,114207720,6,31110436,18841613,60.6,17259385,55.5,1582228,8.4,0.554777985,0.083975188,65.2,53.2,42.2,52.1,58.9,0,rain,Clear,Clear conditions throughout the day.
+Mar-21,Connecticut,9132642,9,2928891,1813046,61.9,1688664,57.7,124382,6.9,0.576554061,0.068603885,52.7,42.3,32.4,38.5,50.5,0.1,rain,Clear,Clear conditions throughout the day.
+Mar-21,Florida,61554303,12,17684916,10212331,57.7,9667587,54.7,544744,5.3,0.546657219,0.053341788,75,63.4,52.7,63.4,72.1,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Mar-21,Georgia,32140488,13,8367615,5175916,61.9,4948163,59.1,227753,4.4,0.591346877,0.044002453,51.2,39.9,31.5,35.9,67.5,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Mar-21,Maryland,12265756,24,4880722,3173857,65,2983241,61.1,190616,6,0.611229445,0.060058156,56.2,48.2,41.1,45.9,61.5,0.1,rain,Clear,Clear conditions throughout the day.
+Mar-21,Michigan,21206155,26,8063261,4762269,59.1,4465028,55.4,297241,6.2,0.553749655,0.062415836,52.5,41.5,30.5,36.9,58.4,0.1,rain,Clear,Clear conditions throughout the day.
+Mar-21,New York,54448749,36,16114067,9541206,59.2,8776986,54.5,764220,8,0.54467851,0.080096793,53.4,45.5,38,41.8,49.5,0.1,rain,Partially cloudy,Clear conditions throughout the day.
+Mar-21,Pennsylvania,30479058,42,10485283,6476878,61.8,6029628,57.5,447250,6.9,0.575056296,0.069053331,57.3,47,37,44.1,50.4,0.1,rain,Clear,Clear conditions throughout the day.
+Mar-21,Texas,85970594,48,22419386,14199656,63.3,13291247,59.3,908409,6.4,0.592846164,0.063974015,75.3,64,53.5,63.9,58.7,0,rain,Partially cloudy,Partly cloudy throughout the day.
+Mar-21,Washington,10905441,53,6149684,3882171,63.1,3653458,59.4,228713,5.9,0.594088737,0.058913685,60.1,50.8,42.3,48.3,53,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Apr-21,California,113123624,6,31098231,18928168,60.9,17367539,55.8,1560629,8.2,0.558473535,0.082450082,77.1,60.8,47.4,60.2,53.7,0,rain,Clear,Clear conditions throughout the day.
+Apr-21,Connecticut,9809247,9,2931743,1814471,61.9,1689909,57.6,124562,6.9,0.576417851,0.06864921,62.1,51.5,41.8,49.7,56.1,0.1,rain,Partially cloudy,Clear conditions throughout the day.
+Apr-21,Florida,64514411,12,17706252,10260663,57.9,9736226,55,524437,5.1,0.549875038,0.051111415,77,65.7,54.4,65.6,69.2,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Apr-21,Georgia,32411603,13,8375321,5179627,61.8,4959867,59.2,219760,4.2,0.592200227,0.042427766,68.8,55.7,45,55.1,68.6,0.1,rain,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+Apr-21,Maryland,12945885,24,4882076,3176530,65.1,2990622,61.3,185908,5.9,0.612571783,0.058525498,64.4,56,48.2,55.1,62.8,0.1,rain,Partially cloudy,Clear conditions throughout the day.
+Apr-21,Michigan,25604460,26,8062987,4767875,59.1,4471099,55.5,296776,6.2,0.55452142,0.06224492,59,49,38.9,46.4,61.6,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Apr-21,New York,59305995,36,16101645,9558780,59.4,8814695,54.7,744085,7.8,0.54744065,0.077843093,62.9,54.2,46.2,52.6,51.7,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Apr-21,Pennsylvania,33107691,42,10489461,6471769,61.7,6041633,57.6,430136,6.6,0.57597173,0.066463435,65.3,55.4,45.2,54,53.7,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Apr-21,Texas,86508234,48,22449685,14238796,63.4,13356777,59.5,882019,6.2,0.594965007,0.061944774,77.9,67.7,58.4,67.7,64.4,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Apr-21,Washington,11499794,53,6152774,3887981,63.2,3667512,59.6,220469,5.7,0.596074551,0.056705267,68,57.8,48.3,56.8,55.7,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+May-21,California,118758344,6,31085758,18966081,61,17470425,56.2,1495656,7.9,0.562007367,0.078859518,84.4,68.2,54.3,67.6,47.3,0,rain,Clear,Clear conditions throughout the day.
+May-21,Connecticut,10682683,9,2934836,1812894,61.8,1691533,57.6,121361,6.7,0.576363722,0.066943241,70.8,60.4,50.5,59.9,58.1,0.1,rain,Partially cloudy,Clear conditions throughout the day.
+May-21,Florida,70924763,12,17728751,10308309,58.1,9804480,55.3,503829,4.9,0.553027114,0.048876009,85.7,74.1,62.2,74.3,65.3,0,rain,Partially cloudy,Partly cloudy throughout the day.
+May-21,Georgia,34551307,13,8383012,5183214,61.8,4971177,59.3,212037,4.1,0.59300607,0.040908402,78.5,62.7,50.1,62.3,65.7,0.1,rain,"Rain, Partially cloudy",Partly cloudy throughout the day.
+May-21,Maryland,14113843,24,4883387,3179389,65.1,2998799,61.4,180590,5.7,0.614081784,0.056800222,72.4,64.1,56.1,64,63.7,0.1,rain,Clear,Clear conditions throughout the day.
+May-21,Michigan,30177928,26,8063153,4773124,59.2,4478057,55.5,295067,6.2,0.555372942,0.061818423,68.7,58.1,46.5,57.1,60.2,0,rain,Partially cloudy,Clear conditions throughout the day.
+May-21,New York,64552427,36,16089443,9558574,59.4,8852224,55,706350,7.4,0.550188344,0.073897006,71.3,62.8,55.3,62.3,52.4,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+May-21,Pennsylvania,37066974,42,10494377,6464335,61.6,6051491,57.7,412844,6.4,0.576641281,0.063864883,73.1,62.6,51.9,62.1,57.8,0.1,rain,Partially cloudy,Clear conditions throughout the day.
+May-21,Texas,92022700,48,22479631,14272260,63.5,13424638,59.7,847622,5.9,0.597191208,0.059389473,82.5,73.6,66.2,74.2,75.1,0.3,rain,"Rain, Partially cloudy",Partly cloudy throughout the day.
+May-21,Washington,13072571,53,6156293,3892531,63.2,3680710,59.8,211821,5.4,0.597877651,0.054417293,75.5,65.3,56,65.2,57.3,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Jun-21,California,116079850,6,31073537,19053546,61.3,17570885,56.5,1482661,7.8,0.565461376,0.077815489,89.5,72.8,58.5,72.1,50.7,0,,Clear,Clear conditions throughout the day.
+Jun-21,Connecticut,10455337,9,2937887,1835081,62.5,1712988,58.3,122093,6.7,0.583068035,0.066532758,83.1,72.6,63,73.2,66,0.1,rain,Partially cloudy,Clear conditions throughout the day.
+Jun-21,Florida,70395623,12,17751461,10365645,58.4,9865545,55.6,500100,4.8,0.555759608,0.048245912,89.4,79.3,71.5,81,76,0.2,rain,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+Jun-21,Georgia,33882795,13,8390583,5185097,61.8,4978936,59.3,206161,4,0.593395715,0.039760298,88.6,71.9,59.1,71.5,55.4,0,rain,"Rain, Partially cloudy",Clear conditions throughout the day.
+Jun-21,Maryland,13839592,24,4884759,3186196,65.2,3004389,61.5,181807,5.7,0.61505368,0.057060834,80.9,74.6,68.6,75.6,74.1,0.1,rain,Clear,Clear conditions throughout the day.
+Jun-21,Michigan,29915912,26,8063504,4783380,59.3,4484801,55.6,298579,6.2,0.556185127,0.062420088,81.5,71.7,62.1,71.9,68,0.3,rain,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+Jun-21,New York,63291737,36,16077498,9590039,59.6,8885116,55.3,704923,7.4,0.552642955,0.073505749,82.4,74.6,66.9,75.5,62.3,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Jun-21,Pennsylvania,36664927,42,10499501,6458105,61.5,6057076,57.7,401029,6.2,0.576891797,0.062097008,84.5,74.6,64.8,75.4,64.2,0.1,rain,"Rain, Partially cloudy",Clear conditions throughout the day.
+Jun-21,Texas,90551373,48,22509716,14322661,63.6,13486729,59.9,835932,5.8,0.599151451,0.058364294,90.9,81.5,73.7,84.4,70.7,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Jun-21,Washington,13353402,53,6159731,3900052,63.3,3693110,60,206942,5.3,0.599557026,0.053061344,84.3,76.1,68.4,77.4,66.8,0.2,rain,Partially cloudy,Partly cloudy throughout the day.
+Jul-21,California,122101968,6,31063502,19046459,61.3,17644769,56.8,1401690,7.4,0.56802253,0.073593207,94.4,75.4,60.3,74.6,50.3,0,,Clear,Clear conditions throughout the day.
+Jul-21,Connecticut,10883232,9,2941186,1851127,62.9,1732894,58.9,118233,6.4,0.589182051,0.06387082,81.3,72.9,66.1,73.3,74.3,0.4,rain,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+Jul-21,Florida,75953211,12,17775674,10394916,58.5,9918993,55.8,475923,4.6,0.55800939,0.045784208,90,80.2,73.6,83,80.7,0.1,rain,"Rain, Partially cloudy",Partly cloudy throughout the day.
+Jul-21,Georgia,35636790,13,8398404,5181556,61.7,4983312,59.3,198244,3.8,0.593364168,0.03825955,88.8,74.4,63.5,74.5,63.5,0.1,rain,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+Jul-21,Maryland,14395070,24,4886661,3180660,65.1,3007207,61.5,173453,5.5,0.615390959,0.05453365,85.4,79,72.9,81.2,69.3,0.1,rain,Clear,Clear conditions throughout the day.
+Jul-21,Michigan,31119466,26,8064447,4787408,59.4,4492972,55.7,294436,6.2,0.557133304,0.061502174,81.5,72.4,63.8,72.9,72.5,0.1,rain,"Rain, Partially cloudy",Partly cloudy throughout the day.
+Jul-21,New York,65943806,36,16066961,9576306,59.6,8909301,55.5,667005,7,0.554510651,0.069651596,83.2,76.4,70.5,77.2,69.3,0.3,rain,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+Jul-21,Pennsylvania,38155255,42,10505438,6444912,61.3,6060044,57.7,384868,6,0.576848295,0.059716564,86.7,77.3,68.8,78.2,66.3,0.2,rain,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+Jul-21,Texas,95559895,48,22541419,14339051,63.6,13541793,60.1,797258,5.6,0.600751576,0.055600472,91.4,81.8,74.2,84.4,72.6,0.1,rain,"Rain, Partially cloudy",Partly cloudy throughout the day.
+Jul-21,Washington,14284516,53,6163858,3902844,63.3,3702387,60.1,200457,5.1,0.600660658,0.051361776,88.5,80.1,72.6,81.9,63.6,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Aug-21,California,131723834,6,31069529,19064774,61.4,17724539,57,1340235,7,0.57047981,0.070299024,91.8,73.7,59.7,73,53.1,0,,Clear,Clear conditions throughout the day.
+Aug-21,Connecticut,11268515,9,2942095,1868126,63.5,1753157,59.6,114969,6.2,0.595887284,0.061542423,83.4,75.5,68.3,76.3,71.7,0.2,rain,Partially cloudy,Partly cloudy throughout the day.
+Aug-21,Florida,91121919,12,17809081,10428151,58.6,9968996,56,459155,4.4,0.559770378,0.044030337,89.8,80.5,74.2,83.6,81.3,0.2,rain,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+Aug-21,Georgia,39633591,13,8408875,5178225,61.6,4988018,59.3,190207,3.7,0.593184939,0.036732085,93.9,76.5,63.3,76.3,52.9,0,rain,Partially cloudy,Partly cloudy throughout the day.
+Aug-21,Maryland,14928232,24,4887279,3178050,65,3011151,61.6,166899,5.3,0.616120136,0.052516166,84.2,78.4,72.9,80.8,77.7,0.2,rain,"Rain, Partially cloudy",Clear conditions throughout the day.
+Aug-21,Michigan,32033282,26,8067052,4789657,59.4,4504961,55.8,284696,5.9,0.558439564,0.059439747,84.8,74.9,65.6,75.9,71.2,0.1,rain,Clear,Clear conditions throughout the day.
+Aug-21,New York,68551270,36,16060322,9577488,59.6,8932320,55.6,645168,6.7,0.556173158,0.067362966,83.8,77.8,72.4,78.9,67.5,0.3,rain,Partially cloudy,Partly cloudy throughout the day.
+Aug-21,Pennsylvania,39393273,42,10505804,6430518,61.2,6064094,57.7,366424,5.7,0.5772137,0.056982035,87.2,77.8,70.2,79,69.7,0.2,rain,"Rain, Partially cloudy",Clear conditions throughout the day.
+Aug-21,Texas,105369079,48,22579590,14364126,63.6,13593093,60.2,771033,5.4,0.602007964,0.053677683,93.8,83.6,75.7,86.9,69.2,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Aug-21,Washington,15987996,53,6169938,3906340,63.3,3712391,60.2,193949,5,0.601690163,0.0496498,87.9,79.4,72.8,81.4,71.3,0.3,rain,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+Sep-21,California,138620123,6,31072677,19037677,61.3,17793674,57.3,1244003,6.5,0.572646959,0.065344264,89.8,71.8,57.6,71.1,51.3,0,rain,Clear,Clear conditions throughout the day.
+Sep-21,Connecticut,11466034,9,2942649,1883309,64,1773148,60.3,110161,5.8,0.602568638,0.058493322,76.1,68.1,60.2,68.2,72.1,0.2,rain,Partially cloudy,Partly cloudy throughout the day.
+Sep-21,Florida,104089489,12,17840188,10444912,58.5,10016246,56.1,428666,4.1,0.56144285,0.041040652,86.7,77.1,69.8,78.4,79.4,0.3,rain,Partially cloudy,Partly cloudy throughout the day.
+Sep-21,Georgia,45185390,13,8418467,5175297,61.5,4993517,59.3,181780,3.5,0.593162271,0.035124554,77.1,64.1,54.4,64,68.5,0.1,rain,"Rain, Partially cloudy",Partly cloudy throughout the day.
+Sep-21,Maryland,15449608,24,4887205,3167097,64.8,3014818,61.7,152279,4.8,0.616879791,0.048081571,79.2,72.5,65.8,72.8,70,0.1,rain,Clear,Clear conditions throughout the day.
+Sep-21,Michigan,33112910,26,8068437,4789394,59.4,4520745,56,268649,5.6,0.560299969,0.056092483,75.7,65.3,55.8,65.2,70.9,0.1,rain,Clear,Clear conditions throughout the day.
+Sep-21,New York,70629706,36,16051662,9553876,59.5,8956839,55.8,597037,6.2,0.558000723,0.0624916,77.1,71.3,65.4,71.4,65.2,0.3,rain,Partially cloudy,Partly cloudy throughout the day.
+Sep-21,Pennsylvania,41298959,42,10504583,6416798,61.1,6071236,57.8,345562,5.4,0.577960686,0.053852716,78.7,69.6,60.9,69.8,69,0.3,rain,Clear,Clear conditions throughout the day.
+Sep-21,Texas,117083849,48,22615375,14376211,63.6,13644738,60.3,731473,5.1,0.603339012,0.050880792,93.4,80.6,69.7,81.6,57.4,0,rain,Clear,Clear conditions throughout the day.
+Sep-21,Washington,18380190,53,6175112,3907590,63.3,3721760,60.3,185830,4.8,0.602703238,0.047556166,80.9,72.6,65.1,72.9,67.2,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Oct-21,California,149816970,6,31075721,19064571,61.3,17886523,57.6,1178048,6.2,0.575578697,0.061792526,73.3,60.9,51.3,60.7,62.1,0.2,rain,Clear,Clear conditions throughout the day.
+Oct-21,Connecticut,12310808,9,2943073,1901339,64.6,1794555,61,106784,5.6,0.609755517,0.056162525,67.1,58.7,51.1,58.5,75.3,0.2,rain,Partially cloudy,Partly cloudy throughout the day.
+Oct-21,Florida,113329514,12,17870980,10477350,58.6,10065312,56.3,412038,3.9,0.563221043,0.039326547,81.3,70.8,61.9,71.2,77.3,0.2,rain,Partially cloudy,Partly cloudy throughout the day.
+Oct-21,Georgia,50000887,13,8428086,5178785,61.4,5003580,59.4,175205,3.4,0.593679277,0.033831294,61.6,50,41.1,49,79.2,0.3,rain,Partially cloudy,Partly cloudy throughout the day.
+Oct-21,Maryland,17009803,24,4887144,3165541,64.8,3023548,61.9,141993,4.5,0.61867381,0.04485584,71.2,65.2,59.7,65.2,75.8,0.1,rain,Clear,Clear conditions throughout the day.
+Oct-21,Michigan,37760068,26,8069479,4791389,59.4,4539758,56.3,251631,5.3,0.56258378,0.052517339,65,57.8,51.3,57,79.8,0.2,rain,"Rain, Partially cloudy",Clear conditions throughout the day.
+Oct-21,New York,77480492,36,16042441,9557783,59.6,8989806,56,567977,5.9,0.560376441,0.059425601,68.6,63,57.5,62.9,70.2,0.2,rain,Partially cloudy,Partly cloudy throughout the day.
+Oct-21,Pennsylvania,47060707,42,10502982,6409611,61,6083528,57.9,326083,5.1,0.579219121,0.05087407,71.2,63,55.7,62.9,71.9,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Oct-21,Texas,130225917,48,22651184,14410330,63.6,13702700,60.5,707630,4.9,0.604944095,0.049105746,84.4,72.8,62.9,73.2,64,0.2,rain,Clear,Clear conditions throughout the day.
+Oct-21,Washington,21535818,53,6180301,3912080,63.3,3734664,60.4,177416,4.5,0.604285131,0.045350811,73.2,65.4,58.9,65.4,71.1,0.1,rain,Partially cloudy,Partly cloudy throughout the day.
+Nov-21,California,150247508,6,31077628,19078014,61.4,17980818,57.9,1097196,5.8,0.578577554,0.057511018,63.1,53.5,45.7,53.3,84.6,0,rain,Clear,Clear conditions throughout the day.
+Nov-21,Connecticut,12324716,9,2943368,1918331,65.2,1816463,61.7,101868,5.3,0.617137578,0.05310241,52.4,43.2,33.4,41.1,63.8,0.1,rain,Partially cloudy,Clear conditions throughout the day.
+Nov-21,Florida,111320630,12,17900635,10509000,58.7,10115529,56.5,393471,3.7,0.565093305,0.037441336,70.7,56.4,43.6,56.1,69.8,0,rain,Clear,Clear conditions throughout the day.
+Nov-21,Georgia,49501949,13,8437802,5186129,61.5,5016402,59.5,169727,3.3,0.594515254,0.032727107,56.6,44.7,35.9,42.9,79.8,0,rain,Partially cloudy,Partly cloudy throughout the day.
+Nov-21,Maryland,17192901,24,4886903,3163512,64.7,3033748,62.1,129764,4.1,0.620791532,0.041018969,54.8,47.8,40.4,45.8,64.4,0,rain,Clear,Clear conditions throughout the day.
+Nov-21,Michigan,41215064,26,8070336,4794945,59.4,4560295,56.5,234650,4.9,0.56506879,0.048936953,46.3,39,31.9,34.1,70.4,0,rain,Partially cloudy,Clear conditions throughout the day.
+Nov-21,New York,79218389,36,16032832,9562350,59.6,9026895,56.3,535455,5.6,0.563025609,0.055996172,53.2,47.4,41,44.9,56.2,0,rain,Partially cloudy,Partly cloudy throughout the day.
+Nov-21,Pennsylvania,49686571,42,10500773,6410152,61,6101152,58.1,309000,4.8,0.581019321,0.048204785,52.8,43.3,34.6,40.8,62.1,0,rain,Clear,Clear conditions throughout the day.
+Nov-21,Texas,129659660,48,22686228,14440478,63.7,13766342,60.7,674136,4.7,0.606814936,0.046683773,72.1,60.1,49.6,59.9,66.2,0.1,rain,Clear,Clear conditions throughout the day.
+Nov-21,Washington,22613916,53,6185185,3917448,63.3,3748407,60.6,169041,4.3,0.606029892,0.043150796,56,47.5,39,44.8,58.3,0,rain,Partially cloudy,Partly cloudy throughout the day.
+Dec-21,California,161825694,6,31078974,19143658,61.6,18095739,58.2,1047919,5.5,0.582250206,0.054739747,51.5,45.8,40.3,43.8,88.7,0.2,rain,Partially cloudy,Partly cloudy throughout the day.
+Dec-21,Connecticut,14150773,9,2943660,1937363,65.8,1839087,62.5,98276,5.1,0.624762031,0.050726684,46,38.7,32.2,35.7,66.6,0.1,rain,"Rain, Partially cloudy",Clear conditions throughout the day.
+Dec-21,Florida,118409818,12,17930153,10544190,58.8,10168586,56.7,375604,3.6,0.567122099,0.035621892,72.1,61.5,52.7,61.3,85.1,0,rain,Partially cloudy,Partly cloudy throughout the day.
+Dec-21,Georgia,52916815,13,8447530,5197155,61.5,5032168,59.6,164987,3.2,0.595696967,0.031745638,48.1,36.1,27.9,33.2,76.8,0,"rain, snow",Partially cloudy,Partly cloudy throughout the day.
+Dec-21,Maryland,19406305,24,4886659,3163212,64.7,3045785,62.3,117427,3.7,0.623285766,0.037122709,52.5,46.2,40.1,44.2,66.6,0,rain,Partially cloudy,Clear conditions throughout the day.
+Dec-21,Michigan,49614545,26,8071127,4802239,59.5,4581790,56.8,220449,4.6,0.567676608,0.045905462,42.5,36.2,29.7,30.4,72.4,0.1,"rain, snow",Partially cloudy,Clear conditions throughout the day.
+Dec-21,New York,92035228,36,16023083,9587317,59.8,9067724,56.6,519593,5.4,0.56591631,0.054195871,49.2,44.2,39.1,41,59,0,rain,Partially cloudy,Partly cloudy throughout the day.
+Dec-21,Pennsylvania,58014951,42,10498520,6420876,61.2,6124585,58.3,296291,4.6,0.583376038,0.04614495,50,42.5,35.3,40,62.5,0,rain,Partially cloudy,Partly cloudy throughout the day.
+Dec-21,Texas,138424799,48,22720951,14486259,63.8,13835000,60.9,651259,4.5,0.608909372,0.044957018,74.1,63.7,55,63.6,72.9,0,rain,Partially cloudy,Partly cloudy throughout the day.
+Dec-21,Washington,24887528,53,6189983,3927463,63.4,3764862,60.8,162601,4.1,0.608218472,0.041401027,54.9,47.1,39.9,44.8,59.8,0,rain,Partially cloudy,Partly cloudy throughout the day.
